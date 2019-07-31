@@ -63,7 +63,7 @@ When starting a commerce project:
 ### Data Model
 
 #### Naming Conventions
-- The names of items, relations and Enums must:
+- For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
 	- Must use **Pascal** case
 		 > 	Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
@@ -72,12 +72,14 @@ When starting a commerce project:
 - For item and relation attributes, **Camel** case must be utilised
 	> Example: code, deliveryDate
 
--For Enums, the names of the value codes must be in **Upper
+- For Enums, the names of the value codes must be in **Upper* case
+	> Example: SUNDAY 
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjE4MjM4NiwtNDc4MzQ0MTQ5LC0yMD
+eyJoaXN0b3J5IjpbLTk0NjQ3Nzc1MSwtNDc4MzQ0MTQ5LC0yMD
 I5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5
 NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

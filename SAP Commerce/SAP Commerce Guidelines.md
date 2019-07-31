@@ -60,6 +60,7 @@ When starting a commerce project:
 	
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
+#### 
 ### Data Model
 
 #### Items, Relations and Enums
@@ -107,15 +108,16 @@ The benefits of doing this are:
 - Ability to generate dynamic queries using the find methods
 - Ability to write data access objects without explicitly using flexible search code
 
-It is also possible to create a bean whilst injecting the type butusin
+
 #### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
 		Example: DefaultAddressDao
 		
-- If not inheriting from a default implementation of a parent Dao, the prefix ***Default*** must be used to indicate that it is the default implementation of an interface
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODExMTA0OSw5MTMwODU1NDksMTYzMj
+eyJoaXN0b3J5IjpbLTk3NDA3MDk0NCw5MTMwODU1NDksMTYzMj
 I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
 ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
 g3NDM3NjddfQ==

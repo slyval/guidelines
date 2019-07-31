@@ -44,7 +44,7 @@ When starting a commerce project:
 - When overriding a standard extension, the prefix ***custom*** must be included. An exception is when a customer requests otherwise
 	> Examples: customsapintegrationservices
 
-- Names are important. The name must convey the intent. The purpose of the extension must be conveyed by the name
+- Names are important. The name must convey intent. Therefore, 
 	- An extension for services must contain the suffix ***services***
 	- An extension for facades must contain the suffix ***facades***
 	- An extension for data access objects must contain the suffix ***daos*** if applicable
@@ -63,7 +63,7 @@ When starting a commerce project:
 ### Data Model
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjUxMDU2NywtNjMwMTUzNzgwLDE2Mj
+eyJoaXN0b3J5IjpbMTM1MzkyMzIyOCwtNjMwMTUzNzgwLDE2Mj
 AxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3
 XX0=
 -->

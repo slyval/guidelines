@@ -107,15 +107,16 @@ The benefits of doing this are:
 - Ability to generate dynamic queries using the find methods
 - Ability to write data access objects without explicitly using flexible search code
 
+It is also possible to create a bean whilst injecting the type butusin
 #### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
 		Example: DefaultAddressDao
 		
-- If not inheriting from a default implementation of a parent Dao, the prefix ***Default*** m
+- If not inheriting from a default implementation of a parent Dao, the prefix ***Default*** must be used to indicate that it is the default implementation of an interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA4MTY1NTgsOTEzMDg1NTQ5LDE2Mz
-IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
-NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
-E4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMTEzODExMTA0OSw5MTMwODU1NDksMTYzMj
+I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
+ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

@@ -98,6 +98,9 @@ When starting a commerce project:
 #### Packages
 Packages are containers and must group functionality accordingly. 
 
+All package names must be prefixed with: 
+		
+		com.<customer_name>.<project>.<extension>.
 #### Interfaces 
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
 
@@ -146,7 +149,7 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODU4OTUzMSw5MTMwODU1NDksMTYzMj
+eyJoaXN0b3J5IjpbMTc4ODg2NjU4Niw5MTMwODU1NDksMTYzMj
 I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
 ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
 g3NDM3NjddfQ==

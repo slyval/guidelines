@@ -21,7 +21,7 @@ When starting a commerce project:
 		> com.\<customername>.\<projectname>
 		
 - Similar guidelines as above must be used for other projects as advised in SAP Commerce help documentation
-- 
+
 ## Development Environment
 
 ##### Integrated Development Environment
@@ -60,7 +60,8 @@ When starting a commerce project:
 	
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDczNTI0OTgsMTYyMDE3MDA5MCw5ND
-g2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0OD
+Y5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

@@ -60,8 +60,10 @@ When starting a commerce project:
 	
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
-### 
+### Data Model
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0OD
-Y5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbMTkwMjUxMDU2NywtNjMwMTUzNzgwLDE2Mj
+AxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3
+XX0=
 -->

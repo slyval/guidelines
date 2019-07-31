@@ -93,11 +93,12 @@ When starting a commerce project:
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 #### Generic Dao
 Each data access object must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
-> Example: public class DefaultAddressDao extends DefaultGenericDao\<AddressModel>
+
+	public class DefaultAddressDao extends DefaultGenericDao\<AddressModel>
 
 The inheritance allows you to benefit from find methods that can be used to build dynamic queries. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODk5NDM5MiwxNjMyMjk2NjIyLC00Nz
-gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
-MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbNDc1ODU1NDQsMTYzMjI5NjYyMiwtNDc4Mz
+Q0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5
+MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

@@ -111,9 +111,10 @@ The benefits of doing this are:
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
 		Example: DefaultAddressDao
-- 
+		
+- If not inheriting from a default implementation of a parent Dao, the prefix ***Default*** m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQzOTc3NzgsOTEzMDg1NTQ5LDE2Mz
+eyJoaXN0b3J5IjpbLTE4NDA4MTY1NTgsOTEzMDg1NTQ5LDE2Mz
 IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
 NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
 E4NzQzNzY3XX0=

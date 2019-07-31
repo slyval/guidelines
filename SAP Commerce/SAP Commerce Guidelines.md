@@ -43,8 +43,8 @@ The commerce utilized should always be the latest version unless the customer ha
 - The following template extensions must be used:
 	- ****yempty**** should be used to generate all extensions except the ones below
 	- ****yaddon**** should be used to generate all addons
-	- ****ycommec
+	- ****ywebservices*** should be used for all web service (RESTful) extensions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTEzNTI1NjI3MTAsOTQ4NjkxOTQwLDE3Nz
+U0NzU0MSwtODE4NzQzNzY3XX0=
 -->

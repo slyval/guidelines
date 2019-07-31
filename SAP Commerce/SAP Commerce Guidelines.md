@@ -113,8 +113,8 @@ Impentations can also be created without directly implementing an interface but 
 When creating an implementation the following must be followed:
 
 - The name must convey intent
-- The first implementation of an interface must be prefixed with **Default**
-- If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ****CustomAddressDao**** inheriting from 
+- The first implementation of an interface must be the interface name prefixed with **Default** e.g ***
+- If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
 
 #### Data Access  Objects
@@ -141,8 +141,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NTQzMTgsOTEzMDg1NTQ5LDE2MzIyOT
-Y2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgw
-LDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTE1OTk5OTE1OTYsOTEzMDg1NTQ5LDE2Mz
+IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
+NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
+E4NzQzNzY3XX0=
 -->

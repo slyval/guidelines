@@ -63,10 +63,12 @@ When starting a commerce project:
 ### Data Model
 
 #### Naming Conventions
-The names of the 
+The names of items, relation and Enums must:
+- Contain only alphanumeric characters
+- Must use camel casing 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA2MzY2MDUsLTYzMDE1Mzc4MCwxNj
+eyJoaXN0b3J5IjpbLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNj
 IwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2
 N119
 -->

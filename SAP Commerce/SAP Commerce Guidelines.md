@@ -62,8 +62,11 @@ When starting a commerce project:
 
 ### Data Model
 
+#### Naming Conventions
+The names of the 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzkyMzIyOCwtNjMwMTUzNzgwLDE2Mj
-AxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3
-XX0=
+eyJoaXN0b3J5IjpbLTE5ODA2MzY2MDUsLTYzMDE1Mzc4MCwxNj
+IwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2
+N119
 -->

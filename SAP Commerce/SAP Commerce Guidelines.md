@@ -10,6 +10,9 @@ This is a living document and will be updated from time to time. Ensure that you
 ##### Version
 The commerce utilized should always be the latest version unless the customer has a specific choice
 
+##### Initialisation 
+When starting a commerce project
+
 ## Development Environment
 
 ##### Integrated Development Environment
@@ -46,9 +49,9 @@ The commerce utilized should always be the latest version unless the customer ha
 	- ****ywebservices**** or ****ycommercewebservices**** should be used for all web service (RESTful) extensions
 	- ****ybackoffice**** should be used to generate all backoffice related extensions
 	
-- All other template extensions not listed above are should be used in their specific scenarios as they are not generic in nature
+- All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NT
-Q3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbMTEzMDY3NzAwNSwxNjIwMTcwMDkwLDk0OD
+Y5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

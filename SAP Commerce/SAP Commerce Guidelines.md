@@ -77,14 +77,14 @@ When starting a commerce project:
 
 #### Other
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
-	> Incorrect Example: \<itemtype code="ContactUsComponent" .... jaloclass="com.astronenergy.astronenergycore.jalo.components.ContactUsComponent">
+	> Incorrect Example: \<itemtype code="Order" .... jaloclass="com.test.jalo.components.order">
 	
-	> Correct Example: \<itemtype code="ContactUsComponent" .... >
+	> Correct Example: \<itemtype code="Order" .... >
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgyNTkxMTQsLTQ3ODM0NDE0OSwtMj
-AyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4Njkx
-OTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMD
+I5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5
+NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

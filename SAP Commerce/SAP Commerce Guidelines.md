@@ -76,9 +76,10 @@ When starting a commerce project:
 	> Example: SUNDAY 
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
-	> Incorrect Example: \<itemtype code="Order" .... jaloclass="com.test.jalo.components.order">
-	
-	> Correct Example: \<itemtype code="Order" .... >
+- 
+		 Incorrect Example: \<itemtype code="Order" .... 
+		 
+		 Correct Example: \<itemtype code="Order" .... >
 
 #### Item Attributes
 
@@ -98,7 +99,7 @@ Each data access object must inherit from **de.hybris.platform.servicelayer.inte
 
 The inheritance allows you to benefit from find methods that can be used to build dynamic queries. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1ODU1NDQsMTYzMjI5NjYyMiwtNDc4Mz
-Q0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5
-MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTgxMzQ3MzkxMSwxNjMyMjk2NjIyLC00Nz
+gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
+MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

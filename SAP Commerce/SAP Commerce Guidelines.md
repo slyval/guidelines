@@ -25,8 +25,10 @@ The commerce utilized should always be the latest version unless the customer ha
 	- Only contain alphanumeric characters
 	- Only contain lowercase letters
 	- Be descriptive of the larger purpose for which it is being created
-- An addon is a special type of an extension and must have the suffix 
+	> Example: 
+- An addon is a special type of an extension and must have the suffix ***addon***
+	> Example: customb2baccelratoraddon
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3ODU5MDU1LDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTE4MzEyMjk0NjAsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

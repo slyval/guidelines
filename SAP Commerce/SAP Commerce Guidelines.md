@@ -88,8 +88,11 @@ When starting a commerce project:
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
+### Data Access  Objects
+
+For any item that is created, it advisable to create data access object that would
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTg4MzIxLDE2MzIyOTY2MjIsLTQ3OD
-M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
-OTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMTQzNDMxOTYxMywxNjMyMjk2NjIyLC00Nz
+gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
+MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

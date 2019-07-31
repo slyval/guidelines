@@ -68,7 +68,7 @@ When starting a commerce project:
 	- Must use **Pascal** case
 		 > 	Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
 		 
-- Except where absolutely necessary, the name of the deployment table must be the same as the name of the item or relation
+- Except where necessary, the name of the deployment table must be the same as the name of the item or relation
 - For item and relation attributes, **Camel** case must be utilised
 	> Example: code, deliveryDate
 
@@ -77,7 +77,7 @@ When starting a commerce project:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDUwMjU4LC00NzgzNDQxNDksLTIwMj
-k3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0
-MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbMTg5NDk5NzA2MCwtNDc4MzQ0MTQ5LC0yMD
+I5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5
+NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

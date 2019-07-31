@@ -33,8 +33,10 @@ The commerce utilized should always be the latest version unless the customer ha
 	> Examples: customsapintegrationservices
 
 - Names are important. The name must convey the intent. The purpose of the extension must be conveyed by the name
-	- An extensi
+	- An extension for services must contain the suffix ***services***
+	- An extension for facades must contain the suffix ***facades***
+	- An extension for data access objects must contain the suffic ***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzY0NzU5MSwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbMTQwOTM2NTU5LDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

@@ -107,9 +107,11 @@ The benefits of doing this are:
 - Ability to generate dynamic queries using the find methods
 - Ability to write data access objects without explicitly using flexible search code
 
-#### Naming Conven
+#### Naming Conventions 
+- The name must demonstrate intent and must contain the suffix ***Dao*** 
+		Defauk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDMzMjg2Myw5MTMwODU1NDksMTYzMj
+eyJoaXN0b3J5IjpbMjA1ODg5ODM3MCw5MTMwODU1NDksMTYzMj
 I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
 ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
 g3NDM3NjddfQ==

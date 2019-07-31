@@ -7,16 +7,16 @@ This is a living document and will be updated from time to time. Ensure that you
 
 ## Solution
 	
- ##### Version
+##### Version
 The commerce utilized should always be the latest version unless the customer has a specific choice
 
 ## Development Environment
 
-##### IDE
-- The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA
-- It is advisable to install 
+##### Integrated Development Environment
+-The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDY0ODM0NiwxNzc1NDc1NDEsLTgxOD
+eyJoaXN0b3J5IjpbLTQ2NjEzMjE1NiwxNzc1NDc1NDEsLTgxOD
 c0Mzc2N119
 -->

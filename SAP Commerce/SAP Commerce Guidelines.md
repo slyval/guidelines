@@ -99,7 +99,10 @@ When starting a commerce project:
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
 
 - An interface shall be created for all services, facades and data access objects when there are publicly accessible methods to be created. The exception is only when a service is inheriting an existing implementation and not define new publicly accessible methods
-- When creating an interface, the name should no
+- When creating an interface, the name: 
+
+	- Should convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
+	- Should be 
 
 #### Data Access  Objects
 
@@ -125,8 +128,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDcwOTg4MzAsOTEzMDg1NTQ5LDE2Mz
-IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
-NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
-E4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbLTc3Mjc3Nzg4NCw5MTMwODU1NDksMTYzMj
+I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
+ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

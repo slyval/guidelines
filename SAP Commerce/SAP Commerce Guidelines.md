@@ -29,15 +29,18 @@ The commerce utilized should always be the latest version unless the customer ha
 - An addon is a special type of an extension and must have the suffix ***addon***
 	> Example: customb2baccelratoraddon
 
-- When overriding a standard extension, the prefix ***custom*** must be included. An exception is wen customer request can be accomodated if there is a request to use a specific prefix
+- When overriding a standard extension, the prefix ***custom*** must be included. An exception is when a customer requests otherwise
 	> Examples: customsapintegrationservices
 
 - Names are important. The name must convey the intent. The purpose of the extension must be conveyed by the name
 	- An extension for services must contain the suffix ***services***
 	- An extension for facades must contain the suffix ***facades***
 	- An extension for data access objects must contain the suffix ***daos*** if applicable
-	> Examples: sapordermanagementservices
+	> Examples: sapordermanagementservices, commercefacades
+
+##### Generation 
+An 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3MTgxOTc5LDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTMzMDUxMjM0MCwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

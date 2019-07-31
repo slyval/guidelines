@@ -17,7 +17,8 @@ The commerce utilized should always be the latest version unless the customer ha
 -  Install a decompiler for use when debugging or inspecting code if your IDE does not have an out of the box decompiler
 - Install SonarLint for static code checking. This should be integrated to a central SonarQube for rules
 
+## Development A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1Nzc5ODEsMTc3NTQ3NTQxLC04MTg3ND
-M3NjddfQ==
+eyJoaXN0b3J5IjpbLTExNjA1NzQxNjEsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

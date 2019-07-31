@@ -20,8 +20,10 @@ The commerce utilized should always be the latest version unless the customer ha
 ## Development Artifacts
 
 ### Extensions
-##### Nam
+##### Naming  Conventions
+- An extension name must: 
+	- Only contain alphanumeric characters [a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDkyMTAzOSwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbNjA4NTIyOCwxNzc1NDc1NDEsLTgxODc0Mz
+c2N119
 -->

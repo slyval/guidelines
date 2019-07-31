@@ -81,10 +81,11 @@ When starting a commerce project:
 	
 	> Correct Example: \<itemtype code="Order" .... >
 
-
+- Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
+- S
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMD
-I5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5
-NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbMTUyNTc2MzA3NywxNjMyMjk2NjIyLC00Nz
+gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
+MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

@@ -7,9 +7,10 @@ This is a living document and will be updated from time to time. Ensure that you
 
 ## Solution
 	
- ### Version
-I
+ ##### Version
+The commerce utilized should always be the latest version unless the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbNTI1NzE0MzU0LDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

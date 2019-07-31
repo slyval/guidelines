@@ -109,10 +109,12 @@ The benefits of doing this are:
 
 #### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
-		Defauk
+
+		Example: DefaultAddressDao
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODg5ODM3MCw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
-g3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTEzMDQzOTc3NzgsOTEzMDg1NTQ5LDE2Mz
+IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
+NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
+E4NzQzNzY3XX0=
 -->

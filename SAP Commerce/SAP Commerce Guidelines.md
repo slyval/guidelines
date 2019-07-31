@@ -10,7 +10,12 @@ This is a living document and will be updated from time to time. Ensure that you
  ##### Version
 The commerce utilized should always be the latest version unless the customer has a specific choice
 
+## Development Environment
+
+##### IDE
+An IDE of your own cho
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4ODY1Mzg2LDE3NzU0NzU0MSwtODE4Nz
+eyJoaXN0b3J5IjpbLTU1Mzg0MzkwLDE3NzU0NzU0MSwtODE4Nz
 QzNzY3XX0=
 -->

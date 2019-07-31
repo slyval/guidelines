@@ -98,12 +98,12 @@ When starting a commerce project:
 #### Packages
 Packages are containers and must group functionality accordingly. 
 
-All package names must be prefixed with: 
-		
-		com.<customer_name>.<project>.<extension>. or 
-		com.<customer_name>.<extension> or 
-		com.<project_name>.<extension>
-Please check which of the above three has been adopted for the project
+All package names must:
+- Be prefixed with the below. Please check which of the above three has been adopted for the project: 
+		com.<customer>.<project>.<extension>. or 
+		com.<customer>.<extension> or 
+		com.<project>.<extension>
+
 
 		
 #### Interfaces 
@@ -154,8 +154,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
-g3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTEyOTE5MjAyNCwtMjc2NDU5MjMzLDkxMz
+A4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2
+NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNz
+c1NDc1NDEsLTgxODc0Mzc2N119
 -->

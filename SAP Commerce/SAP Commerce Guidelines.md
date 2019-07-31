@@ -13,10 +13,11 @@ The commerce utilized should always be the latest version unless the customer ha
 ## Development Environment
 
 ##### Integrated Development Environment
--The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA
-
+- The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA
+-  decompiler for use when debugging if your IDE does not have an out of the box decompiler
+- Install SonarLint for static code checking 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjEzMjE1NiwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbODUwMDcyNjE3LDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

@@ -65,10 +65,11 @@ When starting a commerce project:
 #### Naming Conventions
 The names of items, relationa and Enums must:
 - Contain only alphanumeric characters
-- Must use **Pascal** case e.g., Order
+- Must use **Pascal** case
+> Examples: OrderTypes as an enum, Order2InvoiceRel for a relationship, Order for an item type
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NzY5MDM2LC0yMDI5NzQ3NjUwLC02Mz
-AxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQx
-LC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTE5OTM4ODgwNDUsLTIwMjk3NDc2NTAsLT
+YzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1
+NDEsLTgxODc0Mzc2N119
 -->

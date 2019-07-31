@@ -22,8 +22,9 @@ The commerce utilized should always be the latest version unless the customer ha
 ### Extensions
 ##### Naming  Conventions
 - An extension name must: 
-	- Only contain alphanumeric characters [a
+	- Only contain alphanumeric characters
+	- Must only contain l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4NTIyOCwxNzc1NDc1NDEsLTgxODc0Mz
-c2N119
+eyJoaXN0b3J5IjpbMTY1NTA0NjQ3NiwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

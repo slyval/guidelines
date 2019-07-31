@@ -11,7 +11,9 @@ This is a living document and will be updated from time to time. Ensure that you
 The commerce utilized should always be the latest version unless the customer has a specific choice
 
 ##### Initialisation 
-When starting a commerce project
+When starting a commerce project:
+- A development configuration must be used that will generate the **config** folder
+- When doing a b2c solution with a webshop or storefront, 
 
 ## Development Environment
 
@@ -52,6 +54,6 @@ When starting a commerce project
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDY3NzAwNSwxNjIwMTcwMDkwLDk0OD
-Y5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbODUzNjYyMTQzLDE2MjAxNzAwOTAsOTQ4Nj
+kxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

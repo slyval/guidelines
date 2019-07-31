@@ -60,7 +60,7 @@ When starting a commerce project:
 	
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
-#### 
+
 ### Data Model
 
 #### Items, Relations and Enums
@@ -93,7 +93,10 @@ When starting a commerce project:
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
-### Data Access  Objects
+### Class Artefacts
+
+
+#### Data Access  Objects
 
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
@@ -117,7 +120,7 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDA3MDk0NCw5MTMwODU1NDksMTYzMj
+eyJoaXN0b3J5IjpbMTEwMzgwNzIwNyw5MTMwODU1NDksMTYzMj
 I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
 ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
 g3NDM3NjddfQ==

@@ -106,7 +106,7 @@ An interface defines a contract with the outside world. It defines all the publi
 	- Should be alphanumeric 
 	
 			Examples: AddressService, AddressDao, AddressFacade
-			Incorrect Examples: IAddressService, AddressServiceInt, AddressServiceIf tho
+			Incorrect Examples: IAddressService, AddressServiceInt, AddressServiceIf. These can be perfectly legal names elsewhere. 
 
 #### Implementations
 After defining an interface, implementations should be created to implement the contract defined by the interface. 
@@ -114,6 +114,7 @@ Impentations can also be created without directly implementing an interface but 
 When creating an implementation the following must be followed:
 
 - The name must convey intent
+-  Should use **Pascal** case
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
@@ -142,8 +143,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIyMzQxNzMsOTEzMDg1NTQ5LDE2Mz
-IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
-NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
-E4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbOTAxNzM2OTE0LDkxMzA4NTU0OSwxNjMyMj
+k2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4
+MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

@@ -114,7 +114,7 @@ When creating an implementation the following must be followed:
 
 - The name must convey intent
 - The first implementation of an interface must be prefixed with **Default**
-- If inheriting or overwriting an existing implementation, the prefix
+- If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ****CustomAddressDao**** inheriting from 
 
 
 #### Data Access  Objects
@@ -141,8 +141,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDc2MjU3Niw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
-g3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbNDg4NTQzMTgsOTEzMDg1NTQ5LDE2MzIyOT
+Y2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgw
+LDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

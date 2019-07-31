@@ -24,15 +24,16 @@ The commerce utilized should always be the latest version unless the customer ha
 - An extension name must: 
 	- Only contain alphanumeric characters
 	- Only contain lowercase letters
-	- Be descriptive of the larger purpose for which it is being created
 	> Example: customordermanagementservices
 	
 - An addon is a special type of an extension and must have the suffix ***addon***
 	> Example: customb2baccelratoraddon
 
-- When overriding a standard extension, the prefix must be either ***custom***. As an exception a customer name can be used alone of be combine with customer
-> Examples: customsapintegrationservices or consnetsapintegrationservices
+- When overriding a standard extension, the prefix must be either ***custom***. As an exception a customer request can be accomodated if there is a request to use a specific prefix
+	> Examples: customsapintegrationservices
+
+- Names ar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MjE5MjgzLDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTI3OTM3MzAyMCwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

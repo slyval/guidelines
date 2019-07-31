@@ -72,12 +72,12 @@ When starting a commerce project:
 - For item and relation attributes, **Camel** case must be utilised
 	> Example: code, deliveryDate
 
--For Enums, the names of the 
+-For Enums, the names of the value codes must be in **Upper
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDk5NzA2MCwtNDc4MzQ0MTQ5LC0yMD
+eyJoaXN0b3J5IjpbLTc4NjE4MjM4NiwtNDc4MzQ0MTQ5LC0yMD
 I5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5
 NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

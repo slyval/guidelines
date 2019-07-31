@@ -96,8 +96,9 @@ When starting a commerce project:
 ### Classes 
 
 #### Interfaces 
-An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with.
-Ther
+An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
+
+- An interface shall be created for all services, facades and data access objects when there are publicly accessible methods to be created. The exception is only when a service is 
 
 #### Data Access  Objects
 
@@ -123,7 +124,7 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDI5OTA1LDkxMzA4NTU0OSwxNjMyMj
+eyJoaXN0b3J5IjpbOTY5MjI4MTE2LDkxMzA4NTU0OSwxNjMyMj
 k2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4
 MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxOD
 c0Mzc2N119

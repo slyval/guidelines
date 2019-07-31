@@ -23,8 +23,10 @@ The commerce utilized should always be the latest version unless the customer ha
 ##### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
-	- Must only contain l
+	- Only contain lowercase letters
+	- Be descriptive of the larger purpose for which it is being created
+	- Clearly ide
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTA0NjQ3NiwxNzc1NDc1NDEsLTgxOD
+eyJoaXN0b3J5IjpbMTEyNDUxODIxOSwxNzc1NDc1NDEsLTgxOD
 c0Mzc2N119
 -->

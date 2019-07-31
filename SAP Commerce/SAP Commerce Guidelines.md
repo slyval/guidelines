@@ -95,6 +95,8 @@ When starting a commerce project:
 
 ### Class Artefacts
 
+When creating a Service or Facade or Data Access Object, the following conventions must be followed:
+- An interface shio
 
 #### Data Access  Objects
 
@@ -120,8 +122,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzgwNzIwNyw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
-g3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTE0NjE5MjAzLDkxMzA4NTU0OSwxNjMyMj
+k2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4
+MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

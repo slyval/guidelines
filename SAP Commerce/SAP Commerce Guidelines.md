@@ -74,12 +74,12 @@ When starting a commerce project:
 	
 		Example: code, deliveryDate
 
-- For Enums, the names of the value codes must be in **Upper* case
+- For Enums, the names of the value codes must be in **Upper** case
 		
-		 Example: SUNDAY 
+			Example: SUNDAY 
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
-- 
+
 		 Incorrect Example: \<itemtype code="Order" ....  jaloclass="com.test.jalo.components.order">
 	
 		 
@@ -103,7 +103,8 @@ Each data access object must inherit from **de.hybris.platform.servicelayer.inte
 
 The inheritance allows you to benefit from find methods that can be used to build dynamic queries. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3OD
-M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
-OTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMTYzNzkxMzM4MCw5MTMwODU1NDksMTYzMj
+I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
+ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

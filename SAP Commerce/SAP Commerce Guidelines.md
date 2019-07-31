@@ -32,7 +32,7 @@ When starting a commerce project:
 ## Development Artifacts
 
 ### Extensions
-##### Naming  Conventions
+#### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
 	- Only contain lowercase letters
@@ -50,7 +50,7 @@ When starting a commerce project:
 	- An extension for data access objects must contain the suffix ***daos*** if applicable
 	> Examples: sapordermanagementservices, commercefacades
 
-##### Generation 
+#### Generation 
 - All extensions must be genarated using the **extgen** ant target/task. 
 - The following template extensions must be used:
 	- ****yempty**** should be used to generate all extensions except the ones below
@@ -78,8 +78,9 @@ When starting a commerce project:
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0ODAxNzEzLC00NzgzNDQxNDksLTIwMj
-k3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0
-MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbLTIxNDQyNTk5MDcsLTQ3ODM0NDE0OSwtMj
+AyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4Njkx
+OTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

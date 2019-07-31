@@ -8,9 +8,9 @@ This is a living document and will be updated from time to time. Ensure that you
 ## Solution
 	
  ##### Version
-The commerce utilized should always be the latest version unless the 
+The commerce utilized should always be the latest version unless the customer has a specific choice
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NzE0MzU0LDE3NzU0NzU0MSwtODE4Nz
+eyJoaXN0b3J5IjpbMzA4ODY1Mzg2LDE3NzU0NzU0MSwtODE4Nz
 QzNzY3XX0=
 -->

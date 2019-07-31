@@ -63,12 +63,12 @@ When starting a commerce project:
 ### Data Model
 
 #### Naming Conventions
-The names of items, relation and Enums must:
+The names of items, relationa and Enums must:
 - Contain only alphanumeric characters
-- Must use camel casing 
+- Must use **Pascal** case e.g., Order
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNj
-IwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2
-N119
+eyJoaXN0b3J5IjpbODY5NzY5MDM2LC0yMDI5NzQ3NjUwLC02Mz
+AxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQx
+LC04MTg3NDM3NjddfQ==
 -->

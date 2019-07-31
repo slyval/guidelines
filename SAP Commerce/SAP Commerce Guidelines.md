@@ -17,7 +17,8 @@ When starting a commerce project:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
 	- When generating manually, the tempate that must be used is ****accelerator****
 	- A good name must be chosen for the project as that will affect names of extensions 
-	- A root package must be chosen carefully and must loosely follow th
+	- A root package must be chosen carefully and must loosely follow the following convention:
+		- com.<customername>.<<projectname>>
 
 ## Development Environment
 
@@ -58,6 +59,6 @@ When starting a commerce project:
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzk2MTU0MywxNjIwMTcwMDkwLDk0OD
-Y5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbLTEwNzE2MjYxMDksMTYyMDE3MDA5MCw5ND
+g2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

@@ -15,7 +15,8 @@ When starting a commerce project:
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
-	- 
+	- When generating manually, the tempate that must be used is ****accelerator****
+	- A good name must be chosen 
 
 ## Development Environment
 
@@ -56,6 +57,6 @@ When starting a commerce project:
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQwMzYxNjksMTYyMDE3MDA5MCw5ND
-g2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTM2Njk5Mjc0LDE2MjAxNzAwOTAsOTQ4Nj
+kxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

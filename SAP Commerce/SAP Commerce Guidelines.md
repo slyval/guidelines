@@ -102,9 +102,11 @@ Each data access object must inherit from **de.hybris.platform.servicelayer.inte
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
-The benefits of usin
+The benefits of doing this are:
+- Reduction of code size as well as minimizing bugs
+- Ability to generate dynamic queries using the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzU5MDk3OSw5MTMwODU1NDksMTYzMj
+eyJoaXN0b3J5IjpbMTc3MDg3NDkzNyw5MTMwODU1NDksMTYzMj
 I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
 ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
 g3NDM3NjddfQ==

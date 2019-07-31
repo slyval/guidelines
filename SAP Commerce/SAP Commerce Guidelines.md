@@ -25,8 +25,8 @@ The commerce utilized should always be the latest version unless the customer ha
 	- Only contain alphanumeric characters
 	- Only contain lowercase letters
 	- Be descriptive of the larger purpose for which it is being created
-	- Clearly ide
+- An addon is a special type of an extension and must have the suffix 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDUxODIxOSwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbNzc3ODU5MDU1LDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

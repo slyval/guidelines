@@ -8,8 +8,8 @@ This is a living document and will be updated from time to time. Ensure that you
 ## Solution
 	
  ### Version
-It 
+I
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

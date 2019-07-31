@@ -70,12 +70,14 @@ When starting a commerce project:
 		 
 - Except where absolutely necessary, the name of the deployment table must be the same as the name of the item or relation
 - For item and relation attributes, **Camel** case must be utilised
-	> Example: code, creation
+	> Example: code, deliveryDate
+
+-For Enums, the names of the 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk3MjAzMzgsLTQ3ODM0NDE0OSwtMj
-AyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4Njkx
-OTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbNTYyMDUwMjU4LC00NzgzNDQxNDksLTIwMj
+k3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0
+MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

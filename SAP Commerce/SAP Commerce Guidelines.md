@@ -95,10 +95,8 @@ When starting a commerce project:
 
 ### Classes 
 
- - [ ] List item
-
 When creating a Service or Facade or Data Access Object, the following conventions must be followed:
-- An interface shoul
+- An interface should be created first. The interface defines the contract or all publicly as
 
 	#### Data Access  Objects
 
@@ -124,8 +122,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTQ0NzEyNiw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
-g3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTE2NjM4NTM1NjAsOTEzMDg1NTQ5LDE2Mz
+IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
+NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
+E4NzQzNzY3XX0=
 -->

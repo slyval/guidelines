@@ -67,12 +67,14 @@ When starting a commerce project:
 	- Contain only alphanumeric characters
 	- Must use **Pascal** case
 		 > 	Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
-- Unless there is a specific reason, the name of the deployment table must be the same as the name of the item or relat
+		 
+- Except where absolutely necessary, the name of the deployment table must be the same as the name of the item or relation
+- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NTAxNzc4LC0yMDI5NzQ3NjUwLC02Mz
-AxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQx
-LC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNj
+MwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0
+MSwtODE4NzQzNzY3XX0=
 -->

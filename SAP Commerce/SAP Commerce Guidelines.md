@@ -66,18 +66,22 @@ When starting a commerce project:
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
 	- Must use **Pascal** case
-	 > 	Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
+	 
+			 Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
 		 
 - Except where necessary, the name of the deployment table must be the same as the name of the item or relation
 - For item and relation attributes, **Camel** case must be utilised
-	> Example: code, deliveryDate
+	
+		Example: code, deliveryDate
 
 - For Enums, the names of the value codes must be in **Upper* case
-	> Example: SUNDAY 
+		
+		 Example: SUNDAY 
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
 - 
-		 Incorrect Example: \<itemtype code="Order" .... 
+		 Incorrect Example: \<itemtype code="Order" ....  jaloclass="com.test.jalo.components.order">
+	
 		 
 		 Correct Example: \<itemtype code="Order" .... >
 
@@ -99,7 +103,7 @@ Each data access object must inherit from **de.hybris.platform.servicelayer.inte
 
 The inheritance allows you to benefit from find methods that can be used to build dynamic queries. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzQ3MzkxMSwxNjMyMjk2NjIyLC00Nz
-gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
-MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3OD
+M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
+OTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

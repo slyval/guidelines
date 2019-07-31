@@ -111,7 +111,9 @@ An interface defines a contract with the outside world. It defines all the publi
 After defining an interface, implementations should be created to implement the contract defined by the interface. 
 Impentations can also be created without directly implementing an interface but extending or inheriting from an existing implementation.
 When creating an implementation the following must be followed:
-- 
+
+- The first implementation of an interface must be prefixed with **Default**
+- The name must convey intent and 
 
 #### Data Access  Objects
 
@@ -137,8 +139,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNDQyODgxLDkxMzA4NTU0OSwxNjMyMj
-k2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4
-MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbLTY5MjUzMzEzOCw5MTMwODU1NDksMTYzMj
+I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
+ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MT
+g3NDM3NjddfQ==
 -->

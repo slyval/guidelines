@@ -91,9 +91,9 @@ When starting a commerce project:
 ### Data Access  Objects
 
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
-- Each data access object must inherit from the 
+- Each data access object must inherit from the **DefaultGenericDao\<T>** that is contained in the de.hybris.platform.servicelayer.internal.dao
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzcwMzY5NSwxNjMyMjk2NjIyLC00Nz
+eyJoaXN0b3J5IjpbLTc3NTI2MDQyNSwxNjMyMjk2NjIyLC00Nz
 gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
 MDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

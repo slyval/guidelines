@@ -75,12 +75,16 @@ When starting a commerce project:
 - For Enums, the names of the value codes must be in **Upper* case
 	> Example: SUNDAY 
 
-
+#### Other
+- Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
+	> Incorrect: <itemtype code="ContactUsComponent" generate="true"
+				  extends="SimpleCMSComponent" autocreate="true"
+				  jaloclass="com.astronenergy.astronenergycore.jalo.components.ContactUsComponent">
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQyNTk5MDcsLTQ3ODM0NDE0OSwtMj
-AyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4Njkx
-OTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMTcwMjE2MzgsLTQ3ODM0NDE0OSwtMjAyOT
+c0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQw
+LDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

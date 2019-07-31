@@ -13,9 +13,10 @@ The commerce utilized should always be the latest version unless the customer ha
 ## Development Environment
 
 ##### IDE
-An IDE of your own cho
+- The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA
+- It is advisable to install 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mzg0MzkwLDE3NzU0NzU0MSwtODE4Nz
-QzNzY3XX0=
+eyJoaXN0b3J5IjpbLTkxMDY0ODM0NiwxNzc1NDc1NDEsLTgxOD
+c0Mzc2N119
 -->

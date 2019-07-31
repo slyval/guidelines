@@ -16,9 +16,9 @@ When starting a commerce project:
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
 	- When generating manually, the tempate that must be used is ****accelerator****
-	- A good name must be chosen for the project as that will affect names of extensions 
+	- A good name must be chosen for the project as that will affect names of extensions. A good starting point will be  to use the project name
 	- A root package must be chosen carefully and must loosely follow the following convention:
-		- com.<customername>.<<projectname>>
+		> com.\<customername>.\<projectname>
 
 ## Development Environment
 
@@ -59,6 +59,6 @@ When starting a commerce project:
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE2MjYxMDksMTYyMDE3MDA5MCw5ND
+eyJoaXN0b3J5IjpbLTEyNTM2NTU0OTYsMTYyMDE3MDA5MCw5ND
 g2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

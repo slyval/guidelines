@@ -62,7 +62,7 @@ When starting a commerce project:
 
 ### Data Model
 
-#### Naming Conventions
+#### Items, Relations and Enums
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
 	- Must use **Pascal** case
@@ -75,19 +75,19 @@ When starting a commerce project:
 - For Enums, the names of the value codes must be in **Upper* case
 	> Example: SUNDAY 
 
-#### Other
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
 	> Incorrect Example: \<itemtype code="Order" .... jaloclass="com.test.jalo.components.order">
 	
 	> Correct Example: \<itemtype code="Order" .... >
 
-- Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
+#### Item Attributes
 - Items must always be linked together through a relation. Simple types, such as a string attribute containing a PK, must not be used to link items
 - Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
-- Where multiple values are possible for a 
+- Where multiple values are possible for an attribute
+- Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg3OTc1OTksMTYzMjI5NjYyMiwtND
+eyJoaXN0b3J5IjpbLTEzODk4MjQ5MDMsMTYzMjI5NjYyMiwtND
 c4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3
 MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ
 ==

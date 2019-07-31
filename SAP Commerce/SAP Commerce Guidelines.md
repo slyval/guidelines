@@ -93,7 +93,7 @@ When starting a commerce project:
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
-### Classes 
+### Code Artefacts
 
 #### Packages
 Packages are containers and must group functionality accordingly. 
@@ -105,7 +105,7 @@ All package names must:
 		com.<customer>.<extension> or 
 		com.<project>.<extension>
 
-- The name after the prefix must convey the intent of the package. As an example, a package utilities must contain the word u
+- The name after the prefix must convey the intent of the package. As an example, a package utilities must contain the word utilities or utils in it's name
 		
 #### Interfaces 
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
@@ -155,7 +155,7 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ1NTExNzUsLTI3NjQ1OTIzMyw5MT
+eyJoaXN0b3J5IjpbLTEzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MT
 MwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3
 NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMT
 c3NTQ3NTQxLC04MTg3NDM3NjddfQ==

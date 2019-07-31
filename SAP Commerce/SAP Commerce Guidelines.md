@@ -69,12 +69,13 @@ When starting a commerce project:
 		 > 	Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
 		 
 - Except where absolutely necessary, the name of the deployment table must be the same as the name of the item or relation
-- 
+- For item and relation attributes, **Camel** case must be utilised
+	> Example: code, creation
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNj
-MwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0
-MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbLTExNTk3MjAzMzgsLTQ3ODM0NDE0OSwtMj
+AyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4Njkx
+OTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

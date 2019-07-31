@@ -96,9 +96,9 @@ When starting a commerce project:
 ### Class Artefacts
 
 When creating a Service or Facade or Data Access Object, the following conventions must be followed:
-- An interface shio
+- An interface shoul
 
-#### Data Access  Objects
+	#### Data Access  Objects
 
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
@@ -122,8 +122,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE5MjAzLDkxMzA4NTU0OSwxNjMyMj
-k2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4
-MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbLTE0NzY1MDMwODUsOTEzMDg1NTQ5LDE2Mz
+IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
+NzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtOD
+E4NzQzNzY3XX0=
 -->

@@ -32,8 +32,9 @@ The commerce utilized should always be the latest version unless the customer ha
 - When overriding a standard extension, the prefix must be either ***custom***. As an exception a customer request can be accomodated if there is a request to use a specific prefix
 	> Examples: customsapintegrationservices
 
-- Names ar
+- Names are important. The name must convey the intent. The purpose of the extension must be conveyed by the name
+	- An extensi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTM3MzAyMCwxNzc1NDc1NDEsLTgxOD
+eyJoaXN0b3J5IjpbLTIyMzY0NzU5MSwxNzc1NDc1NDEsLTgxOD
 c0Mzc2N119
 -->

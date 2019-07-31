@@ -42,8 +42,9 @@ The commerce utilized should always be the latest version unless the customer ha
 - All extensions must be genarated using the **extgen** ant target/task. 
 - The following template extensions must be used:
 	- ****yempty**** should be used to generate all extensions except the ones below
-	- ***
+	- ****yaddon**** should be used to generate all addons
+	- ****ycommec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTI3MjMzNCwxNzc1NDc1NDEsLTgxOD
-c0Mzc2N119
+eyJoaXN0b3J5IjpbOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4Nz
+QzNzY3XX0=
 -->

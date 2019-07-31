@@ -81,14 +81,13 @@ When starting a commerce project:
 	> Correct Example: \<itemtype code="Order" .... >
 
 #### Item Attributes
-- Items must always be linked together through a relation. Simple types, such as a string attribute containing a PK, must not be used to link items
 - Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
-- Where multiple values are possible for an attribute
+- Where multiple values are possible for an attribute, a relation to an Enum or another item must be created
+
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk4MjQ5MDMsMTYzMjI5NjYyMiwtND
-c4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3
-MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ
-==
+eyJoaXN0b3J5IjpbNTI5ODQ0Mjc2LDE2MzIyOTY2MjIsLTQ3OD
+M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
+OTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

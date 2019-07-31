@@ -19,7 +19,9 @@ When starting a commerce project:
 	- A good name must be chosen for the project as that will affect names of extensions. A good starting point will be  to use the project name
 	- A root package must be chosen carefully and must loosely follow the following convention:
 		> com.\<customername>.\<projectname>
-
+		
+- Similar guidelines as above must be used for other projects as advised in SAP Commerce help documentation
+- 
 ## Development Environment
 
 ##### Integrated Development Environment
@@ -59,6 +61,6 @@ When starting a commerce project:
 - All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM2NTU0OTYsMTYyMDE3MDA5MCw5ND
+eyJoaXN0b3J5IjpbLTE5NDczNTI0OTgsMTYyMDE3MDA5MCw5ND
 g2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

@@ -39,8 +39,9 @@ The commerce utilized should always be the latest version unless the customer ha
 	> Examples: sapordermanagementservices, commercefacades
 
 ##### Generation 
-An 
+- All extensions must be genarated using the **extgen** ant target/task. 
+- A template extension must be used, e.g ****yempty****, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDUxMjM0MCwxNzc1NDc1NDEsLTgxOD
+eyJoaXN0b3J5IjpbLTQ0NTgxMzM1NiwxNzc1NDc1NDEsLTgxOD
 c0Mzc2N119
 -->

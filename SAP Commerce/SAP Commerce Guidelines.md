@@ -130,21 +130,19 @@ When creating an implementation the following must be followed:
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
-
 #### Data Access  Objects
 
 - For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
-- If  all data access in the access object relate to one item/type,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
+- When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
 	The benefits of doing this are:
-- Minimization of bugs as you can reuse tested methods such as find
-- Ability to generate dynamic queries using the find methods
-- Ability to write data access objects without explicitly using flexible search code
-
-
+	- Minimization of bugs as you can reuse tested methods such as find
+	- Ability to generate dynamic queries using the find methods
+	- Ability to write data access objects without explicitly using flexible search code
+- When 
 ##### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
@@ -153,7 +151,7 @@ When creating an implementation the following must be followed:
 
 #### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY1MTI2NDIsLTEzMDYzNjUyNTcsLT
+eyJoaXN0b3J5IjpbLTEwOTM3OTcxMzksLTEzMDYzNjUyNTcsLT
 I3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0
 MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MC
 w5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==

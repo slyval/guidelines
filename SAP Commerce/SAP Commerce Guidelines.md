@@ -143,7 +143,7 @@ When creating an implementation the following must be followed:
 	- Ability to generate dynamic queries using the find methods
 	- Ability to write data access objects without explicitly using flexible search code
 	
-- As is mentioned in the Queries section, 
+- As is mentioned in the Queries section, all queries must be as direct as possible. What is meant by this is that there should be no reading of all items and then
 
 ##### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
@@ -153,8 +153,8 @@ When creating an implementation the following must be followed:
 
 #### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTUzMzA2OSwtMTMwNjM2NTI1NywtMj
-c2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQx
-NDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLD
-k0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbLTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcsLT
+I3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0
+MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MC
+w5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

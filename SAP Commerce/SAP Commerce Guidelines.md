@@ -136,7 +136,7 @@ When creating an implementation the following must be followed:
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
 
-Each data access object must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
+if  all querEach data access object must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
@@ -152,9 +152,9 @@ The benefits of doing this are:
 		Example: DefaultAddressDao
 		
 
-### 
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDA4MDIwMSwtMTMwNjM2NTI1NywtMj
+eyJoaXN0b3J5IjpbMTQyOTUxNjg0NSwtMTMwNjM2NTI1NywtMj
 c2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQx
 NDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLD
 k0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119

@@ -134,7 +134,7 @@ When creating an implementation the following must be followed:
 
 - For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
-- When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
+- When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
@@ -142,7 +142,9 @@ When creating an implementation the following must be followed:
 	- Minimization of bugs as you can reuse tested methods such as find
 	- Ability to generate dynamic queries using the find methods
 	- Ability to write data access objects without explicitly using flexible search code
-- When 
+	
+- As is mentioned in the Queries section, 
+
 ##### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
@@ -151,8 +153,8 @@ When creating an implementation the following must be followed:
 
 #### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM3OTcxMzksLTEzMDYzNjUyNTcsLT
-I3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0
-MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MC
-w5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbMTkzOTUzMzA2OSwtMTMwNjM2NTI1NywtMj
+c2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQx
+NDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLD
+k0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

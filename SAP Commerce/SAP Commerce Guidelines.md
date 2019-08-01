@@ -135,7 +135,6 @@ When creating an implementation the following must be followed:
 
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
-#### Generic Dao
 
 Each data access object must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** 
 
@@ -147,7 +146,7 @@ The benefits of doing this are:
 - Ability to write data access objects without explicitly using flexible search code
 
 
-#### Naming Conventions 
+##### Naming Conventions 
 - The name must demonstrate intent and must contain the suffix ***Dao*** 
 
 		Example: DefaultAddressDao
@@ -155,8 +154,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MT
-MwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3
-NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMT
-c3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTE5NTM5ODc3NDUsLTEzMDYzNjUyNTcsLT
+I3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0
+MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MC
+w5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

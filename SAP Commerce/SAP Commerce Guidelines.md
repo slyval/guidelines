@@ -146,9 +146,9 @@ The benefits of doing this are:
 The name must:
 - demonstrate intent
 - contain the suffix ***Dao*** 
-	- user **Pascal** case
+- user **Pascal** case
 
-	`Example: DefaultAddressDao`
+`Example: DefaultAddressDao`
 		
 #### Data Transfer Object (DTOs)
 Data transfer objects are serializable objects used to pass specific data between different objects whether locally, such as  between a controller and a facade,  or remote, such as between a controller and a remote caller. 
@@ -162,8 +162,9 @@ The following conventions apply:
 	- contain the suffix **Data** or **Dto**
 	- contain only alphanumeric characters
 	- be in **Pascal** case
-- The attributes of a DTO must:
-	- be in **Camel** case
+- The attributes of a DTO must be in **Camel** case
+
+`Exam
 
 #### Services 
 A service is an object that is concerned with the execution of business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
@@ -171,7 +172,7 @@ A service is an object that is concerned with the execution of business rules. I
 The following conventions should apply:
 - The name of a service (both interface and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTI5MDIwNCwtMzczODM2NTg4LC0xNj
+eyJoaXN0b3J5IjpbLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNj
 I0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0
 NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OS
 wtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4

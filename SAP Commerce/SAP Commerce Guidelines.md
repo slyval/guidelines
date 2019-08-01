@@ -151,13 +151,12 @@ When creating an implementation the following must be followed:
 
 	`Example: DefaultAddressDao`
 		
-
 #### Data Transfer Object (DTOs)
-Data transfer objects
+Data transfer objects are 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQsLT
-EzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5
-NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3OD
-AsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3
-NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwtMT
+AwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMzLDkxMzA4
+NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NT
+AsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1
+NDc1NDEsLTgxODc0Mzc2N119
 -->

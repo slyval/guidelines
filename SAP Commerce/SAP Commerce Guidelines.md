@@ -141,7 +141,7 @@ Each data access object must inherit from **de.hybris.platform.servicelayer.inte
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
 The benefits of doing this are:
-- Reduction of code size as well as minimizing bugs
+- Minimization of bugs as you can reuse tested methods such as find
 - Ability to generate dynamic queries using the find methods
 - Ability to write data access objects without explicitly using flexible search code
 
@@ -154,8 +154,8 @@ The benefits of doing this are:
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM5ODc3NDUsLTEzMDYzNjUyNTcsLT
-I3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0
-MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MC
-w5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+eyJoaXN0b3J5IjpbLTM2NDA4MDIwMSwtMTMwNjM2NTI1NywtMj
+c2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQx
+NDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLD
+k0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
 -->

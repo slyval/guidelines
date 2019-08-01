@@ -132,31 +132,48 @@ When creating an implementation the following must be followed:
 
 #### Data Access  Objects
 
-- For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
+For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
-- When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
+ When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
-	The benefits of doing this are:
-	- Minimization of bugs as you can reuse tested methods such as find
-	- Ability to generate dynamic queries using the find methods
-	- Ability to write data access objects without explicitly using flexible search code
+The benefits of doing this are:
+- Minimization of bugs as you can reuse tested methods such as find
+- Ability to generate dynamic queries using the find methods
+- Ability to write data access objects without explicitly using flexible search code
 
-##### Naming Conventions 
-- The name must:
-	- demonstrate intent
-	- contain the suffix ***Dao*** 
+The name must:
+- demonstrate intent
+- contain the suffix ***Dao*** 
 	- user **Pascal** case
 
 	`Example: DefaultAddressDao`
 		
 #### Data Transfer Object (DTOs)
-Data transfer objects are 
+Data transfer objects are serializable objects used to pass specific data between different objects whether locally, such as  between a controller and a facade,  or remote, such as between a controller and a remote caller. 
+
+DTOs contain a subset data from an item or a combination of items. 
+
+The following conventions apply:
+- They must always be defined in the spring-bean.xml and not manually created. This makes maintenance easier.
+- They must be added into a relevantly named package as suggested under the Packages section
+- They name of must
+	- contain the suffix **Data** or **Dto**
+	- contain only alphanumeric characters
+	- be in **Pascal** case
+- The attributes of a DTO must:
+	- be in **Camel** case
+
+#### Services 
+A service is an object that is concerned with the execution of business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
+
+The following conventions should apply:
+- The name of a service (both interface and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwtMT
-AwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMzLDkxMzA4
-NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NT
-AsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1
-NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbMjA0MTI5MDIwNCwtMzczODM2NTg4LC0xNj
+I0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0
+NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OS
+wtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4
+NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

@@ -147,13 +147,15 @@ When creating an implementation the following must be followed:
 - The name must:
 	- demonstrate intent
 	- contain the suffix ***Dao*** 
-	- user **Pascal** caseExample: DefaultAddressDao
+	- user **Pascal** case
+
+	`Example: DefaultAddressDao`
 		
 
 #### Data Transfer Object (DTOs)
 Data transfer objects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc0MjE2NTYsLTEwMDA5NTg2NTQsLT
+eyJoaXN0b3J5IjpbLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQsLT
 EzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5
 NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3OD
 AsMTYyMDE3MDA5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3

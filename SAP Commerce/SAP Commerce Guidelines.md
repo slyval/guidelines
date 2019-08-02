@@ -41,6 +41,7 @@ When starting a commerce project:
 - An addon is a special type of an extension and must have the suffix ***addon***
 	> Example: customb2baccelratoraddon
 
+- An addon must only be created for the purposes of overwritting or defining web based functionality. This includes the definition or extension of styling, javascript scripting and defi
 - When overriding a standard extension, the prefix ***custom*** must be included. An exception is when a customer requests otherwise
 	> Examples: customsapintegrationservices
 
@@ -172,10 +173,10 @@ A service is an object that is concerned with the execution of business rules. I
 The following conventions should apply:
 - The name of a service (both interface and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMz
-czODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2
-MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2Mj
-IsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2
-MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNz
-Y3XX0=
+eyJoaXN0b3J5IjpbLTEyNjY2NTAzMTUsLTEzNDgwMDA2MTksLT
+E0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAw
+OTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NT
+Q5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwt
+NjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0Nz
+U0MSwtODE4NzQzNzY3XX0=
 -->

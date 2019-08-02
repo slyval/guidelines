@@ -164,7 +164,7 @@ The following conventions apply:
 	- be in **Pascal** case
 - The attributes of a DTO must be in **Camel** case
 
-`Exam
+		Example: 
 
 #### Services 
 A service is an object that is concerned with the execution of business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
@@ -172,9 +172,10 @@ A service is an object that is concerned with the execution of business rules. I
 The following conventions should apply:
 - The name of a service (both interface and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNj
-I0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0
-NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OS
-wtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4
-NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMz
+czODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2
+MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2Mj
+IsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2
+MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNz
+Y3XX0=
 -->

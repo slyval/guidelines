@@ -195,13 +195,14 @@ The following conventions should apply when creating a facade:
 	- be in **Pascal** case
 - All attributes of a service must be in **Camel** case
 
-			Example: 	Interface: SaleAreaDeterminationService
+			Example: 	Interface: SaleArea	DeterminationService
 						Implementation: DefaultSalesAreaDeterminationService
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEyMT
-UwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NTg4
-LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC
-0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0
-NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOT
-AsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbMjU5NDUxNzUzLDY1NDY5Nzc5Myw1OTk0Nz
+c5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNjE5LC0xNDAwMzQ4NTgs
+LTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwtMTAwMDk1ODY1NCwtMT
+MwNjM2NTI1NywtMjc2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2
+NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MC
+wxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0
+Mzc2N119
 -->

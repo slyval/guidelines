@@ -96,7 +96,10 @@ When starting a commerce project:
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 ### Code Artefacts
-Except where explicitly speci
+Except where explicitly specified, the following artefacts should have the following properties: 
+- The names must:
+	- demonstrate the intent of the artefact 
+	- 
 #### Packages
 Packages are containers and must group functionality accordingly. 
 
@@ -215,7 +218,7 @@ The following should be adhered to when creating a controller:
 #### Content Pages
 Content Pages should fo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzg2OTAzMywtNDM2OTc4NDg1LDgzMT
+eyJoaXN0b3J5IjpbLTgyMTQ0NzE5OCwtNDM2OTc4NDg1LDgzMT
 M4NTU0MCw5NTI5NzY4LDI1OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5
 NDc3OTQ4LDkwMTIxNTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0OD
 U4LC0zNzM4MzY1ODgsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQs

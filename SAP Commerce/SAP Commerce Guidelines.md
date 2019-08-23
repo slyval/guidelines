@@ -212,14 +212,14 @@ The following should be adhered to when creating a controller:
 	- be in **Pascal** case
 - All attributes of a controller must be in **Camel** case, except for constants
 
-#### Content Pages
-Content Pages 
+#### Bean Definition
+As mention above for services, facade and Data Access Objects, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE1NTk3MzYsLTQzNjk3ODQ4NSw4Mz
-EzODU1NDAsOTUyOTc2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5
-OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzND
-g1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0
-LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2Mz
-IyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUz
-NzgwXX0=
+eyJoaXN0b3J5IjpbMTAwNzc5NzM1NiwtNDM2OTc4NDg1LDgzMT
+M4NTU0MCw5NTI5NzY4LDI1OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5
+NDc3OTQ4LDkwMTIxNTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0OD
+U4LC0zNzM4MzY1ODgsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQs
+LTEzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMj
+I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
+ODBdfQ==
 -->

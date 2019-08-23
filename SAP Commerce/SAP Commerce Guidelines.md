@@ -207,9 +207,12 @@ Controller a web request handlers. As such they are commonly used with RESTful w
 The following should be adhered to when creating a controller: 
 - The package naming should be representative
 - The name of the controller must:
-	- contain the suffix **Controller** 
+	- contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
+	- contain only aplhanumeric characters 
+	- be in **Pascal** case
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODEyODEyNCw4MzEzODU1NDAsOTUyOT
+eyJoaXN0b3J5IjpbMTgxNTkyNzk0Myw4MzEzODU1NDAsOTUyOT
 c2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEy
 MTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NT
 g4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3

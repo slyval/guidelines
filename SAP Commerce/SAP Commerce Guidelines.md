@@ -185,8 +185,12 @@ The following conventions should apply:
 
 #### Facades
 As the name implies, this proxy represents a particular usage. As an example, you can have a face to serve a particular use case or type of client. You could have a facade catering for mobile applications and another for web applications. 
+
+The following conventions should apply when creating a facade: 
+- Packages into which the facade must be relevantly named
+- Always create facades as be
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDE2ODQyOCw1OTk0Nzc5NDgsOTAxMj
+eyJoaXN0b3J5IjpbLTkxMDE5MTIzOCw1OTk0Nzc5NDgsOTAxMj
 E1MDYyLC0xMzQ4MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4
 OCwtMTYyNDI5NjE1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1Ny
 wtMjc2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00Nzgz

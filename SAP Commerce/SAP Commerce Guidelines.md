@@ -159,7 +159,7 @@ DTOs contain a subset data from an item or a combination of items.
 
 The following conventions apply:
 - They must always be defined in the spring-bean.xml and not manually created. This makes maintenance easier.
-- They must be added into a relevantly named package as suggested under the Packages section
+- They must be added into a relevantly named package as suggested under the **Packages section**
 - They name of must
 	- contain the suffix **Data** or **Dto**
 	- contain only alphanumeric characters
@@ -184,9 +184,9 @@ The following conventions should apply:
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-As the name
+As the name implies, this represents a pa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDAxNDk5LDU5OTQ3Nzk0OCw5MDEyMT
+eyJoaXN0b3J5IjpbMTYwNTY3NTAxLDU5OTQ3Nzk0OCw5MDEyMT
 UwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NTg4
 LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC
 0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0

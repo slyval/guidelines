@@ -184,8 +184,7 @@ The following conventions should apply:
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-As the name implies, this proxy represents a particular usage. As an example, you can have a face to serve a particular use case or type of client. You could have a facade catering for mobile applications and another for web applications. 
-
+As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and iustomer information
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
 - Always create facades as beans that are declared using annotations or xml configuration 
@@ -198,11 +197,11 @@ The following conventions should apply when creating a facade:
 			Example: 	Interface: SaleArea	DeterminationService
 						Implementation: DefaultSalesAreaDeterminationService
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NDUxNzUzLDY1NDY5Nzc5Myw1OTk0Nz
-c5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNjE5LC0xNDAwMzQ4NTgs
-LTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwtMTAwMDk1ODY1NCwtMT
-MwNjM2NTI1NywtMjc2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2
-NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MC
-wxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0
-Mzc2N119
+eyJoaXN0b3J5IjpbLTIwOTcwNDY3NSwyNTk0NTE3NTMsNjU0Nj
+k3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTks
+LTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMD
+AwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1
+NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MC
+wtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0
+NzU0MV19
 -->

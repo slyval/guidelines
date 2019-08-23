@@ -186,7 +186,7 @@ The following conventions should apply:
 #### Facades
 As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and customer information. You would then create 2 facades, one represention employee composition and the other representing customer composition. This is a better approach that having a single facade with 2 methods catering for the different scenarios. It stops being a facade and becomes a bloated service. 
 
-
+Architecturally, the facades resides on the layer above the services layer. 
 
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
@@ -202,7 +202,7 @@ The following conventions should apply when creating a facade:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTIzMSwyNTk0NTE3NTMsNjU0Njk3Nz
+eyJoaXN0b3J5IjpbOTUyOTc2OCwyNTk0NTE3NTMsNjU0Njk3Nz
 kzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTksLTE0
 MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAwOT
 U4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NTQ5

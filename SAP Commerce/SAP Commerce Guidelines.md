@@ -202,9 +202,9 @@ The following conventions should apply when creating a facade:
 
 
 #### Controllers
-Controller a request handlers. As such they are commonly used with Web Services and W
+Controller a web request handlers. As such they are commonly used with RESTful web services or web applications. They should always be in thev we
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjI3ODgyMiw4MzEzODU1NDAsOTUyOT
+eyJoaXN0b3J5IjpbMTQyODY3Mzc4NCw4MzEzODU1NDAsOTUyOT
 c2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEy
 MTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NT
 g4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3

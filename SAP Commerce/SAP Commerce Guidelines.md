@@ -184,7 +184,8 @@ The following conventions should apply:
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and iustomer information
+As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and customer information. You would then create 2 facades, one represention employee composition and the other representing customer composition. This is a better approach that having a single facade with 2 methods catering for the different scenarios. 
+
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
 - Always create facades as beans that are declared using annotations or xml configuration 
@@ -197,7 +198,7 @@ The following conventions should apply when creating a facade:
 			Example: 	Interface: SaleArea	DeterminationService
 						Implementation: DefaultSalesAreaDeterminationService
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcwNDY3NSwyNTk0NTE3NTMsNjU0Nj
+eyJoaXN0b3J5IjpbLTI1NTQxOTUzOCwyNTk0NTE3NTMsNjU0Nj
 k3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTks
 LTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMD
 AwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1

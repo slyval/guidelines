@@ -172,7 +172,7 @@ The following conventions apply:
 A service is an object that is concerned with the execution of business logic or business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
 
 The following conventions should apply:
-- The name of a service (both interface and implementation) shoud contain the word **Service**  in their name
+- The service must be in package that is relevantly named as suggested under the **Packages section**
 - They must be declared as beans either using annotations or xml configuration 
 - The name must:
 	- contain the suffix **Service**
@@ -180,13 +180,15 @@ The following conventions should apply:
 	- be in **Pascal** case
 - All attributes of a service must be in **Camel** case
 
-		Example: Interface: SaleAreaDeterminationService
+		Example: 	Interface: SaleAreaDeterminationService
 					Implementation: DefaultSalesAreaDeterminationService
+
+####
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM3NjQwMzUsOTAxMjE1MDYyLC0xMz
-Q4MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5
-NjE1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5Mj
-MzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIw
-Mjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MT
-k0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbNTk5NDc3OTQ4LDkwMTIxNTA2MiwtMTM0OD
+AwMDYxOSwtMTQwMDM0ODU4LC0zNzM4MzY1ODgsLTE2MjQyOTYx
+NTQsLTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcsLTI3NjQ1OTIzMy
+w5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5
+NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5ND
+AsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

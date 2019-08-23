@@ -184,12 +184,13 @@ The following conventions should apply:
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-As the name implies, this represents a pa
+As the name implies, this proxy represents a particular usage. As an example, you can have a face to serve a particular use case or type of client. You could have a facade catering for representing a Quotation or 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTY3NTAxLDU5OTQ3Nzk0OCw5MDEyMT
-UwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NTg4
-LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC
-0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0
-NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOT
-AsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
+eyJoaXN0b3J5IjpbLTEzMjM0OTY5NDcsNTk5NDc3OTQ4LDkwMT
+IxNTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0ODU4LC0zNzM4MzY1
+ODgsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQsLTEzMDYzNjUyNT
+csLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4
+MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MD
+A5MCw5NDg2OTE5NDAsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
+
 -->

@@ -201,14 +201,14 @@ The following conventions should apply when creating a facade:
 						Implementation: DefaultCustomerDataCompilationFacade
 
 
-####
-
+#### Controllers
+Controller a request handlers. As such they are commonly used with Web Services and W
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNz
-UzLDY1NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4
-MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5Nj
-E1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMz
-LDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMj
-k3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0
-MF19
+eyJoaXN0b3J5IjpbLTY4MjI3ODgyMiw4MzEzODU1NDAsOTUyOT
+c2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEy
+MTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NT
+g4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3
+LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3OD
+M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
+OTBdfQ==
 -->

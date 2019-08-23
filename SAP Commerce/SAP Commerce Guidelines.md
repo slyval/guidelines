@@ -213,13 +213,14 @@ The following should be adhered to when creating a controller:
 - All attributes of a controller must be in **Camel** case, except for constants
 
 #### Bean Definition
-The definition of services, 
+The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
+1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTI2MzIwOCwtNDM2OTc4NDg1LDgzMT
-M4NTU0MCw5NTI5NzY4LDI1OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5
-NDc3OTQ4LDkwMTIxNTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0OD
-U4LC0zNzM4MzY1ODgsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQs
-LTEzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMj
-I5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTI4OTc0Nzk0LDEzOTkyNjMyMDgsLTQzNj
+k3ODQ4NSw4MzEzODU1NDAsOTUyOTc2OCwyNTk0NTE3NTMsNjU0
+Njk3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MT
+ksLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0x
+MDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMD
+g1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1
+MF19
 -->

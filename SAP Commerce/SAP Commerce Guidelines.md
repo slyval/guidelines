@@ -184,7 +184,9 @@ The following conventions should apply:
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and customer information. You would then create 2 facades, one represention employee composition and the other representing customer composition. This is a better approach that having a single facade with 2 methods catering for the different scenarios. 
+As the name implies, this proxy represents a particular usage. As an example, you can have a services that retrieve different pieces of information. You can use these services to compose employee and customer information. You would then create 2 facades, one represention employee composition and the other representing customer composition. This is a better approach that having a single facade with 2 methods catering for the different scenarios. It stops being a facade and becomes a bloated service. 
+
+
 
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
@@ -195,14 +197,16 @@ The following conventions should apply when creating a facade:
 	- be in **Pascal** case
 - All attributes of a service must be in **Camel** case
 
-			Example: 	Interface: SaleArea	DeterminationService
-						Implementation: DefaultSalesAreaDeterminationService
+			Example: 	Interface: CustomerDataCompilationFacade
+						Implementation: DefaultCustomerDataCompilationFacade
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTQxOTUzOCwyNTk0NTE3NTMsNjU0Nj
-k3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTks
-LTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMD
-AwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1
-NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MC
-wtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0
-NzU0MV19
+eyJoaXN0b3J5IjpbMjA0OTIzMSwyNTk0NTE3NTMsNjU0Njk3Nz
+kzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MTksLTE0
+MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0xMDAwOT
+U4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMDg1NTQ5
+LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1MCwtNj
+MwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOTQwLDE3NzU0NzU0
+MV19
 -->

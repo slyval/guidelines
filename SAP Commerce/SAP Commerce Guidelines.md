@@ -204,13 +204,16 @@ The following conventions should apply when creating a facade:
 #### Controllers
 Controller a web request handlers. As such they are commonly used with RESTful web services or web applications. They should always be in thev web part of an extension. They sit above facades, architecturally speaking but there is nothing wrong with a controller calling a service unless there is a facade in place that the controller should utilize
 
-The following should be adhered to when creating a controlele
+The following should be adhered to when creating a controller: 
+- The package naming should be representative
+- The name of the controller must:
+	- contain the suffix **Controller** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAxNzExMTksODMxMzg1NTQwLDk1Mj
-k3NjgsMjU5NDUxNzUzLDY1NDY5Nzc5Myw1OTk0Nzc5NDgsOTAx
-MjE1MDYyLC0xMzQ4MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNj
-U4OCwtMTYyNDI5NjE1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1
-NywtMjc2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00Nz
-gzNDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcw
-MDkwXX0=
+eyJoaXN0b3J5IjpbMTk1ODEyODEyNCw4MzEzODU1NDAsOTUyOT
+c2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEy
+MTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NT
+g4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3
+LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3OD
+M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
+OTBdfQ==
 -->

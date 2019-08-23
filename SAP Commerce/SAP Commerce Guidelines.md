@@ -224,9 +224,9 @@ When overriding a bean the following is mandatory:
 - parameters defined in the overriden bean must not be redeclared except in cases where new values are to be defined for the properties
 - **Camel** case must be used to for bean ids, names and aliases. This naturally applies for the properties owing to the conventions for services, facades, daos and controllers
 
-The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the 
+The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the <extensionname>-web-beans.xml file. Global 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODUzMjgzOCwxMzk5MjYzMjA4LC00Mz
+eyJoaXN0b3J5IjpbMTg5MDY0Njc0MSwxMzk5MjYzMjA4LC00Mz
 Y5Nzg0ODUsODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNzUzLDY1
 NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNj
 E5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwt

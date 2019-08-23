@@ -226,15 +226,22 @@ When overriding a bean the following is mandatory:
 
 The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the <extensionname>-web-spring.xml file in the resources/\<extension-name>/web/spring folder. Global bean definitions are performed in the \<extension-name>-spring.xml file in the resources folder. 
 
-Examples:
+Standalone bean f:
 
-	Standalone: 
+	Standalone:  
+	<bean id="sendEmail" class="de.hybris.platform.acceleratorservices.process.email.actions.SendEmailAction"
+          parent="abstractAction">
+        <property name="emailService" ref="emailService"/>
+    </bean>
+ AB
+ 
+			Overriding
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTI2NDQxNCwxMzk5MjYzMjA4LC00Mz
-Y5Nzg0ODUsODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNzUzLDY1
-NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNj
-E5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwt
-MTAwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMzLDkxMz
-A4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2
-NTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTE3MDQzMjEsMTM5OTI2MzIwOCwtND
+M2OTc4NDg1LDgzMTM4NTU0MCw5NTI5NzY4LDI1OTQ1MTc1Myw2
+NTQ2OTc3OTMsNTk5NDc3OTQ4LDkwMTIxNTA2MiwtMTM0ODAwMD
+YxOSwtMTQwMDM0ODU4LC0zNzM4MzY1ODgsLTE2MjQyOTYxNTQs
+LTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcsLTI3NjQ1OTIzMyw5MT
+MwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5NzQ3
+NjUwXX0=
 -->

@@ -173,12 +173,17 @@ A service is an object that is concerned with the execution of business logic or
 
 The following conventions should apply:
 - The name of a service (both interface and implementation) shoud contain the word **Service**  in their name
-- They must be declared as beans either using annotations or xml configuration
+- They must be declared as beans either using annotations or xml configuration 
+- The name must:
+	- contain the suffix **Service**
+	- contain only alphanumeric characters
+	- be in **Pascal** case
+- All attributes of a service must be in **C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYyMjQzNDAsOTAxMjE1MDYyLC0xMz
-Q4MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5
-NjE1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5Mj
-MzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIw
-Mjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MT
-k0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbLTI4NTg5MzAxOSw5MDEyMTUwNjIsLTEzND
+gwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2
+MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMz
+MsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAy
+OTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOTAsOTQ4NjkxOT
+QwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

@@ -219,9 +219,11 @@ The bean definition for services, facades and data access objects is supposed to
 
 It is advisable but not mandatory to use aliases. This makes it easier to override functionality without completely replacing some of the beans, especially where the overriden beans can still be used. 
 
-When overriding a bean the following is mandatory 
+When overriding a bean the following is mandatory: 
+- the overriding bean must define a parent and use the overriden bean or the parent of the overriden bean. 
+- parameters d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjE3ODA1MCwxMzk5MjYzMjA4LC00Mz
+eyJoaXN0b3J5IjpbMTQ4NDA1MDgyNCwxMzk5MjYzMjA4LC00Mz
 Y5Nzg0ODUsODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNzUzLDY1
 NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNj
 E5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwt

@@ -211,12 +211,15 @@ The following should be adhered to when creating a controller:
 	- contain only aplhanumeric characters 
 	- be in **Pascal** case
 - All attributes of a controller must be in **Camel** case, except for constants
+
+#### Content Pages
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0ODg1NjYyLDgzMTM4NTU0MCw5NTI5Nz
-Y4LDI1OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5NDc3OTQ4LDkwMTIx
-NTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0ODU4LC0zNzM4MzY1OD
-gsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcs
-LTI3NjQ1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4Mz
-Q0MTQ5LC0yMDI5NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5
-MF19
+eyJoaXN0b3J5IjpbLTQzNjk3ODQ4NSw4MzEzODU1NDAsOTUyOT
+c2OCwyNTk0NTE3NTMsNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEy
+MTUwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NT
+g4LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3
+LC0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3OD
+M0NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAw
+OTBdfQ==
 -->

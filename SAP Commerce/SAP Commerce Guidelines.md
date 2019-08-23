@@ -169,15 +169,15 @@ The following conventions apply:
 		Example: 
 
 #### Services 
-A service is an object that is concerned with the execution of business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
+A service is an object that is concerned with the execution of business logic or business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
 
 The following conventions should apply:
-- The name of a service (both interface and 
+- The name of a service (both interface and imple 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMjE1MDYyLC0xMzQ4MDAwNjE5LC0xND
-AwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwtMTAwMDk1
-ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMzLDkxMzA4NTU0OS
-wxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2NTAsLTYz
-MDE1Mzc4MCwxNjIwMTcwMDkwLDk0ODY5MTk0MCwxNzc1NDc1ND
-EsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbMTU0NTc1OTkwLDkwMTIxNTA2MiwtMTM0OD
+AwMDYxOSwtMTQwMDM0ODU4LC0zNzM4MzY1ODgsLTE2MjQyOTYx
+NTQsLTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcsLTI3NjQ1OTIzMy
+w5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5LC0yMDI5
+NzQ3NjUwLC02MzAxNTM3ODAsMTYyMDE3MDA5MCw5NDg2OTE5ND
+AsMTc3NTQ3NTQxLC04MTg3NDM3NjddfQ==
 -->

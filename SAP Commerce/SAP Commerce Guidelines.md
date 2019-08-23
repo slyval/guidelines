@@ -188,12 +188,20 @@ As the name implies, this proxy represents a particular usage. As an example, yo
 
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
-- Always create facades as be
+- Always create facades as beans that are declared using annotations or xml configuration 
+- The name must:
+	- contain the suffix **Facade**
+	- contain only alphanumeric characters
+	- be in **Pascal** case
+- All attributes of a service must be in **Camel** case
+
+			Example: 	Interface: SaleAreaDeterminationService
+						Implementation: DefaultSalesAreaDeterminationService
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDE5MTIzOCw1OTk0Nzc5NDgsOTAxMj
-E1MDYyLC0xMzQ4MDAwNjE5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4
-OCwtMTYyNDI5NjE1NCwtMTAwMDk1ODY1NCwtMTMwNjM2NTI1Ny
-wtMjc2NDU5MjMzLDkxMzA4NTU0OSwxNjMyMjk2NjIyLC00Nzgz
-NDQxNDksLTIwMjk3NDc2NTAsLTYzMDE1Mzc4MCwxNjIwMTcwMD
-kwLDk0ODY5MTk0MCwxNzc1NDc1NDEsLTgxODc0Mzc2N119
+eyJoaXN0b3J5IjpbNjU0Njk3NzkzLDU5OTQ3Nzk0OCw5MDEyMT
+UwNjIsLTEzNDgwMDA2MTksLTE0MDAzNDg1OCwtMzczODM2NTg4
+LC0xNjI0Mjk2MTU0LC0xMDAwOTU4NjU0LC0xMzA2MzY1MjU3LC
+0yNzY0NTkyMzMsOTEzMDg1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0
+NDE0OSwtMjAyOTc0NzY1MCwtNjMwMTUzNzgwLDE2MjAxNzAwOT
+AsOTQ4NjkxOTQwLDE3NzU0NzU0MSwtODE4NzQzNzY3XX0=
 -->

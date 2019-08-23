@@ -214,13 +214,16 @@ The following should be adhered to when creating a controller:
 
 #### Bean Definition
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
-1
+- xml driven definition 
+- annotation driven definition
+
+It is advisable but not mandatory to use aliases so that when a bean is overridden,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTc0Nzk0LDEzOTkyNjMyMDgsLTQzNj
-k3ODQ4NSw4MzEzODU1NDAsOTUyOTc2OCwyNTk0NTE3NTMsNjU0
-Njk3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MT
-ksLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0x
-MDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMD
-g1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1
-MF19
+eyJoaXN0b3J5IjpbLTkwNTg0NjI1MCwxMzk5MjYzMjA4LC00Mz
+Y5Nzg0ODUsODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNzUzLDY1
+NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNj
+E5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwt
+MTAwMDk1ODY1NCwtMTMwNjM2NTI1NywtMjc2NDU5MjMzLDkxMz
+A4NTU0OSwxNjMyMjk2NjIyLC00NzgzNDQxNDksLTIwMjk3NDc2
+NTBdfQ==
 -->

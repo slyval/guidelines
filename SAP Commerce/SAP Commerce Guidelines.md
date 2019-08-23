@@ -222,10 +222,11 @@ It is advisable but not mandatory to use aliases. This makes it easier to overri
 When overriding a bean the following is mandatory: 
 - the overriding bean must define a parent and use the overriden bean or the parent of the overriden bean. 
 - parameters defined in the overriden bean must not be redeclared except in cases where new values are to be defined for the properties
-- **Camel** case must be used to for bean ids, names and aliases
-- 
+- **Camel** case must be used to for bean ids, names and aliases. This naturally applies for the properties owing to the conventions for services, facades, daos and controllers
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTE4NjA5MSwxMzk5MjYzMjA4LC00Mz
+eyJoaXN0b3J5IjpbMTM1MTcyMTA0NiwxMzk5MjYzMjA4LC00Mz
 Y5Nzg0ODUsODMxMzg1NTQwLDk1Mjk3NjgsMjU5NDUxNzUzLDY1
 NDY5Nzc5Myw1OTk0Nzc5NDgsOTAxMjE1MDYyLC0xMzQ4MDAwNj
 E5LC0xNDAwMzQ4NTgsLTM3MzgzNjU4OCwtMTYyNDI5NjE1NCwt

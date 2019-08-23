@@ -213,9 +213,9 @@ The following should be adhered to when creating a controller:
 - All attributes of a controller must be in **Camel** case, except for constants
 
 #### Bean Definition
-As mention above for services, facade and Data Access Objects, 
+The definition of services, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzc5NzM1NiwtNDM2OTc4NDg1LDgzMT
+eyJoaXN0b3J5IjpbMTM5OTI2MzIwOCwtNDM2OTc4NDg1LDgzMT
 M4NTU0MCw5NTI5NzY4LDI1OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5
 NDc3OTQ4LDkwMTIxNTA2MiwtMTM0ODAwMDYxOSwtMTQwMDM0OD
 U4LC0zNzM4MzY1ODgsLTE2MjQyOTYxNTQsLTEwMDA5NTg2NTQs

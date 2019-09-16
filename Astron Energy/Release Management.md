@@ -21,7 +21,7 @@ There are control mechanisms that have been put in place to manage changes so th
 -	When merging pull requests from deployment to quality_assurance, reviews and approvals are also required 
 -	when merging requests from quality_assurance to production, approvals are also required
 
-As a result of the abovem, 
+As a result of the above, no direct commits can be made onto the deployment, quality_assurance and production branches. Changes can only be integrated into these branches via pull requests. 
 
 ### Features, Bug Fixes and Hot Fixes
 #### Features
@@ -32,8 +32,11 @@ Bug fixing branches are for bug fixes that need to be performed in the developme
 #### Hot Fixes
 Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure of development->staging->production. A branch should be created off the **production** branch. After changes have been performed, the branch should be merged back into the production branch. After deployment, the same hotfix branch should be applied to all other branches so that when subsequent deployments are performed, the changes would not get overwritten. Hot fixing branched should be names as **bugfix/<short_descripion>**
 
+## Release Management
+To deploy any chja
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjE4NDIyNiwxNjM2NDg3NzMsLTI0MT
+eyJoaXN0b3J5IjpbMTgwODE4MjY4OSwxNjM2NDg3NzMsLTI0MT
 gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
 -->

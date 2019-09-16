@@ -18,8 +18,8 @@ In order to manage the different stages that source code goes through from initi
 There are control mechanisms that have been put in place to manage changes so that no unwanted changes are deployed without the necessary/requisite approvals
 
  1. Merging pull requests
-	 Merging 
+	 When merging requests from master to deployment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMT
-YwNDI5MDZdfQ==
+eyJoaXN0b3J5IjpbMTYzNjQ4NzczLC0yNDE4MjkwMDcsMTIxOD
+g2NDI2MCwxMTE2MDQyOTA2XX0=
 -->

@@ -42,15 +42,20 @@ For each environment, a build should be created before perfoming a deployment. T
  The versioning system that has been adopted is of the following format: **\<Major>.\<Minor>.\<Patch>**
 	 
  - The major version should only change with breaking changes such as after upgrade changes that impact from one major commerce version to another. 
-- The minor version should only change upon the addition of new features. 
+ - The minor version should only change upon the addition of new features. 
  - The patch version should only change upon the application of bug fixes or minor changes that do not constitute a feature
  
- It should be noted that whenever the major version changes the minor and patch version numbers must be reset to zero. The same applies to the patch version number when the minor version numbe
- - Naming convention 
+ It should be noted that whenever the major version changes the minor and patch version numbers must be reset to zero. The same applies to the patch version number when the minor version number changes. 
+ 
+#### Naming convention 
+Each build should be named as follows:
+ - The word Connect must be used as the prefix
+ - All development builds must be 
+
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NDcyMDcsLTEwMjE5MDcyMzUsMTYzNj
-Q4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2
-XX0=
+eyJoaXN0b3J5IjpbMTYxNDczNTYxNywtMTAyMTkwNzIzNSwxNj
+M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
+MDZdfQ==
 -->

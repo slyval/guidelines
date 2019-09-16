@@ -67,13 +67,15 @@ The build version must be sequential. When a build fails, a refresh must be used
 
 ### Deployments
 Once a build has been performed, it can be deployed to the corresponding environments. The following conventions must apply:
-- All development builds (wi
+- All development builds (with the suffix -SNAPSHOT) must only be deployed to the development environments
+- All staging builds (with the suffix -RELEASE) must only be deployed to the staging environments
+- All production builds must only be deployed to production 
 
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzM3NDkzMCwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbMTI0NDExMjI0OSwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

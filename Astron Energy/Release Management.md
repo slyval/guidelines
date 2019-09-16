@@ -10,9 +10,10 @@ The commerce cloud platform allows for source code to be managed from any git ba
 In order to manage the different stages that source code goes through from initial creation to deployment in production, multiple branches were created and are named below. 
 
  1. **master** - the master branch is the primary branch that is used to initiate any changes that need to be made. All users must checkout this branch to make any changes. If segregation of changes is required, feature branches can be created from the master branch and merged at a later point when the changes are ready to be integrated into the master branch. Creating feature branches for features or bug fixes is encouraged when multiple changes are being made concurrently. 
- 2. **deployment** - the deployment branch is used as the development branch. This implies that all build that need to be performed for the development environment will be done based on this branch. A pull request should be created from the master branch to the Q
+ 2. **deployment** - the deployment branch is used as the development branch. This implies that all builds that need to be performed for the development environment will be done based on this branch. A pull request should be created from the master branch to the deployment branch once a release to development is required. All bug fixes for development should also be performed using a branch created of the deployment branch. 
+ 3. **quaality_assurance** - this branch is used for all deployments to the staging environment. Build
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYwMTk5NzcsMTIxODg2NDI2MCwxMT
-E2MDQyOTA2XX0=
+eyJoaXN0b3J5IjpbMTcyMTEzMTQ4NiwxMjE4ODY0MjYwLDExMT
+YwNDI5MDZdfQ==
 -->

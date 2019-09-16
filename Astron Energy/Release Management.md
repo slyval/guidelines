@@ -17,9 +17,11 @@ In order to manage the different stages that source code goes through from initi
 ### Merging Control
 There are control mechanisms that have been put in place to manage changes so that no unwanted changes are deployed without the necessary/requisite approvals
 
- 1. Merging pull requests
-	 When merging requests from master to deployment.
+-	When merging requests from master to deployment, reviews are required and these will allow for changes to be reviewed and approved 
+-	When merging pull requests from deployment to quality assurance, reviews and approvals are also required 
+-	when merging requests from quality assut
+	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjQ4NzczLC0yNDE4MjkwMDcsMTIxOD
-g2NDI2MCwxMTE2MDQyOTA2XX0=
+eyJoaXN0b3J5IjpbMTYwNzg4NTgzMywxNjM2NDg3NzMsLTI0MT
+gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
 -->

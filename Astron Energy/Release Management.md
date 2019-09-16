@@ -72,11 +72,14 @@ Once a build has been performed, it can be deployed to the corresponding environ
 - All production builds must ONLY be deployed to production 
 
 #### Deployment Mode
-The initialization deployment mode must be used with great care. As a result, the following conve
+The initialization deployment mode must be used with great care. As a result, the following conventions apply:
+
+- The initialization deployment mode must NEVER be used when deploying to production as this results in all data being deleted
+- Initialization should oi
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjE5ODgyNiwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbMTUyNTQwMTA1MSwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

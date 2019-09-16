@@ -25,9 +25,9 @@ There are control mechanisms that have been put in place to manage changes so th
 #### Features
 When there is a new feature that needs to be added, it is advisable that a branch be created from master to cater for the new feature. The naming convention should be **feature/<short_description>**
 #### Bug Fixes
-Bug fixing branches are for bug fixes that need to be performed in the developmen
+Bug fixing branches are for bug fixes that need to be performed in the development or staging system. In order to be able to deploy the bug fix independently, a bug fix branch should be created off the corresponding branch. For development, a branch would be created off the 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDM2NTg5MSwxNjM2NDg3NzMsLTI0MT
-gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
+eyJoaXN0b3J5IjpbNjg5NzI1MTgyLDE2MzY0ODc3MywtMjQxOD
+I5MDA3LDEyMTg4NjQyNjAsMTExNjA0MjkwNl19
 -->

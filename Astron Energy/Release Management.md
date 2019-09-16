@@ -14,21 +14,26 @@ In order to manage the different stages that source code goes through from initi
  3. **quality_assurance** - this branch is used for all deployments to the staging environment. Builds for the staging environments should, therefore, be based on the quality_assurance branch. 
  4. **production** - the production branch is used for all releases to the production environment. Hotfixes for emergency issues in production should be performed off this branch
 
-### Merging Control
+### Change Control
 There are control mechanisms that have been put in place to manage changes so that no unwanted changes are deployed without the necessary/requisite approvals
 
 -	When merging requests from master to deployment, reviews are required and these will allow for changes to be reviewed and approved 
 -	When merging pull requests from deployment to quality_assurance, reviews and approvals are also required 
 -	when merging requests from quality_assurance to production, approvals are also required
 
+As a result of the abovem, 
+
 ### Features, Bug Fixes and Hot Fixes
 #### Features
-When there is a new feature that needs to be added, it is advisable that a branch be created from master to cater for the new feature. The naming convention should be **feature/<short_description>**. Once the changes have been completed in the feature branch, the 
+When there is a new feature that needs to be added, it is advisable that a branch be created from master to cater for the new feature. The naming convention should be **feature/<short_description>**. Once the changes have been completed in the feature branch, the branch must be merged back into master via a pull request. 
+
 #### Bug Fixes
 Bug fixing branches are for bug fixes that need to be performed in the development or staging system. In order to be able to deploy the bug fix independently, a bug fix branch should be created off the corresponding branch. For development, a branch would be created off the **deployment** branch and for staging, the **quality_assurance** branch would be used.  When the changes are done, the bug fix branch should be merged into the corresponding parent branch. Once the bug fix has been deployed, the bug fix branch should then be deployed to preceding branches. A staging bug fix branch should be applied to the master and deployment branches whereas a development bug fix should be merged to the master branch. This will ensure that changes are not ovewritten upon subsequent deployments. Bug fixing branches should be named as **bugfix/<short_description>**
 #### Hot Fixes
 Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure of development->staging->production. A branch should be created off the **production** branch. After changes have been performed, the branch should be merged back into the production branch. After deployment, the same hotfix branch should be applied to all other branches so that when subsequent deployments are performed, the changes would not get overwritten. Hot fixing branched should be names as **bugfix/<short_descripion>**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4OTc3NjQ3LDE2MzY0ODc3MywtMjQxOD
-I5MDA3LDEyMTg4NjQyNjAsMTExNjA0MjkwNl19
+eyJoaXN0b3J5IjpbLTgwMjE4NDIyNiwxNjM2NDg3NzMsLTI0MT
+gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
 -->

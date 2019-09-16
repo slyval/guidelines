@@ -21,10 +21,11 @@ There are control mechanisms that have been put in place to manage changes so th
 -	When merging pull requests from deployment to quality_assurance, reviews and approvals are also required 
 -	when merging requests from quality_assurance to production, approvals are also required
 
-### Temporary Branches
-When there are bug fixes that need to be performed in an environment, there
+### Features, Bug Fixes and Hot Fixes
+#### Features
+When there are new features to be built, it is advisable that a branch be created from master to cater for the new feature. The naming convention will be 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg5NTk5NTMsMTYzNjQ4NzczLC0yND
+eyJoaXN0b3J5IjpbLTE2MDAwOTE3OTgsMTYzNjQ4NzczLC0yND
 E4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2XX0=
 -->

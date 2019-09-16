@@ -49,13 +49,17 @@ For each environment, a build should be created before perfoming a deployment. T
  
 #### Naming convention 
 Each build should be named as follows:
- - The word Connect must be used as the prefix
- - All development builds must be 
+ - The word **Connectv** must be used as the prefix
+ - All development builds must be suffixed with **-SNAPSHOT**
+ - All staging build must be suffixed with **-RELEASE** 
+ - All production build must have no suffix
+ 
+		 An example would be: Connect
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDczNTYxNywtMTAyMTkwNzIzNSwxNj
-M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
-MDZdfQ==
+eyJoaXN0b3J5IjpbODIyNjM4NzE0LC0xMDIxOTA3MjM1LDE2Mz
+Y0ODc3MywtMjQxODI5MDA3LDEyMTg4NjQyNjAsMTExNjA0Mjkw
+Nl19
 -->

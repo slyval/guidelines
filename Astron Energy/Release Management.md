@@ -39,12 +39,13 @@ To deploy any changes to any of the environments in commerce cloud, there are tw
 For each environment, a build should be created before perfoming a deployment. The following conventions must be followed when creating a build. 
 	
  1. Verisoning 
-	 A
+	 The versioning system that has been adopted is of the following format: **\<Major>.\<Minor>.\<Patch>**
+	 The 
  2. Naming convention 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA3OTI1MDIsLTEwMjE5MDcyMzUsMT
-YzNjQ4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQy
-OTA2XX0=
+eyJoaXN0b3J5IjpbMjAyODM4MjMwMCwtMTAyMTkwNzIzNSwxNj
+M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
+MDZdfQ==
 -->

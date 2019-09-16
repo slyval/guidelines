@@ -71,11 +71,12 @@ Once a build has been performed, it can be deployed to the corresponding environ
 - All staging builds (with the suffix -RELEASE) must ONLY be deployed to the staging environments
 - All production builds must ONLY be deployed to production 
 
-#### Deployment 
+#### Deployment Mode
+The initialization deployment mode must be used with great care. As a result, the following conve
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA0NTk1MzIsLTEwMjE5MDcyMzUsMT
-YzNjQ4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQy
-OTA2XX0=
+eyJoaXN0b3J5IjpbLTY2NjE5ODgyNiwtMTAyMTkwNzIzNSwxNj
+M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
+MDZdfQ==
 -->

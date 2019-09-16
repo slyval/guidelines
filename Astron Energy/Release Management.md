@@ -54,12 +54,14 @@ Each build should be named as follows:
  - All staging build must be suffixed with **-RELEASE** 
  - All production build must have no suffix
  
-		 An example would be: Connect
+		 An example would be: Connectv1.1.1-SNAPSHOT for development, Connectv1.1.1-RELEASE for staging and ConnectV1.1.1 for production
+
+
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNjM4NzE0LC0xMDIxOTA3MjM1LDE2Mz
-Y0ODc3MywtMjQxODI5MDA3LDEyMTg4NjQyNjAsMTExNjA0Mjkw
-Nl19
+eyJoaXN0b3J5IjpbLTEwMDcwOTI1MTMsLTEwMjE5MDcyMzUsMT
+YzNjQ4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQy
+OTA2XX0=
 -->

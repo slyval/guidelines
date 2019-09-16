@@ -9,8 +9,8 @@ The commerce cloud platform allows for source code to be managed from any git ba
 ### Branching 
 In order to manage the different stages that source code goes through from initial creation to deployment in production, multiple branches were created and are named below. 
 
- 1. **master** - the master branch is the primary branch that is used to initiate any changes that need to be made. All users must checkout this branch to make any changes. If segregation of chnages is required, feature branches can be created from the master branch
+ 1. **master** - the master branch is the primary branch that is used to initiate any changes that need to be made. All users must checkout this branch to make any changes. If segregation of changes is required, feature branches can be created from the master branch and merged at a later point when the changes are ready to be integrated into the master branch. Creating feature branches for features or bug fixes is encouraged when multiple change
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTc5OTc0NV19
+eyJoaXN0b3J5IjpbNDkzMTA0MDE1XX0=
 -->

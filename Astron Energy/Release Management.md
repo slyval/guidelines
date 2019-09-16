@@ -18,10 +18,13 @@ In order to manage the different stages that source code goes through from initi
 There are control mechanisms that have been put in place to manage changes so that no unwanted changes are deployed without the necessary/requisite approvals
 
 -	When merging requests from master to deployment, reviews are required and these will allow for changes to be reviewed and approved 
--	When merging pull requests from deployment to quality assurance, reviews and approvals are also required 
--	when merging requests from quality assut
+-	When merging pull requests from deployment to quality_assurance, reviews and approvals are also required 
+-	when merging requests from quality_assurance to production, approvals are also required
+
+### Temporary Branches
+When there 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzg4NTgzMywxNjM2NDg3NzMsLTI0MT
-gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDc2MTQ4MjAsMTYzNjQ4NzczLC0yND
+E4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2XX0=
 -->

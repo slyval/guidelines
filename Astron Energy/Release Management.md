@@ -15,11 +15,11 @@ In order to manage the different stages that source code goes through from initi
  4. **production** - the production branch is used for all releases to the production environment. Hotfixes for emergency issues in production should be performed off this branch
 
 ### Merging Control
-There are control mechanisms that have put in place to enable change control mechanisms to be managed effectively. They are as follows:
+There are control mechanisms that have been put in place to manage changes so that no unwanted changes are deployed without the necessary/requisite chan
 
  1. Merging pull requests
 	 Merging 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTY2NDQ5LDEyMTg4NjQyNjAsMTExNj
-A0MjkwNl19
+eyJoaXN0b3J5IjpbMTA3ODQzNTcwNSwxMjE4ODY0MjYwLDExMT
+YwNDI5MDZdfQ==
 -->

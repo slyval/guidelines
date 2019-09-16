@@ -47,7 +47,7 @@ For each environment, a build should be created before perfoming a deployment. T
  
  It should be noted that whenever the major version changes the minor and patch version numbers must be reset to zero. The same applies to the patch version number when the minor version number changes. 
  
-#### Naming convention 
+#### Naming conventions 
 Each build should be named as follows:
  - The word **Connectv** must be used as the prefix
  - All development builds must be suffixed with **-SNAPSHOT**
@@ -79,7 +79,7 @@ The initialization deployment mode must be used with great care. As a result, th
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjI1MTk1NiwtMTAyMTkwNzIzNSwxNj
-M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTM5NTg1MDUsMTM3MjI1MTk1NiwtMT
+AyMTkwNzIzNSwxNjM2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0
+MjYwLDExMTYwNDI5MDZdfQ==
 -->

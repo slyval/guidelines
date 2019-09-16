@@ -38,7 +38,7 @@ To deploy any changes to any of the environments in commerce cloud, there are tw
 ### Building 
 For each environment, a build should be created before perfoming a deployment. The following conventions must be followed when creating a build. 
 	
- #### Versioning 
+#### Versioning 
  The versioning system that has been adopted is of the following format: **\<Major>.\<Minor>.\<Patch>**
 	 
  - The major version should only change with breaking changes such as after upgrade changes that impact from one major commerce version to another. 
@@ -56,12 +56,14 @@ Each build should be named as follows:
  
 		 An example would be: Connectv1.1.1-SNAPSHOT for development, Connectv1.1.1-RELEASE for staging and ConnectV1.1.1 for production
 
+The build version must be sequential. Even when a build version, a refresh must be used to rebuild o
+
 
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDcwOTI1MTMsLTEwMjE5MDcyMzUsMT
-YzNjQ4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQy
-OTA2XX0=
+eyJoaXN0b3J5IjpbLTcxNDE0NDAwOCwtMTAyMTkwNzIzNSwxNj
+M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
+MDZdfQ==
 -->

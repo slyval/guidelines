@@ -27,8 +27,8 @@ When there is a new feature that needs to be added, it is advisable that a branc
 #### Bug Fixes
 Bug fixing branches are for bug fixes that need to be performed in the development or staging system. In order to be able to deploy the bug fix independently, a bug fix branch should be created off the corresponding branch. For development, a branch would be created off the **deployment** branch and for staging, the **quality_assurance** branch would be used. 
 #### Hot Fixes
-Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure
+Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure of development->staging->production. A branch should be created off the **production** branch. After changes have been performed, the branch should be merged back into the production branch. After deployment, the same hotfix branch should be applied to master so a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzIxMTg0NywxNjM2NDg3NzMsLTI0MT
+eyJoaXN0b3J5IjpbLTQxMTE5OTE4MywxNjM2NDg3NzMsLTI0MT
 gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
 -->

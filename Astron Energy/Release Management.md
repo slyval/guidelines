@@ -1,4 +1,4 @@
-# Connect Release Strategy
+# Connect Release Management
 
 ## Purpose
 This document provides guidance on how to manage the making of changes and their deployment from github to Commerce Cloud version 2 (CCv2) for the Astron Energy Connect ecommerce site. For uniformity and to avoid confusion between different people that might be involved in managing releases and deployments, it's important to adhere to the guidance provided. 
@@ -79,7 +79,7 @@ The initialization deployment mode must be used with great care. As a result, th
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzQwMzM5NiwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbMTM3MjI1MTk1NiwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

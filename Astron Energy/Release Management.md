@@ -56,14 +56,16 @@ Each build should be named as follows:
  
 		 An example would be: Connectv1.1.1-SNAPSHOT for development, Connectv1.1.1-RELEASE for staging and ConnectV1.1.1 for production
 
-The build version must be sequential. Even when a build version, a refresh must be used to rebuild o
+The build version must be sequential. When a build fails, a refresh must be used to rebuild or if a new build is created, the same version number must be used so as not to change version numbers as a result of build failures. 
 
+### Deployments
+Once a build has been performed, it can be deployed to the corresponding environments. 
 
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDE0NDAwOCwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbMTg0MzYyOTc0NiwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

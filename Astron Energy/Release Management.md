@@ -38,17 +38,19 @@ To deploy any changes to any of the environments in commerce cloud, there are tw
 ### Building 
 For each environment, a build should be created before perfoming a deployment. The following conventions must be followed when creating a build. 
 	
- - Versioning 
-	 The versioning system that has been adopted is of the following format: **\<Major>.\<Minor>.\<Patch>**
+ #### Versioning 
+ The versioning system that has been adopted is of the following format: **\<Major>.\<Minor>.\<Patch>**
 	 
-	 - The major version should only change with breaking changes such as after upgrade changes that impact from one major commerce version to another. 
-	 - The minor version should only change upon the addition of new features. 
-	 - The patch version should only change upon the application of bug fixes or minor changes that do not constitute a feature
+ - The major version should only change with breaking changes such as after upgrade changes that impact from one major commerce version to another. 
+- The minor version should only change upon the addition of new features. 
+ - The patch version should only change upon the application of bug fixes or minor changes that do not constitute a feature
+ 
+ It should be noted that whenever the major version changes the minor and patch version numbers must be reset to zero. The same applies to the patch version number when the minor version numbe
  - Naming convention 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTY5NzUsLTEwMjE5MDcyMzUsMTYzNj
+eyJoaXN0b3J5IjpbNTM4NDcyMDcsLTEwMjE5MDcyMzUsMTYzNj
 Q4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2
 XX0=
 -->

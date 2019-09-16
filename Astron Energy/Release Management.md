@@ -36,11 +36,15 @@ Hot fixes are emergency fixes that need to be applied to production without goin
 To deploy any changes to any of the environments in commerce cloud, there are two actions that must be performed in the Commerce Cloud Portal.  They are as follows:
 
 ### Building 
-For each environment, a build should be created before perfoming a deployment.
-
+For each environment, a build should be created before perfoming a deployment. The following conventions must be followed when creating a build. 
+	
+ 1. Verisoning 
+	 A
+ 2. Naming convention 
+	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzUzNTgyNSwtMTAyMTkwNzIzNSwxNj
-M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTE1MjA3OTI1MDIsLTEwMjE5MDcyMzUsMT
+YzNjQ4NzczLC0yNDE4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQy
+OTA2XX0=
 -->

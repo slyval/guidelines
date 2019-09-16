@@ -56,6 +56,12 @@ Each build should be named as follows:
  
 		 An example would be: Connectv1.1.1-SNAPSHOT for development, Connectv1.1.1-RELEASE for staging and ConnectV1.1.1 for production
 
+#### Source Branches
+As alluded to before, the correct branch must be used for the corresponding environment as follows:
+
+ - For development builds, the **deployment** branch must be used
+ - For staging build, the **quality_
+
 The build version must be sequential. When a build fails, a refresh must be used to rebuild or if a new build is created, the same version number must be used so as not to change version numbers as a result of build failures. 
 
 ### Deployments
@@ -65,7 +71,7 @@ Once a build has been performed, it can be deployed to the corresponding environ
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzYyOTc0NiwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbMTEzMjczNTA0MSwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

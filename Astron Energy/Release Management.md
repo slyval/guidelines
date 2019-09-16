@@ -23,9 +23,11 @@ There are control mechanisms that have been put in place to manage changes so th
 
 ### Features, Bug Fixes and Hot Fixes
 #### Features
-When there are new features to be built, it is advisable that a branch be created from master to cater for the new feature. The naming convention will be 
+When there is a new feature that needs to be added, it is advisable that a branch be created from master to cater for the new feature. The naming convention should be **feature/<short_description>**
+#### Bug Fixes
+Bug fixing branches are for bug fixes that need to be performed in the developmen
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAwOTE3OTgsMTYzNjQ4NzczLC0yND
-E4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2XX0=
+eyJoaXN0b3J5IjpbMjAyNDM2NTg5MSwxNjM2NDg3NzMsLTI0MT
+gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
 -->

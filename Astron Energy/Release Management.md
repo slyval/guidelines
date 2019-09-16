@@ -25,10 +25,10 @@ There are control mechanisms that have been put in place to manage changes so th
 #### Features
 When there is a new feature that needs to be added, it is advisable that a branch be created from master to cater for the new feature. The naming convention should be **feature/<short_description>**
 #### Bug Fixes
-Bug fixing branches are for bug fixes that need to be performed in the development or staging system. In order to be able to deploy the bug fix independently, a bug fix branch should be created off the corresponding branch. For development, a branch would be created off the **deployment** branch and for staging, the **quality_assurance** branch would be used. 
+Bug fixing branches are for bug fixes that need to be performed in the development or staging system. In order to be able to deploy the bug fix independently, a bug fix branch should be created off the corresponding branch. For development, a branch would be created off the **deployment** branch and for staging, the **quality_assurance** branch would be used.  Bug 
 #### Hot Fixes
-Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure of development->staging->production. A branch should be created off the **production** branch. After changes have been performed, the branch should be merged back into the production branch. After deployment, the same hotfix branch should be applied to master so a
+Hot fixes are emergency fixes that need to be applied to production without going through the normal change procedure of development->staging->production. A branch should be created off the **production** branch. After changes have been performed, the branch should be merged back into the production branch. After deployment, the same hotfix branch should be applied to all other branches so that when subsequent deployments are performed, the changes would not get overwritten. Hot fixing branched should be names as **bugfix/<short_descripion>**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTE5OTE4MywxNjM2NDg3NzMsLTI0MT
-gyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5MDZdfQ==
+eyJoaXN0b3J5IjpbLTEzOTA5MTc2NjgsMTYzNjQ4NzczLC0yND
+E4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2XX0=
 -->

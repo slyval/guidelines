@@ -14,10 +14,12 @@ In order to manage the different stages that source code goes through from initi
  3. **quality_assurance** - this branch is used for all deployments to the staging environment. Builds for the staging environments should, therefore, be based on the quality_assurance branch. 
  4. **production** - the production branch is used for all releases to the production environment. Hotfixes for emergency issues in production should be performed off this branch
 
-### Control Mechanisms
-There are control mechanisms that have put in place to enable change control mech
+### Merging Control
+There are control mechanisms that have put in place to enable change control mechanisms to be managed effectively. They are as follows:
 
+ 1. Merging pull requests
+	 Merging 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDYyMDc0LDEyMTg4NjQyNjAsMTExNj
+eyJoaXN0b3J5IjpbMTQxMTY2NDQ5LDEyMTg4NjQyNjAsMTExNj
 A0MjkwNl19
 -->

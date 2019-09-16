@@ -8,7 +8,7 @@ This is a living document and will be updated from time to time. Ensure that you
 ## Solution
 	
 ##### Version
-The commerce utilized should always be the latest version unless the customer has a specific choice
+Unless there is a customer specification, the latest version of commerce released should always be utilized
 
 ##### Initialisation 
 When starting a commerce project:
@@ -240,11 +240,11 @@ Standalone bean example:
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDM5NzI3LDEzOTkyNjMyMDgsLTQzNj
-k3ODQ4NSw4MzEzODU1NDAsOTUyOTc2OCwyNTk0NTE3NTMsNjU0
-Njk3NzkzLDU5OTQ3Nzk0OCw5MDEyMTUwNjIsLTEzNDgwMDA2MT
-ksLTE0MDAzNDg1OCwtMzczODM2NTg4LC0xNjI0Mjk2MTU0LC0x
-MDAwOTU4NjU0LC0xMzA2MzY1MjU3LC0yNzY0NTkyMzMsOTEzMD
-g1NTQ5LDE2MzIyOTY2MjIsLTQ3ODM0NDE0OSwtMjAyOTc0NzY1
-MF19
+eyJoaXN0b3J5IjpbMjA5ODkxMzA3MSwtOTYwMzk3MjcsMTM5OT
+I2MzIwOCwtNDM2OTc4NDg1LDgzMTM4NTU0MCw5NTI5NzY4LDI1
+OTQ1MTc1Myw2NTQ2OTc3OTMsNTk5NDc3OTQ4LDkwMTIxNTA2Mi
+wtMTM0ODAwMDYxOSwtMTQwMDM0ODU4LC0zNzM4MzY1ODgsLTE2
+MjQyOTYxNTQsLTEwMDA5NTg2NTQsLTEzMDYzNjUyNTcsLTI3Nj
+Q1OTIzMyw5MTMwODU1NDksMTYzMjI5NjYyMiwtNDc4MzQ0MTQ5
+XX0=
 -->

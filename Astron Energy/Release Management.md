@@ -22,9 +22,9 @@ There are control mechanisms that have been put in place to manage changes so th
 -	when merging requests from quality_assurance to production, approvals are also required
 
 ### Temporary Branches
-When there 
+When there are bug fixes that need to be performed in an environment, there
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc2MTQ4MjAsMTYzNjQ4NzczLC0yND
+eyJoaXN0b3J5IjpbLTE2Njg5NTk5NTMsMTYzNjQ4NzczLC0yND
 E4MjkwMDcsMTIxODg2NDI2MCwxMTE2MDQyOTA2XX0=
 -->

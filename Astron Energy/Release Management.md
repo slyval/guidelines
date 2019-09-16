@@ -60,18 +60,20 @@ Each build should be named as follows:
 As alluded to before, the correct branch must be used for the corresponding environment as follows:
 
  - For development builds, the **deployment** branch must be used
- - For staging build, the **quality_
+ - For staging build, the **quality_assurance** branch must be used 
+ - For production, the **production** branch or a tag must be used
 
 The build version must be sequential. When a build fails, a refresh must be used to rebuild or if a new build is created, the same version number must be used so as not to change version numbers as a result of build failures. 
 
 ### Deployments
-Once a build has been performed, it can be deployed to the corresponding environments. 
+Once a build has been performed, it can be deployed to the corresponding environments. The following conventions must apply:
+- All development builds (wi
 
 
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjczNTA0MSwtMTAyMTkwNzIzNSwxNj
+eyJoaXN0b3J5IjpbLTIyNzM3NDkzMCwtMTAyMTkwNzIzNSwxNj
 M2NDg3NzMsLTI0MTgyOTAwNywxMjE4ODY0MjYwLDExMTYwNDI5
 MDZdfQ==
 -->

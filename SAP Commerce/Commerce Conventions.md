@@ -60,8 +60,8 @@ When generating an extension, a template extension is required. The correct temp
 Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, css among others. 
 	
 	The **yaddon** template must be used
-- Extension 
-	Any other extensions 
+- Web Service Extension 
+	Web service extensions must use the **ywebservices** or **ycommercewebservices** extensions as templates
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -273,7 +273,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk5ODE0MiwtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMTMzNzAwOTQ1OCwtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

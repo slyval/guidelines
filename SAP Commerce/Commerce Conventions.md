@@ -93,10 +93,12 @@ If the separation between above is too granular for certain functions, then pack
 	- Other Extensions
 		All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
 
-- A base package for an extension is also required when  generating an extension. Refere to the **Packaging** section for guidelines.
+- A base package for an extension is also required when  generating an extension. The name oRefere to the **Packaging** section for guidelines.
 
 ### Packaging
-In the **Initial considerations**, guidance for the project base package was provi
+In the **Initial considerations**, guidance for the project base package was provided.
+
+Additionally, package are required for grouping relates source code in extensions. When generating an extension, an extension base package is required. 
 	
 ### Data Model
 
@@ -278,7 +280,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5Mjg3NjgzLC0xOTk5NDE3NzExLDEwNj
-U2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5
-MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTczNzI4NjMyNSwtMTk5OTQxNzcxMSwxMD
+Y1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4
+OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

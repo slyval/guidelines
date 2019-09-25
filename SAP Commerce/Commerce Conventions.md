@@ -14,9 +14,9 @@ When starting a commerce project, the following should considerations must be ma
 - Development and Release Management
 	There are 3 aspects to consider in this regard and they are:
      - Source Code Management 
-     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be GitHub. 
+     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be **GitHub**. 
      - Release Management and Versioning 
-     There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
+     There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - **master** & **develop** must be used. These are supported by temporary ***feature***, ***release***, ***bugfix***(not always necessary) and ***hotfix*** branches. 
      - Version System 
      A versioning system must be derived and that should consist of a major version, a minor version as well as a patch version. This can be prefixed with a name that relates to the project. 
 			     
@@ -45,10 +45,7 @@ The defacto standard CI tool for our projects is Jenkins. For all projects, with
 #### Solution Bootstraping
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
 
-For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the 
-- A development configuration must be used that will generate the **config** folder
-- When doing a B2C or B2B solution with a webshop or storefront:
-	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
+For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task
 	- When generating manually, the tempate that must be used is ****accelerator****
 	- A good name must be chosen for the project as that will affect names of extensions. A good starting point will be  to use the project name
 	- A root package must be chosen carefully and must loosely follow the following convention:
@@ -277,7 +274,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjczNjk1NzIsLTg0ODIxMjUyNiwtOD
-A5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5
-NzYyMl19
+eyJoaXN0b3J5IjpbNjc3OTQzMDM5LC04NDgyMTI1MjYsLTgwOT
+Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
+MjJdfQ==
 -->

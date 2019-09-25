@@ -74,8 +74,7 @@ Addons are only created when intending to define or overwrite web content in the
 - An addon must have the suffix ***addon***
 	> Example: customb2baccelratoraddon
 	
-
-- When overriding a standard extension, the prefix ***custom*** must be included. An exception is when a customer requests otherwise
+- When overriding a standard extension, the prefix ***custom***  or **\<project name>** must precede the name of the standar
 	> Examples: customsapintegrationservices
 
 - Names are important. The name must convey intent. Therefore, 
@@ -275,7 +274,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTY2NjQ5MywtODQ4MjEyNTI2LC04MD
-k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbMjMwNDQ5NTQ1LC04NDgyMTI1MjYsLTgwOT
+Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
+MjJdfQ==
 -->

@@ -66,15 +66,14 @@ Addons are only created when intending to define or overwrite web content in the
 	All other extensions must use a corresponding template if there is one. Otherwise, all other extensions must use the **yempty** template
 	
 #### Naming  Conventions
-- An extension name must: 
+- All extension names must: 
 	- Only contain alphanumeric characters
 	- Only contain lowercase letters
 	> Example: customordermanagementservices
 	
-- An addon is a special type of an extension and must have the suffix ***addon***
+- An addon must have the suffix ***addon***
 	> Example: customb2baccelratoraddon
-
-- An addon must only be created for the purposes of overwritting or defining web based functionality. This includes the definition or extension of styling, javascript scripting, and  page, view or tag definition. An extension for webservices or REST APIs is ***not*** an addon
+	
 
 - When overriding a standard extension, the prefix ***custom*** must be included. An exception is when a customer requests otherwise
 	> Examples: customsapintegrationservices
@@ -276,7 +275,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjMwNzI2MywtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMTY5NTY2NjQ5MywtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

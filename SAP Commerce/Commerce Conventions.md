@@ -53,7 +53,7 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 ### Extensions
 Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of functionality but must be created to logically group functionality.  
 
-Besides functionality the general purpose grouping should consist of the following:
+Besides functionality the general purpose grouping should consist of the following for the core are:
 
 - Services extensions (in an accelerator these might have the suffix **core** )
 - Facades extensions 
@@ -271,7 +271,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtOD
-Q4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3
-NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTEzMDgxODk2NDYsLTE5OTk0MTc3MTEsMT
+A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
+ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

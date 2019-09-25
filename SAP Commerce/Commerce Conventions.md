@@ -51,7 +51,11 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 ## Implementation Guidelines
 
 ### Extensions
-Extensions are created  through either **modulegen** when initializing the project or **extgen**
+Extensions are created  through either **modulegen** when initializing the project or **extgen**. 
+
+When creating an extension the following consideration are important:
+#### Generation 
+When generating an extension, a template extension is required. The correct template must 
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -263,7 +267,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDA4MjkwMiwtODQ4MjEyNTI2LC04MD
-k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbODY1NjA4MzU0LC04NDgyMTI1MjYsLTgwOT
+Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
+MjJdfQ==
 -->

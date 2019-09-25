@@ -75,12 +75,12 @@ Addons are only created when intending to define or overwrite web content in the
 	> Example: customb2baccelratoraddon
 	
 - When overriding a standard extension, the prefix ***custom***  or **\<project name>** must precede the name of the standard extension. 
-	> Example: When overriding the extension sapintegrationservices, the name can be customsapintegrationservices or customintegrationservices
+	> Example: When overriding the extension sapintegrationservices, the name can be customintegrationservices or testprojectintegrationservices
 
-- Names are important. The name must convey intent. Therefore, 
+-All extension names must convey intent. Therefore, 
 	- An extension for services must contain the suffix ***services***
 	- An extension for facades must contain the suffix ***facades***
-	- An extension for data access objects must contain the suffix ***daos*** if applicable
+	- An extension for data access objects must contain the suffix ***daos*** 
 	> Examples: sapordermanagementservices, commercefacades
 
 #### Generation 
@@ -274,7 +274,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTIzNDg4NSwtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMjEwNzY4Nzc4MSwtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

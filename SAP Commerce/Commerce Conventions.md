@@ -51,7 +51,9 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 ## Implementation Guidelines
 
 ### Extensions
-Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of function
+Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of functionality but must be created to logically group functionality.  
+
+Besides functionality the followin
 
 When creating an extension the following consideration are important:
 #### Generation 
@@ -264,7 +266,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTUxNTA4NCwxMDY1NjE3MTI2LC04ND
-gyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0
-NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbNTY4NTQxMzgsMTA2NTYxNzEyNiwtODQ4Mj
+EyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2
+NCwyMDQwMjk3NjIyXX0=
 -->

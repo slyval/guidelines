@@ -14,13 +14,14 @@ When starting a commerce project, the following should considerations must be ma
 - Development and Release Management
 	There are 3 aspects to consider in this regard and they are:
      - Source Code Management 
-     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be Github. 
+     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be GitHub. 
      - Release Management and Versioning 
      There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
      - Version System 
-     A versioning system must be derived and that should consist of a major version, a minor version as well as a patch version. This can be prefixed with a name that relates to the p
+     A versioning system must be derived and that should consist of a major version, a minor version as well as a patch version. This can be prefixed with a name that relates to the project. 
+			     
+			     An example is Testv0.1.0
 	    
-
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
 	SonarLint must be installed and (if feasible), connected to the central SonarQube server for rules
@@ -261,6 +262,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzg0OTk2NSwxNjUyMTY4OTI0LC0xMT
+eyJoaXN0b3J5IjpbLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMT
 E3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

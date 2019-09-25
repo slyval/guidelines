@@ -3,7 +3,7 @@
 ## Purpose
 The purpose of this document is to provide guidance in relation to the implementation of SAP Commerce Cloud. The benefit of these guidlines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
 
-This document will be updated whenever there are new guid 
+This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce Cloud projects.  SAP Commerce Cloud refers to both the on-premise and 
 
 ## Solution
 	
@@ -243,5 +243,5 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTU2Mjk1NywyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTEzNDYwNTc3MTcsMjA0MDI5NzYyMl19
 -->

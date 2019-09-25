@@ -18,7 +18,7 @@ When starting a commerce project, the following should considerations must be ma
      - Release Management and Versioning 
      There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
      - Version System 
-     A 
+     A versioning system must be derived and that should consist of a major version, a minor version as well as a patch version. This can be prefixed with a name that relates to the p
 	    
 
 - Integrated Development Environment
@@ -261,6 +261,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTg3NTEyMiwxNjUyMTY4OTI0LC0xMT
+eyJoaXN0b3J5IjpbLTQzNzg0OTk2NSwxNjUyMTY4OTI0LC0xMT
 E3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

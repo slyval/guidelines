@@ -101,7 +101,7 @@ If the separation between above is too granular for certain functions, then pack
 
 ### Packaging
 All package names must:
-- show intent 
+- show intented use as a container
 - be in lowercase 
 
 ### Data Model
@@ -284,7 +284,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDQ3MzQxMSwtMTk5OTQxNzcxMSwxMD
+eyJoaXN0b3J5IjpbMjA1NDg3MDQxNywtMTk5OTQxNzcxMSwxMD
 Y1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4
 OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

@@ -14,9 +14,10 @@ Purpose of Document
  - Essential Data
  - Testing
  - Static Code Analysis
+ - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk4MDQ4MjAsLTM0OTY1NjgyMywtOD
+eyJoaXN0b3J5IjpbLTEyNDA1NDY5NDksLTM0OTY1NjgyMywtOD
 kyNzMwNjU5XX0=
 -->

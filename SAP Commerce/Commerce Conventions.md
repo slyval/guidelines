@@ -81,15 +81,17 @@ If the separation between above is too granular for certain functions, then pack
 	> Examples: sapordermanagementservices, commercefacades
 
 #### Generation 
-1. When generating an extension, a template extension is required. The correct template must be used and the following guidelines will help:
-- Addons 
-Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, css among others. 
-	
-	The **yaddon** template must be used
-- Web Service Extension 
-	Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
-- Other Extensions
-	All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
+- When generating an extension, a template extension is required. The correct template must be used and the following guidelines will help:
+	- Addons 
+	Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, css among others. 
+		
+		The **yaddon** template must be used
+	- Web Service Extension 
+		Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
+	- Other Extensions
+		All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
+
+- A base package for an extension is also required when  generating an extension. Refere to the **Packaging** section for guidelines.
 	
 ### Data Model
 
@@ -271,7 +273,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDg4NjY0NiwtMTk5OTQxNzcxMSwxMD
-Y1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4
-OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMjI0MDI0MjIxLC0xOTk5NDE3NzExLDEwNj
+U2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5
+MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
 -->

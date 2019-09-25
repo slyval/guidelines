@@ -66,7 +66,7 @@ If the separation between above is too granular for certain functions, then pack
 #### Naming  Conventions
 - All extension names must: 
 	- Only contain alphanumeric characters
-	- Only contain lowercase letters
+	- Only contain lowercase characters
 	> Example: customordermanagementservices
 	
 - An addon must have the suffix ***addon***
@@ -110,8 +110,6 @@ All package names must:
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
 	- Must use **Pascal** case
-	 
-			 Examples: OrderTypes as an enum, Order2InvoiceRel for a relation, Order for an item type
 		 
 - Except where necessary, the name of the deployment table must be the same as the name of the item or relation
 - For item and relation attributes, **Camel** case must be utilised
@@ -284,7 +282,8 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
-A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
-ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOT
+k5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1
+MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl
+19
 -->

@@ -8,7 +8,7 @@ This document will be updated whenever there are new guidelines. It is best to a
 ## Solution
 	
 
-##### Initialisation 
+#### Initial Considerations
 When starting a commerce project:
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
@@ -241,5 +241,5 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjA5ODkxOSwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTEyODcyNTM0NiwyMDQwMjk3NjIyXX0=
 -->

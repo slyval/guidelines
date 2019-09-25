@@ -50,6 +50,8 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 
 ## Implementation Guidelines
 
+### General Architecture
+
 ### Extensions
 Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of functionality but must be created to logically group functionality.  
 
@@ -92,6 +94,9 @@ If the separation between above is too granular for certain functions, then pack
 		All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
 
 - A base package for an extension is also required when  generating an extension. Refere to the **Packaging** section for guidelines.
+
+### Packaging
+In the **Initial considerations**, guidance for the project base package was provi
 	
 ### Data Model
 
@@ -273,7 +278,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MDI0MjIxLC0xOTk5NDE3NzExLDEwNj
+eyJoaXN0b3J5IjpbNzQ5Mjg3NjgzLC0xOTk5NDE3NzExLDEwNj
 U2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5
 MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
 -->

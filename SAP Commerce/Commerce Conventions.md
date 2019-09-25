@@ -12,9 +12,14 @@ This document will be updated whenever there are new guidelines. It is best to a
 When starting a commerce project, the following should considerations must be made:
 
 - Development and Release Management
-	There are 2 aspects to consider in this regard and they are:
-     - Source Code Management - this relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be Github. 
-     - Release Management and Versioning - there is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
+	There are 3 aspects to consider in this regard and they are:
+     - Source Code Management 
+     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be Github. 
+     - Release Management and Versioning 
+     There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
+     - Version System 
+     A 
+	    
 
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
@@ -22,7 +27,7 @@ When starting a commerce project, the following should considerations must be ma
 - Static Code Analysis
 SonarQube is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
 
-- Continuous Integration 
+- Continuous Integration and Deployment
 The defacto standard CI tool for our projects is Jenkins. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
 
 - A development configuration must be used that will generate the **config** folder
@@ -256,6 +261,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMD
-QwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTkzOTg3NTEyMiwxNjUyMTY4OTI0LC0xMT
+E3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

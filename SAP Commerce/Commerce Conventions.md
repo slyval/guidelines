@@ -105,7 +105,7 @@ All package names must:
 - be in lowercase 
 
 ### Data Model
-All data models or items mus
+All data models or items must be created in the *-items.xml file in the resources folder of an extension. 
 #### Items, Relations and Enums
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
@@ -278,7 +278,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODEwMTk2MSw4NjgzMDQ4MTgsLTE4Mz
+eyJoaXN0b3J5IjpbLTMzNDM0NTczNiw4NjgzMDQ4MTgsLTE4Mz
 MxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEy
 NTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NC
 wyMDQwMjk3NjIyXX0=

@@ -51,7 +51,7 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 ## Implementation Guidelines
 
 ### Extensions
-Extensions are created  through either **modulegen** when i
+Extensions are created  through either **modulegen** when initializing the project or **extgen**
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -263,7 +263,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODM4ODUxNCwtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbLTY3NDA4MjkwMiwtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

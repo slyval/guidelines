@@ -27,7 +27,8 @@ A base package that will be used accross all packages should be determined. The 
 	> com.\<customername>.\<projectname> 
 	An example would be: com.testcustomer.testproject
 
-	The creation of a base package implies that an package in any extensuo
+	The creation of a base package implies that an package in any extension that is part of the project must be prefixed with the base package name
+	
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
 	SonarLint must be installed and (if feasible), connected to the central SonarQube server for rules
@@ -37,6 +38,8 @@ SonarQube is the defacto standard for static code analyses for SAP Commerce. A c
 - Continuous Integration and Deployment
 The defacto standard CI tool for our projects is Jenkins. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
 
+- Local Development Environment 
+	- Databa
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -268,6 +271,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgzMzEyMDgsLTgwOTQ4NTAxMiwxNj
-UyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTQxMTIzMDQ1LC04MDk0ODUwMTIsMTY1Mj
+E2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

@@ -16,7 +16,8 @@ When starting a commerce project, the following should considerations must be ma
      - Source Code Management - this relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be Github. 
      - Release Management and Versioning - there is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - master & develop must be used. These are supported by temporary feature, release, bugfix(not always necessary) and hotfix branches. 
 
-- 
+- Development Environment
+	Without being prescriptive, an IDE of choice should be used as long as it support usage of SonarLint and other tools. Having said this, the IDEs of choice are Spri
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -248,5 +249,5 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODY3OTY1NiwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTc1ODc0MjcxMywyMDQwMjk3NjIyXX0=
 -->

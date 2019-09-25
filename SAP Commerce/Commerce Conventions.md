@@ -55,8 +55,10 @@ Extensions are containers for common logic that achieves a particular purpose. T
 
 Besides functionality the general purpose grouping should consist of the following:
 
-- Services Extensions (i n an accelerator
-- 
+- Services extensions (in an accelerator these might have the suffix **core** )
+- Facades extensions 
+- Data Access Objects extensions
+
 
 When creating an extension the following consideration are important:
 #### Generation 
@@ -269,7 +271,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgxNDkxOTcsMTA2NTYxNzEyNiwtOD
+eyJoaXN0b3J5IjpbLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtOD
 Q4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3
 NDY2NCwyMDQwMjk3NjIyXX0=
 -->

@@ -122,10 +122,6 @@ All package names must:
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
 
-		Incorrect Example: <itemtype code="Order" ....  jaloclass="com.test.jalo.components.order">
-	
-		Correct Example: <itemtype code="Order" .... >
-
 #### Item Attributes
 
 - Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
@@ -282,8 +278,8 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOT
-k5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1
-MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl
-19
+eyJoaXN0b3J5IjpbNTU4NjY1MDA5LDg2ODMwNDgxOCwtMTgzMz
+E3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1
+MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LD
+IwNDAyOTc2MjJdfQ==
 -->

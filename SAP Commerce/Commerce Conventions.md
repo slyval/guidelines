@@ -100,7 +100,9 @@ If the separation between above is too granular for certain functions, then pack
 	 Refer to the **Packaging** section for guidelines.
 
 ### Packaging
-
+All package names must:
+- show intent 
+- 
 ### Data Model
 
 #### Items, Relations and Enums
@@ -281,7 +283,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcyMTU5MjksLTE5OTk0MTc3MTEsMT
+eyJoaXN0b3J5IjpbLTE1MjAxMDE5ODAsLTE5OTk0MTc3MTEsMT
 A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
 ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

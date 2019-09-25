@@ -45,11 +45,7 @@ The defacto standard CI tool for our projects is **Jenkins**. For all projects, 
 #### Solution Bootstraping
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
 
-For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task
-	- When generating manually, the tempate that must be used is ****accelerator****
-	- A good name must be chosen for the project as that will affect names of extensions. A good starting point will be  to use the project name
-	- A root package must be chosen carefully and must loosely follow the following convention:
-		> com.\<customername>.\<projectname>
+For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to
 		
 - Similar guidelines as above must be used for other projects as advised in SAP Commerce help documentation
 
@@ -274,7 +270,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTk1ODM5LC04NDgyMTI1MjYsLTgwOT
-Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
-MjJdfQ==
+eyJoaXN0b3J5IjpbMjA0NzY2MzIwOCwtODQ4MjEyNTI2LC04MD
+k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
+NjIyXX0=
 -->

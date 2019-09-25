@@ -42,12 +42,11 @@ The defacto standard CI tool for our projects is **Jenkins**. For all projects, 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
 	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in local environments to help make troubleshooting easier as, in some cases, debugging may not be allowed in the development runtime system.
 
-#### Solution Bootstraping
+#### Solution Initialization
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
 
-For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to
+For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to generate representative extensions and packages. 
 		
-- Similar guidelines as above must be used for other projects as advised in SAP Commerce help documentation
 
 ## Development Environment
 
@@ -270,7 +269,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzY2MzIwOCwtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMjA5OTc4Nzk2NywtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

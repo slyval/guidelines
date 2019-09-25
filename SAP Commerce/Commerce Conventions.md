@@ -39,7 +39,7 @@ SonarQube is the defacto standard for static code analyses for SAP Commerce. A c
 The defacto standard CI tool for our projects is Jenkins. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
 
 - Local Development Environment 
-	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it'
+	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database 
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -271,6 +271,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNzA5ODg4LC04MDk0ODUwMTIsMTY1Mj
-E2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NT
+IxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
 -->

@@ -23,7 +23,8 @@ When starting a commerce project, the following should considerations must be ma
 			     An example is Testv0.1.0
 
 - Base Package
-A base package that will be used accross all packages should be determined. 
+A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formed as follows:
+	> com.\<customername>.\<projectname> such a
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
 	SonarLint must be installed and (if feasible), connected to the central SonarQube server for rules
@@ -264,6 +265,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE5MzcyNTgsLTgwOTQ4NTAxMiwxNj
-UyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbNzgzMjY2Nzk5LC04MDk0ODUwMTIsMTY1Mj
+E2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

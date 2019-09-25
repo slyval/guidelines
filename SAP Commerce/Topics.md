@@ -12,10 +12,11 @@ Purpose of Document
 	 - dao
 	 - controllers and web applications
  - Essential Data
- - 
+ - Testing
+ - Static Code Analysis
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjAzNTUxNCwtMzQ5NjU2ODIzLC04OT
-I3MzA2NTldfQ==
+eyJoaXN0b3J5IjpbLTEwNjk4MDQ4MjAsLTM0OTY1NjgyMywtOD
+kyNzMwNjU5XX0=
 -->

@@ -20,7 +20,10 @@ When starting a commerce project, the following should considerations must be ma
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
 	SonarLint must be installed and (if feasible), connected to the central SonarQube server for rules
 - Static Code Analysis
-SonarQube is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for 
+SonarQube is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
+
+- Continuous Integration 
+The defacto standard CI tool for our projects is Jenkins. For all projects wher
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -252,6 +255,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNDc0NjczLC0xMTE3Njc0NjY0LDIwND
-AyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbNjI4MTM4NTcsLTExMTc2NzQ2NjQsMjA0MD
+I5NzYyMl19
 -->

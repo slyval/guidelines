@@ -40,7 +40,8 @@ The defacto standard CI tool for our projects is Jenkins. For all projects, with
 
 - Local Development Environment 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better
-	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in the local environments
+	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in local environments to help make troubleshooting easier as, in some cases, debugging may not be allowed in the deve
+	
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -272,7 +273,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTIyMjcxNSwtODQ4MjEyNTI2LC04MD
-k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbLTE2NjM4NzM0MDQsLTg0ODIxMjUyNiwtOD
+A5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5
+NzYyMl19
 -->

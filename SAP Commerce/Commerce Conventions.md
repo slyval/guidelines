@@ -23,7 +23,8 @@ When starting a commerce project, the following should considerations must be ma
 SonarQube is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
 
 - Continuous Integration 
-The defacto standard CI tool for our projects is Jenkins. For all projects wher
+The defacto standard CI tool for our projects is Jenkins. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
+
 - A development configuration must be used that will generate the **config** folder
 - When doing a B2C or B2B solution with a webshop or storefront:
 	- The initial generation of the projects artifacts must be done through the corresponding recipe or must be manually generated using the ***modulegen*** ant task
@@ -255,6 +256,6 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MTM4NTcsLTExMTc2NzQ2NjQsMjA0MD
-I5NzYyMl19
+eyJoaXN0b3J5IjpbMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMD
+QwMjk3NjIyXX0=
 -->

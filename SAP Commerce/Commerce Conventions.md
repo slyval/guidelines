@@ -18,7 +18,7 @@ When starting a commerce project, the following should considerations must be ma
      - Release Management and Versioning 
      There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - **master** & **develop** must be used. These are supported by temporary ***feature***, ***release***, ***bugfix***(not always necessary) and ***hotfix*** branches. 
      - Version System 
-     A versioning system must be derived and that should consist of a major version, a minor version as well as a patch version. This can be prefixed with a name that relates to the project. 
+     A versioning system must be derived and that should consist of a **major** version, a **minor** version as well as a **patch** version. This can be prefixed with a name that relates to the project. 
 			     
 			     An example is Testv0.1.0
 
@@ -30,13 +30,13 @@ A base package that will be used accross all packages should be determined. The 
 	The creation of a base package implies that an package in any extension that is part of the project must be prefixed with the base package name
 	
 - Integrated Development Environment
-	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are Spring Tool Suite, Eclipse and IntellijIDEA
+	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
 	SonarLint must be installed and (if feasible), connected to the central SonarQube server for rules
 - Static Code Analysis
-SonarQube is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
+**SonarQube** is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
 
 - Continuous Integration and Deployment
-The defacto standard CI tool for our projects is Jenkins. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
+The defacto standard CI tool for our projects is **Jenkins**. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
 
 - Local Development Environment 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
@@ -274,7 +274,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3OTQzMDM5LC04NDgyMTI1MjYsLTgwOT
+eyJoaXN0b3J5IjpbMTA3MTk1ODM5LC04NDgyMTI1MjYsLTgwOT
 Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
 MjJdfQ==
 -->

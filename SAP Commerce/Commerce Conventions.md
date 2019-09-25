@@ -51,7 +51,7 @@ For any of the accelerators,  a module is provided that will help bootstrap the 
 ## Implementation Guidelines
 
 ### Extensions
-Extensions are created  through either **modulegen** when initializing the project or **extgen**. 
+Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of function
 
 When creating an extension the following consideration are important:
 #### Generation 
@@ -264,7 +264,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTYxNzEyNiwtODQ4MjEyNTI2LC04MD
-k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbMTYwNTUxNTA4NCwxMDY1NjE3MTI2LC04ND
+gyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0
+NjY0LDIwNDAyOTc2MjJdfQ==
 -->

@@ -55,7 +55,8 @@ Extensions are created  through either **modulegen** when initializing the proje
 
 When creating an extension the following consideration are important:
 #### Generation 
-When generating an extension, a template extension is required. The correct template must 
+When generating an extension, a template extension is required. The correct template must be used and the following guidelines will help:
+- Addons - addons are only created when defining web content in the form of content pages, views, tage
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -267,7 +268,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NjA4MzU0LC04NDgyMTI1MjYsLTgwOT
-Q4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2
-MjJdfQ==
+eyJoaXN0b3J5IjpbMTUzOTM5MjM2MSwtODQ4MjEyNTI2LC04MD
+k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
+NjIyXX0=
 -->

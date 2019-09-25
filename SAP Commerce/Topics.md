@@ -11,9 +11,11 @@ Purpose of Document
 	 - facades 
 	 - dao
 	 - controllers and web applications
+ - Essential Data
  - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTY1NjgyMywtODkyNzMwNjU5XX0=
+eyJoaXN0b3J5IjpbMTU3MjAzNTUxNCwtMzQ5NjU2ODIzLC04OT
+I3MzA2NTldfQ==
 -->

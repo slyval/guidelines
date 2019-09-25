@@ -104,8 +104,8 @@ All package names must:
 - show intented use as a container
 - be in lowercase 
 
-### Data Model and Structures
-
+### Data Model
+All data models or items mus
 #### Items, Relations and Enums
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
@@ -278,8 +278,8 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NjY1MDA5LDg2ODMwNDgxOCwtMTgzMz
-E3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1
-MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LD
-IwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTc3ODEwMTk2MSw4NjgzMDQ4MTgsLTE4Mz
+MxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEy
+NTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NC
+wyMDQwMjk3NjIyXX0=
 -->

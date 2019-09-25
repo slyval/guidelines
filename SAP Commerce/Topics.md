@@ -1,8 +1,8 @@
 Purpose of Document
 
- -extensions 
+ -
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjczMDY1OV19
+eyJoaXN0b3J5IjpbMTIwODkyODAzMSwtODkyNzMwNjU5XX0=
 -->

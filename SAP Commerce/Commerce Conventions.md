@@ -63,7 +63,8 @@ Addons are only created when intending to define or overwrite web content in the
 - Web Service Extension 
 	Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
 - Other Extensions
-	All other extensions must use a corresponding template if there is one. Otherwise, all other extensions must use the **yempty
+	All other extensions must use a corresponding template if there is one. Otherwise, all other extensions must use the **yempty** template
+	
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -275,7 +276,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDY1MTg5OSwtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMTc4MjMwNzI2MywtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

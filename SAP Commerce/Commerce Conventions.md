@@ -130,7 +130,7 @@ All data models or items must be created in the *-items.xml file in the resource
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
-### Code Artefacts
+### Classes and Interfaces
 		
 #### Interfaces 
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
@@ -143,7 +143,6 @@ An interface defines a contract with the outside world. It defines all the publi
 	- Should be alphanumeric 
 	
 			Examples: AddressService, AddressDao, AddressFacade
-			Incorrect Examples: IAddressService, AddressServiceInt, AddressServiceIf. These can be perfectly legal names elsewhere. 
 
 #### Implementations
 After defining an interface, implementations should be created to implement the contract defined by the interface. 
@@ -266,8 +265,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4Nj
-gzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYx
-NzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNC
-wtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTcwMjI4NzQxNSwtMTE2NDU4NjM1OSwtMz
+M0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQx
+NzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMi
+wxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+
 -->

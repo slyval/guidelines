@@ -48,16 +48,10 @@ A decision on whether to bootstrap the solution from and accelerator or to creat
 For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to generate representative extensions and packages. 
 		
 
-## Development Environment
-
-##### Integrated Development Environment
-- The IDEs of choice are Eclipse, Spring Tool Suite (STS), IntelliJ IDEA.
--  Install a decompiler for use when debugging or inspecting code if your IDE does not have an out of the box decompiler
-- Install SonarLint for static code checking. This should be integrated to a central SonarQube for rules
-
-## Development Artifacts
+## Implementation Guidelines
 
 ### Extensions
+Extensions are created  through either **modulegen** when i
 #### Naming  Conventions
 - An extension name must: 
 	- Only contain alphanumeric characters
@@ -269,7 +263,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTc4Nzk2NywtODQ4MjEyNTI2LC04MD
+eyJoaXN0b3J5IjpbMTI3ODM4ODUxNCwtODQ4MjEyNTI2LC04MD
 k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
 NjIyXX0=
 -->

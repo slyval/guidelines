@@ -131,18 +131,6 @@ All data models or items must be created in the *-items.xml file in the resource
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 ### Code Artefacts
-
-#### Packages
-Packages are containers and must group functionality accordingly. 
-
-All package names must:
-- Be prefixed with the below. Please check which of the above three has been adopted for the project: 
-		
-		com.<customer>.<project>.<extension>. or 
-		com.<customer>.<extension> or 
-		com.<project>.<extension>
-
-- The name after the prefix must convey the intent of the package. As an example, a package utilities must contain the word utilities or utils in it's name
 		
 #### Interfaces 
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
@@ -278,8 +266,8 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDM0NTczNiw4NjgzMDQ4MTgsLTE4Mz
-MxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEy
-NTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NC
-wyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4Nj
+gzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYx
+NzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNC
+wtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

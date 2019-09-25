@@ -63,7 +63,7 @@ Addons are only created when intending to define or overwrite web content in the
 - Web Service Extension 
 	Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
 - Other Extensions
-	All other extensions must use a corresponding template if there is one, e.g., ybackoffice for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
+	All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
 	
 #### Naming  Conventions
 - All extension names must: 
@@ -83,17 +83,6 @@ Addons are only created when intending to define or overwrite web content in the
 	- An extension for data access objects must contain the suffix ***daos*** 
 	
 	> Examples: sapordermanagementservices, commercefacades
-
-#### Generation 
-- All extensions must be genarated using the **extgen** ant target/task. 
-- The following template extensions must be used:
-	- ****yempty**** should be used to generate all extensions except the ones below
-	- ****yaddon**** should be used to generate all addons
-	- ****ywebservices**** or ****ycommercewebservices**** should be used for all web service (RESTful) extensions
-	- ****ybackoffice**** should be used to generate all backoffice related extensions
-	
-- All other template extensions not listed above should be used in their specific scenarios as they are not generic in nature
-
 
 ### Data Model
 
@@ -275,7 +264,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MDgxNjUsLTg0ODIxMjUyNiwtODA5ND
-g1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYy
-Ml19
+eyJoaXN0b3J5IjpbMTA2NTYxNzEyNiwtODQ4MjEyNTI2LC04MD
+k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
+NjIyXX0=
 -->

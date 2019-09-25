@@ -63,7 +63,7 @@ Addons are only created when intending to define or overwrite web content in the
 - Web Service Extension 
 	Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
 - Other Extensions
-	All other extensions must use a corresponding template if there is one. Otherwise, all other extensions must use the **yempty** template
+	All other extensions must use a corresponding template if there is one, e.g., ybackoffice for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
 	
 #### Naming  Conventions
 - All extension names must: 
@@ -77,10 +77,11 @@ Addons are only created when intending to define or overwrite web content in the
 - When overriding a standard extension, the prefix ***custom***  or **\<project name>** must precede the name of the standard extension. 
 	> Example: When overriding the extension sapintegrationservices, the name can be customintegrationservices or testprojectintegrationservices
 
--All extension names must convey intent. Therefore, 
+- All extension names must convey intent. Therefore, 
 	- An extension for services must contain the suffix ***services***
 	- An extension for facades must contain the suffix ***facades***
 	- An extension for data access objects must contain the suffix ***daos*** 
+	
 	> Examples: sapordermanagementservices, commercefacades
 
 #### Generation 
@@ -274,7 +275,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzY4Nzc4MSwtODQ4MjEyNTI2LC04MD
-k0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3
-NjIyXX0=
+eyJoaXN0b3J5IjpbNjY2MDgxNjUsLTg0ODIxMjUyNiwtODA5ND
+g1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYy
+Ml19
 -->

@@ -250,13 +250,16 @@ Dependencies are injected in 2 main ways:
 ### Essential Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
 
-To manage this data, there are a couple of places where this data can be places so that whenever the system is updated or initialialized, this data is imporye
+To manage this data, there are a couple of places where this data can be places so that whenever the system is updated or initialialized, this data is imported via IMPEX. The following options should be used:
+
+- If the data is created only once and rate
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg5NzgwMSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTc4OTAxMDY1OSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

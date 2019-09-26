@@ -348,12 +348,15 @@ All scenarios where an exception is expected, the exception must be explicitly h
 
 - Declarative Programming 
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore to use constructs such as lamdas and streams. These must also only be used where necessary
+
+- Libraries 
+Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxODY0MTQsMTM3MzQxMzk3OSwtMTY1Mz
-k2ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYx
-MCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMT
-c2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEw
-LC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNj
-c2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2
-MzU5XX0=
+eyJoaXN0b3J5IjpbLTM2OTQ0NzYyOSwxMzczNDEzOTc5LC0xNj
+UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
+NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
+0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5
+MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LD
+E2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1
+ODYzNTldfQ==
 -->

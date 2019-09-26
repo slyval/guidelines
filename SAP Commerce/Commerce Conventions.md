@@ -218,9 +218,10 @@ Any definition mechanism can be adopted depending on needs. It is advisable to a
 
 It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
 
-When defining a bean, the follo
-- **Camel** case must be used to for bean ids, names and aliases. This naturally applies for the properties owing to the conventions for services, facades, daos and controllers
+When defining a bean, the following naming conventions should be follwed:
+- **Camel** case must be used to for bean ids, names and aliases as well as properties
 
+When overriding a bean, there are two approaches ti
 The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the <extensionname>-web-spring.xml file in the resources/\<extension-name>/web/spring folder. Global bean definitions are performed in the \<extension-name>-spring.xml file in the resources folder. 
 
 Standalone bean example:
@@ -240,11 +241,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjUzNjU1MCwtMTc2MTYyNjI0NywzND
-gxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcw
-LC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
-Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
-MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
-EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
-Njg5MjRdfQ==
+eyJoaXN0b3J5IjpbMTg4NDY4ODYyLC0xNzYxNjI2MjQ3LDM0OD
+E2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAs
+LTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Nj
+k5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTcz
+Niw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
+A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
+ODkyNF19
 -->

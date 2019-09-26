@@ -270,7 +270,8 @@ To manage this data, there are a couple of places where this data can be placed 
 There are a number of security considerations that should be notes for all different sorts of implementations. The following are the conventions:
 - All productive environments must not contain sample users that are created as part of the out of the box solution 
 - Default passwords for users that are kept as part of the solution like admin must be changed
-
+- Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
+- Usage of 
 #### Sample Data
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
 
@@ -291,7 +292,7 @@ Caching is important to allow for improved performance.
 - Platform caching - this can be enabled by defining cache regions
 - Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDU0ODA3NywtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTI4OTYwMzM1NCwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

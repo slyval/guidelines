@@ -133,9 +133,9 @@ All data models or items must be created in the *-items.xml file in the resource
 ### Classes and Interfaces
 		
 #### Interfaces 
-An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. Therefore: 
+An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. 
 
-- An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not define new publicly accessible methods
+- An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not defining new publicly accessible methods
 - When creating an interface, the name: 
 
 	- Should convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
@@ -265,9 +265,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMz
-M0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQx
-NzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMi
-wxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
-
+eyJoaXN0b3J5IjpbLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
+Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5
+MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNi
+wtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0
+MDI5NzYyMl19
 -->

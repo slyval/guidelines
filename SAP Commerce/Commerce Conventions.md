@@ -284,9 +284,12 @@ The best way to manage data is to actually use both methods above so that when s
 Performance is  a critical part of the majority of ecommerce solutions. The below are some of the suggested things to implement to improve performance
 
 #### Clustering 
-Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must
+Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must be implemented
+
+#### Caching 
+Caching is important to allow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk5NDUwNTMsLTE2NTM5NjgyMjksLT
+eyJoaXN0b3J5IjpbLTE3Nzc5NjAxNTYsLTE2NTM5NjgyMjksLT
 EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
 ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
 csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1

@@ -248,17 +248,17 @@ Dependencies are injected in 2 main ways:
 - **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
 
 ### Essential Data Management
-Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known o
+Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODAxNzk1MiwtMTI2MTIzNTc3MSw5OD
-k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
-MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
-MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2
-ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOT
-c3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0
-ODE4XX0=
+eyJoaXN0b3J5IjpbLTE2NTM5NjgyMjksLTEyNjEyMzU3NzEsOT
+g5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1
+NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLT
+MzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkx
+Njg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLT
+k3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMw
+NDgxOF19
 -->

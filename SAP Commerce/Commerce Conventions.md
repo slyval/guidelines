@@ -289,9 +289,9 @@ Clustering enables for load balancing and high availability. For all solutions t
 #### Caching 
 Caching is important to allow for improved performance. 
 - Platform caching - this can be enabled by defining cache regions
-- Resource minification and
+- Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDEzMjIzNSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTY3MDU0ODA3NywtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

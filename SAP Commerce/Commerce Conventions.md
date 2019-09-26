@@ -183,17 +183,11 @@ Data transfer object are also commonly referred to as beans or pojos. They conta
 It is imperative that as a convention, all DTOs must be declared in the *-beans.xml file of the relevant extension. It's common to find these defined as part of the service layer. 
 
 As DTOs are classes, the conventions for the same apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
-	- contain only alphanumeric characters
-	- be in **Pascal** case
-- The attributes of a DTO must be in **Camel** case
-
-		Example: 
-
+	
 #### Services 
-A service is an object that is concerned with the execution of business logic or business rules. It, architecturally, sits just above the DAOs. It can utilize other services and DAOs to achieve it's business goals. 
+A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
 
 The following conventions should apply:
-- The service must be in package that is relevantly named as suggested under the **Packages section**
 - They must be declared as beans either using annotations or xml configuration 
 - The name must:
 	- contain the suffix **Service**
@@ -264,7 +258,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzU1NzYzMywxNTM3MjcwOTEwLC0xOD
+eyJoaXN0b3J5IjpbLTQ5Nzg2NjYxNCwxNTM3MjcwOTEwLC0xOD
 MzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5
 MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC
 0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5

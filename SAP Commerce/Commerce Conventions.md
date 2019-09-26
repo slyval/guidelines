@@ -322,7 +322,7 @@ When performing search queries in data access objects, they must be as specific 
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes or nothing passes. 
 Every transactional action must executed in a transaction. This is implementation through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
-the example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of anything that happens in 
+The example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of any commits that could have been performed
 		
 		Transaction.current().execute(new TransactionBody()
 			{
@@ -336,8 +336,6 @@ the example shows how to implement transactional logic. Any exception that occur
 
 ### Coding
 
-
-
 - Object Sizes
 The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
 
@@ -347,8 +345,11 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
+
+- Declarative Programming 
+Declarive programming is essential to avoid introc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDExMDg2NywxMzczNDEzOTc5LC0xNj
+eyJoaXN0b3J5IjpbLTc0MTUxMzEyMywxMzczNDEzOTc5LC0xNj
 UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
 NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
 0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5

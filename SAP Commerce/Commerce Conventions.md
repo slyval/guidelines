@@ -139,8 +139,8 @@ An interface defines a contract with the outside world. It defines all the publi
 - When creating an interface, the name should : 
 
 	- convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
-	- Should be in **Pascal** case
-	- Should be alphanumeric 
+	- be in **Pascal** case
+	- contain alphanumeric characters
 	
 			Examples: AddressService, AddressDao, AddressFacade
 
@@ -265,9 +265,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDU4OTQ0OSwtMTg2Njk5MjU3LC05Nz
-cwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4
-MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNi
-wtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTEx
-NzY3NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3Nz
+A0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgx
+OCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC
+04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3
+Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

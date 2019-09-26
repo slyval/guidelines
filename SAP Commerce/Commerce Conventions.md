@@ -252,14 +252,14 @@ Almost all non-trivial solutions have some core data that all functionality depe
 
 To manage this data, there are a couple of places where this data can be places so that whenever the system is updated or initialialized, this data is imported via IMPEX. The following options should be used:
 
-- If the data is created only once and rarely changes, consider adding it in the essentialdata-<name>.impex file under the **resources/impex** of the relevant extension. Alternatively, the **import/common/
+- If the data is created only once and rarely changes, consider adding it in the essentialdata-<name>.impex file under the **resources/impex** of the relevant extension. Alternatively, the **resources/import/common/** structure of core or initial data extensions may be used
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgxMjU4MCwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTU4ODE0MjAwOSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

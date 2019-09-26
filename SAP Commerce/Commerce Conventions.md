@@ -122,8 +122,6 @@ All data models or items must be created in the *-items.xml file in the resource
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
 
-- 
-
 #### Item Attributes
 
 - Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
@@ -131,6 +129,9 @@ All data models or items must be created in the *-items.xml file in the resource
 - Where multiple values are possible for an attribute, a relation to an Enum or another item must be created
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
+
+#### Localization
+Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice
 
 ### Classes and Interfaces
 		
@@ -266,7 +267,7 @@ To manage this data, there are a couple of places where this data can be placed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Njc1OTU5NCwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTgyODE5MzMwOSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

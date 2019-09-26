@@ -216,11 +216,9 @@ All bean declarations are either **xml** based definitions done in the ***-sprin
 
 Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformint. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
-It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the a
+It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
 
-When overriding a bean the following is mandatory: 
-- the overriding bean must define a parent and use the overriden bean or the parent of the overriden bean. 
-- parameters defined in the overriden bean must not be redeclared except in cases where new values are to be defined for the properties
+When defining a bean, the follo
 - **Camel** case must be used to for bean ids, names and aliases. This naturally applies for the properties owing to the conventions for services, facades, daos and controllers
 
 The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the <extensionname>-web-spring.xml file in the resources/\<extension-name>/web/spring folder. Global bean definitions are performed in the \<extension-name>-spring.xml file in the resources folder. 
@@ -242,11 +240,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NTM0MjI3LC0xNzYxNjI2MjQ3LDM0OD
-E2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAs
-LTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Nj
-k5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTcz
-Niw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
-A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
-ODkyNF19
+eyJoaXN0b3J5IjpbLTcyMjUzNjU1MCwtMTc2MTYyNjI0NywzND
+gxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcw
+LC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
+Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
+MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
+EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
+Njg5MjRdfQ==
 -->

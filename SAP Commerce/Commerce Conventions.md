@@ -316,13 +316,16 @@ Please refer to the Design and Coding practices guideline for more information. 
 	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
 
 ### Coding
-- When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be stric
+- Search 
+When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
+- Object Sizes
+The number of lines in a class must not exceed 1000 an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMyMDk0MDQsLTE2NTM5NjgyMjksLT
-EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
-ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
-csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
-MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
-0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
-MzQ1NzM2XX0=
+eyJoaXN0b3J5IjpbOTQwNTM3MDM2LC0xNjUzOTY4MjI5LC0xMj
+YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
+MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
+M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
+NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
+g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
+NTczNl19
 -->

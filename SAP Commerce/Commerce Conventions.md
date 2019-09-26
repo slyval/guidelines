@@ -144,15 +144,13 @@ An interface defines a contract with the outside world. It defines all the publi
 			Examples: AddressService, AddressDao, AddressFacade
 - The method names should:
 	- be in **Camel** case
-	- 
+	- only contain alphanumeric characters
+	
 #### Implementations
 Inmplementations are classes that define behavior for a given contract/interface. 
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
 
-When creating an implementation the following must be followed. The naming conventions for interfaces also apply for the corresponding 
-
-- The name must convey intent
--  Should use **Pascal** case
+The naming conventions for interfaces also apply for implementations. 
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
@@ -267,10 +265,10 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNj
-EyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYy
-NjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4MTgsLT
-E4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4
-MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3ND
-Y2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTEwMTE4Mzk2MzEsLTE4MzMzNTI2NzAsLT
+E0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5
+MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNi
+w4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2
+NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2OD
+kyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

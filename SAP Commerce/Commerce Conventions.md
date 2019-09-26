@@ -165,6 +165,10 @@ Classes can directly or indirectly - extending an existing implementation - impl
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overriding a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 - The prefixing with Default or Custom can be adapted to use the customer or project name if so desired but only if this is adopted for global use
+-The number of lines in a class must not exceed **1000** and those in a method must not exceed 100
+
+- Code Documentation 
+Public methods in an interface or a class must be documented with a description for the method and a documentation of the parameters and return types. Interfaces and classes must also be documented to provide a description of the purpose of the object
 
 ### Common Object Types
 The following are the common object types that form the three common architectural layers namely; Facades, Services and Data Access layers. Following are the guidelines for these objects.
@@ -336,12 +340,6 @@ The example shows how to implement transactional logic. Any exception that occur
 
 ### Coding
 
-- Object Sizes
-The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
-
-- Code Documentation 
-Public methods in an interface or a class must be documented with a description for the method and a documentation of the parameters and return types. Interfaces and classes must also be documented to provide a description of the purpose of the c
-
 - Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 The **org.apache.log4j.Logger** logger must be used  universally for uniformity
@@ -355,11 +353,11 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg1Mjk2MTUsMTM3MzQxMzk3OSwtMT
-Y1Mzk2ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5
-NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OC
-wtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mjcw
-OTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNS
-wxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0
-NTg2MzU5XX0=
+eyJoaXN0b3J5IjpbMzk1MDY2ODc0LDEzNzM0MTM5NzksLTE2NT
+M5NjgyMjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2
+MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLT
+E3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkx
+MCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMT
+Y3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4
+NjM1OV19
 -->

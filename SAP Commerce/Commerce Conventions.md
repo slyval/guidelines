@@ -211,7 +211,7 @@ A converter is an object that is used to convert data from one format to another
 
 Sometimes converters and populators are misunderstood to mean the same thing. However, a populator is a coordinating or container object for converters. When converting from one form to another a populator calls upon a collection of converters which each populate a subset of the attributes of  a target object from a source object. 
 
-All converters, unk
+All converters should inherit the 
 
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -245,7 +245,7 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU4NDE3OTIsOTg5NzU1NzAwLDE1MT
+eyJoaXN0b3J5IjpbLTEyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MT
 Q2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcx
 NzgsLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNz
 I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5

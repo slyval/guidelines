@@ -216,7 +216,10 @@ All converters should implement the **import de.hybris.platform.servicelayer.dto
 All populators should implement the **de.hybris.platform.converters.Populator** interface
 
 The common conventions when doing object are as follows:
-- Converter must be created and then injected into a populator which should populate on
+- Converter must be created and then injected into a populator which should populate by calling all injected converters. The populator can then be injected in the object that require the data conversion 
+- It might be necessary in some circumstances to use the converter directly where only one converter is envisioned
+
+
 
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -250,11 +253,11 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5OTE4NzA0LC0xMjYxMjM1NzcxLDk4OT
-c1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUx
-OSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMz
-I5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4
-OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05Nz
-cwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4
-MThdfQ==
+eyJoaXN0b3J5IjpbLTM3NDY4MjQ4MSwtMTI2MTIzNTc3MSw5OD
+k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
+MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
+MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2
+ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOT
+c3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0
+ODE4XX0=
 -->

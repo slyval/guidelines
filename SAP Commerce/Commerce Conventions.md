@@ -171,7 +171,7 @@ The benefits of doing this are:
 - Ability to generate dynamic queries using the find methods
 - Ability to write data access objects without explicitly using flexible search code
 
-The name must:
+As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the following naming co:
 - demonstrate intent
 - contain the suffix ***Dao*** 
 - user **Pascal** case
@@ -269,11 +269,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA4Nzc4NjcsMTUzNzI3MDkxMCwtMT
-gzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2
-OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OS
-wtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5
-OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NT
-AxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJd
-fQ==
+eyJoaXN0b3J5IjpbNTkwNTI1MzE1LDE1MzcyNzA5MTAsLTE4Mz
+MzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3Njkz
+OCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLT
+MzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0
+MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMT
+IsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
+
 -->

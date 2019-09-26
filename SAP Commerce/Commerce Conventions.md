@@ -225,30 +225,19 @@ When overriding a bean, there are two approaches to use:
  - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden. In this case, only the generic conventions apply
  - An overriding bean can be defined inheriting from the bean that it overrides. In this case, the parent attribute should be defined and all properties defined in the parent bean should not be redefined in the overriding bean unless those properties are being adapted
 
-It must should be understood that there is a difference between 
+It should be understood that there is a difference between a web-context specific bean and a global-context specific bean
 
-Standalone bean example:
-
-	<bean id="sendEmail" class="de.hybris.platform.acceleratorservices.process.email.actions.SendEmailAction"
-          parent="abstractAction">
-        <property name="emailService" ref="emailService"/>
-    </bean>
- Overriding bean example
- 
-	<bean id="generateCustomerRegistrationEmail" parent="abstractGenerateEmailAction">
-        <property name="frontendTemplateName" value="ShrCustomerEmailVerificationEmailTemplate"/>
-    </bean>
-  
+When defining bean properties or inheritance(parenting), be careful that circular dependencies are nmo
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNTIwMjU4LDE1MTQ2OTQ2MTAsLTE1Nz
-kzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYy
-NDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMz
-M1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4
-LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMz
-M0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQx
-NzcxMV19
+eyJoaXN0b3J5IjpbLTYwMjIxMzY0NSwxNTE0Njk0NjEwLC0xNT
+c5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2
+MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4Mz
+MzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3Njkz
+OCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLT
+MzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0
+MTc3MTFdfQ==
 -->

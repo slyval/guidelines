@@ -230,18 +230,20 @@ It should be understood that there is a difference between a web-context specifi
 When defining bean properties or inheritance(parenting), be careful that circular dependencies are not introduced
 
 Dependencies are injected in 2 main ways:
-- Property/Constructor based injection - this is the preferred way when xml-based definitions are commonly adopted 
-- Annotations- autowiring can be achieved by using the the @Autowired or @Resource annotations
+- **Property/Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
+- **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTIyNjU5NiwxNTE0Njk0NjEwLC0xNT
-c5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2
-MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4Mz
-MzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3Njkz
-OCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLT
-MzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0
-MTc3MTFdfQ==
+eyJoaXN0b3J5IjpbOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nz
+kzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYy
+NDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMz
+M1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4
+LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMz
+M0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQx
+NzcxMV19
 -->

@@ -292,13 +292,15 @@ Clustering enables for load balancing and high availability. For all solutions t
 Caching is important to allow for improved performance. 
 - Platform caching - this can be enabled by defining cache regions
 - Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
-- Request caching - this can be defined for wen
+- Request caching - this can be defined for RESTful endpoints 
+- Usage of CDNs - static web resources should be cached in CDNs where applicable 
+- Static content - static web 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0ODQyMjE3LC0xNjUzOTY4MjI5LC0xMj
-YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
-MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
-M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
-NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
-g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
-NTczNl19
+eyJoaXN0b3J5IjpbLTI2MDM4NjAxNywtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

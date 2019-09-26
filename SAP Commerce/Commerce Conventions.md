@@ -311,15 +311,16 @@ Please refer to the Design and Coding practices guideline for more information. 
 ### Design 
 - Architrectural 
 	- Contollers can user facades and services but should not used data access objects unless there is a very good reason 
-	- Facades can use other facades as well as services and data access objects only where necessary
-	- Services can use other services and data access objects but should not utilise facades. 
-	- Data access objects can user only the flexible search service and other data access objects but 
+	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
+	- Services can use other services and data access objects but should not utilise facades or contollers
+	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
+	- The above also a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzQ4MDE2NywtMTY1Mzk2ODIyOSwtMT
-I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
-NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
-wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
-NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
-E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
-NDU3MzZdfQ==
+eyJoaXN0b3J5IjpbNDc5OTQwMTExLC0xNjUzOTY4MjI5LC0xMj
+YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
+MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
+M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
+NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
+g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
+NTczNl19
 -->

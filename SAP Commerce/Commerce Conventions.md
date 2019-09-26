@@ -211,7 +211,7 @@ A converter is an object that is used to convert data from one format to another
 
 Sometimes converters and populators are misunderstood to mean the same thing. However, a populator is a coordinating or container object for converters. When converting from one form to another a populator calls upon a collection of converters which each populate a subset of the attributes of  a target object from a source object. 
 
-All converters should implement the **import de.hybris.platform.servicelayer.dto.converter.Converter**
+All converters should implement the **import de.hybris.platform.servicelayer.dto.converter.Converter** interface 
 
 All populators should implement the **
 
@@ -247,7 +247,7 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODkzNTkzNywtMTI2MTIzNTc3MSw5OD
+eyJoaXN0b3J5IjpbLTgwNTkzNDQwNiwtMTI2MTIzNTc3MSw5OD
 k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
 MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
 MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2

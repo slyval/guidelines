@@ -222,7 +222,7 @@ When defining a bean, the following naming conventions should be followed:
 - **Camel** case must be used to for bean ids, names and aliases as well as properties
 
 When overriding a bean, there are two approaches to use:
- - A overriding bean can be defined as a completely independent bean and use the same id as the bean b
+ - A overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden
 The rules for the definition of web specific and global beans must be understood so as not to define beans in the wrong place. Web specific beans must be defined in the <extensionname>-web-spring.xml file in the resources/\<extension-name>/web/spring folder. Global bean definitions are performed in the \<extension-name>-spring.xml file in the resources folder. 
 
 Standalone bean example:
@@ -242,11 +242,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3ODg3NzMxLC0xNTc5Mzg1MjczLDM4ND
-Y5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2NTI0
-LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLTE0OD
-g5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3
-LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4Nj
-gzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYx
-NzEyNl19
+eyJoaXN0b3J5IjpbMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzOD
+Q2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUy
+NCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xND
+g4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1
+NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsOD
+Y4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLDEwNjU2
+MTcxMjZdfQ==
 -->

@@ -133,7 +133,7 @@ All data models or items must be created in the *-items.xml file in the resource
 #### Localization
 Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides meaningful context that is not provided when technical names are used. 
 
-To localize attributes
+All models(enums and items) and their attributes must all be localized at least in English unless a multis
 
 ### Classes and Interfaces
 		
@@ -269,11 +269,11 @@ To manage this data, there are a couple of places where this data can be placed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzIxMDk2LC0xNjUzOTY4MjI5LC0xMj
-YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
-MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
-M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
-NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
-g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
-NTczNl19
+eyJoaXN0b3J5IjpbLTEwNzE1OTc3NjYsLTE2NTM5NjgyMjksLT
+EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
+ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
+csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
+MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
+0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
+MzQ1NzM2XX0=
 -->

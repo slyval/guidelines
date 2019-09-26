@@ -300,15 +300,13 @@ Perfomant practices should be utilized to ensure that no performance penalties a
 One of the easiest conventions to adopt is regards query writing and execution. Direct queries with parameters must be preferred over searching for content and then looping through the result looking for a specific object
 
 ## Common Design and Coding Practices
-
-The
-- 
+Please refer to the Design and Coding practices guideline for more information on this
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk1MTY1NzAsLTE2NTM5NjgyMjksLT
-EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
-ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
-csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
-MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
-0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
-MzQ1NzM2XX0=
+eyJoaXN0b3J5IjpbLTYzNDUyMTk5OCwtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

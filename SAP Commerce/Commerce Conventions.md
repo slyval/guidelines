@@ -295,9 +295,10 @@ Caching is important to allow for improved performance.
 - Request caching - this can be defined for RESTful endpoints 
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
 - Static content - static web pages can be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
-
+#### Coding 
+Perfomant practices should be utilized to ensure that no performance penalties are incurred
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDc1MTgyMSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTY0ODkyODc3MywtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

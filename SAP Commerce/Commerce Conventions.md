@@ -287,13 +287,15 @@ Performance is  a critical part of the majority of ecommerce solutions. The belo
 Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must be implemented
 
 #### Caching 
-Caching is important to allow
+Caching is important to allow for improved performance. 
+- Platform caching - this can be enabled by defining cache regions
+- Resource minification and
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc5NjAxNTYsLTE2NTM5NjgyMjksLT
-EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
-ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
-csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
-MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
-0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
-MzQ1NzM2XX0=
+eyJoaXN0b3J5IjpbLTY0MDEzMjIzNSwtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

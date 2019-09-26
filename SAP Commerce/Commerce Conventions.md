@@ -204,11 +204,7 @@ As facades are interfaces and implementing classes, the conventions for the same
 #### Controllers
 Controller are essentially web request handlers. As such they are commonly used with RESTful web services or web applications. They are created in the web part of an extension. 
 
-As controllers are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
-The following should be adhered to when creating a controller: 
-- The package naming should be representative
-- The name of the controller must:
-	- contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
+As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
 	- contain only aplhanumeric characters 
 	- be in **Pascal** case
 - All attributes of a controller must be in **Camel** case, except for constants
@@ -244,11 +240,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzIxNjA5MSwtMzMyOTQwMiwxNTM3Mj
-cwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkz
-NSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
-Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5
-MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNi
-wtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0
-MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTE2NTA3MzM5NzcsLTMzMjk0MDIsMTUzNz
+I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5
+MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMT
+E2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3
+OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1Mj
+YsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIw
+NDAyOTc2MjJdfQ==
 -->

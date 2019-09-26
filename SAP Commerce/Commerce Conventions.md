@@ -156,7 +156,8 @@ An interface defines a contract with the outside world. It defines all the publi
 - The method names should:
 	- be in **Camel** case
 	- only contain alphanumeric characters
-	
+- Public methods in an interface must be documented with a description for the method and a documentation of the parameters and return types. Interfaces must also be documented to provide a description of the purpose of the interface
+
 #### Implementations
 Inmplementations are classes that define behavior for a given contract/interface. 
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
@@ -166,6 +167,7 @@ Classes can directly or indirectly - extending an existing implementation - impl
 - If inheriting from or overriding a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 - The prefixing with Default or Custom can be adapted to use the customer or project name if so desired but only if this is adopted for global use
 - The number of lines in a class must not exceed **1000** and those in a method must not exceed **100**
+- Public methods in a class must be documented with a description for the method and a documentation of the parameters and return types. Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
 The following are the common object types that form the three common architectural layers namely; Facades, Services and Data Access layers. Following are the guidelines for these objects.
@@ -350,11 +352,11 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjUzNTAyMiwxMzczNDEzOTc5LC0xNj
-UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
-NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
-0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5
-MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LD
-E2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1
-ODYzNTldfQ==
+eyJoaXN0b3J5IjpbNzcyNjc3OTc2LDEzNzM0MTM5NzksLTE2NT
+M5NjgyMjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2
+MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLT
+E3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkx
+MCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMT
+Y3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4
+NjM1OV19
 -->

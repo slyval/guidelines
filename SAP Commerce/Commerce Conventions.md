@@ -281,13 +281,16 @@ The best way to manage data is to actually use both methods above so that when s
 
 
 ### Performance Considerations
-Performance is  a critical part of the majority of ecommerce solutions. The below are some of the suggested things to implement to improve
+Performance is  a critical part of the majority of ecommerce solutions. The below are some of the suggested things to implement to improve performance
+
+#### Clustering 
+Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NzU1ODksLTE2NTM5NjgyMjksLTEyNj
-EyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1NzkzODUy
-NzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyNDcsMz
-Q4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3
-MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xOD
-Y2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1
-NzM2XX0=
+eyJoaXN0b3J5IjpbLTEyOTk5NDUwNTMsLTE2NTM5NjgyMjksLT
+EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
+ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
+csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
+MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
+0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
+MzQ1NzM2XX0=
 -->

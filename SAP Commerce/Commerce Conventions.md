@@ -320,7 +320,7 @@ When performing search queries in data access objects, they must be as specific 
 
 - Transactions
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes or nothing passes. 
-Every transactional action must executed in a transaction
+Every transactional action must executed in a transaction. This is implementation through the usage of the  
 
 ### Coding
 
@@ -336,11 +336,11 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjA5OTMxMSwxMzczNDEzOTc5LC0xNj
-UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
-NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
-0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5
-MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LD
-E2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1
-ODYzNTldfQ==
+eyJoaXN0b3J5IjpbLTE2MDQ1NDE4MDQsMTM3MzQxMzk3OSwtMT
+Y1Mzk2ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5
+NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OC
+wtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mjcw
+OTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNS
+wxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0
+NTg2MzU5XX0=
 -->

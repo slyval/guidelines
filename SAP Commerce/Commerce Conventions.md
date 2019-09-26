@@ -144,7 +144,7 @@ An interface defines a contract with the outside world. It defines all the publi
 			Examples: AddressService, AddressDao, AddressFacade
 
 #### Implementations
-After defining an interface, implementations should be created to implement the contract defined by the interface. 
+After defining an interface, implementations should be created to implement the contract defined by a given interface. 
 Impentations can also be created without directly implementing an interface but extending or inheriting from an existing implementation.
 When creating an implementation the following must be followed:
 
@@ -264,9 +264,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTg5MzQxMiwxNjc2NzY5MzgsLTE4Nj
-Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
-MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
-EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
-Njg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMzIwNzIyMDk3LDE2NzY3NjkzOCwtMTg2Nj
+k5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTcz
+Niw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
+A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
+ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 -->

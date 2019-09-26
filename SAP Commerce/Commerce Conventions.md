@@ -265,13 +265,13 @@ To manage this data, there are a couple of places where this data can be placed 
 - If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
 - If data is considered as test data, then it should be created under the **resources/<extension_name>/import/coredata** folder structure if the ***initialdata** data extensions
 
-
+### 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjIwMTkxNiwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTE5Mzc5NzcyOSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

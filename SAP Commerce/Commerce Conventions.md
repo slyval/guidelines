@@ -207,8 +207,8 @@ Controller are essentially web request handlers. As such they are commonly used 
 As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
 	
 
-### Bean Definition
-
+### Dependency Management
+All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans r
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
 - annotation driven definition
@@ -239,11 +239,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQxMzAyNiwzNDgxNjUyNCwtMzMyOT
-QwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgs
-LTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MD
-Q2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4
-LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLT
-g0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2
-NzQ2NjRdfQ==
+eyJoaXN0b3J5IjpbLTEyNzU0Mzk4NDQsMzQ4MTY1MjQsLTMzMj
+k0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4
+LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3Nz
+A0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgx
+OCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC
+04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3
+Njc0NjY0XX0=
 -->

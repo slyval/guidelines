@@ -136,7 +136,7 @@ All data models or items must be created in the *-items.xml file in the resource
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. 
 
 - An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not defining new publicly accessible methods
-- When creating an interface, the name should : 
+- For naming conventions, inter should : 
 	- convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
 	- be in **Pascal** case
 	- contain only alphanumeric characters
@@ -265,10 +265,10 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2Nz
-Y3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYz
-NTksLTMzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLT
-E5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0
-ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3Nj
-IyXX0=
+eyJoaXN0b3J5IjpbMjQ1MDQzMzMwLC0xNDg4OTE2ODgsLTYxMj
+g0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2
+LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xOD
+MzMTc5MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIx
+MjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2Nj
+QsMjA0MDI5NzYyMl19
 -->

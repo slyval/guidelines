@@ -318,8 +318,8 @@ Please refer to the Design and Coding practices guideline for more information. 
 - Search 
 When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
 
-- Atomicity 
-This cannot be stressed
+- Transactions
+This cannot be stressed enough for most ecommerce solutions. 
 
 ### Coding
 
@@ -335,7 +335,7 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTE0NzAwNSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTM3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

@@ -151,7 +151,7 @@ Inmplementations are classes that define behavior for a given contract/interface
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
 
 - The naming conventions for interfaces also apply for implementations. 
-- The first implementation of an interface must be the interface name prefixed with **Default** or **<customer_name>** or **<project_name>** e.g ***DefaultAddressService*** for an interface named ***AddressService***
+- The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
 #### Data Access  Objects
@@ -265,10 +265,10 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcxNDA0MjMsLTE4MzMzNTI2NzAsLT
-E0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5
-MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNi
-w4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2
-NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2OD
-kyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMT
+Q4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTky
+NTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LD
+g2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1
+NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OT
+I0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
 -->

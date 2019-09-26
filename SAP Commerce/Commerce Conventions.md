@@ -193,9 +193,8 @@ A service is an object that is concerned with the execution of business logic or
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionali
-
-Architecturally, the facades resides on the layer above the services layer. 
+A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow. Data transfer objects find a greater use here that in services as focus transfer objects are utilized. 
+ 
 
 The following conventions should apply when creating a facade: 
 - Packages into which the facade must be relevantly named
@@ -252,7 +251,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTAyMDY4NSwtMzMyOTQwMiwxNTM3Mj
+eyJoaXN0b3J5IjpbLTExMjgxNzQyOSwtMzMyOTQwMiwxNTM3Mj
 cwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkz
 NSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
 Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5

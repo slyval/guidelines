@@ -137,11 +137,10 @@ An interface defines a contract with the outside world. It defines all the publi
 
 - An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not defining new publicly accessible methods
 - When creating an interface, the name should : 
-
 	- convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
 	- be in **Pascal** case
-	- contain alphanumeric characters
-	
+	- contain only alphanumeric characters
+			
 			Examples: AddressService, AddressDao, AddressFacade
 
 #### Implementations
@@ -265,9 +264,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3Nz
-A0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgx
-OCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC
-04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3
-Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTc5OTg5MzQxMiwxNjc2NzY5MzgsLTE4Nj
+Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
+MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
+EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
+Njg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
 -->

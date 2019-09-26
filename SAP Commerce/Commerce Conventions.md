@@ -209,7 +209,9 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 #### Converters and Populators
 A converter is an object that is used to convert data from one format to another. It populates all or a subset of attributes of a target object from a source object.
 
-Sometimes converters and populators are misunderstood to mean the same thing. However, a populator is a coordinating or container object for converters. When converting from one form to another a populator
+Sometimes converters and populators are misunderstood to mean the same thing. However, a populator is a coordinating or container object for converters. When converting from one form to another a populator calls upon a collection of converters which each populate a subset of the attributes of  a target object from a source object. 
+
+All converters, unk
 
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -243,11 +245,11 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2MTkyODE1LDk4OTc1NTcwMCwxNTE0Nj
-k0NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4
-LC0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNz
-A5MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1
-LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNj
-Q1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkw
-ODRdfQ==
+eyJoaXN0b3J5IjpbLTE3NzU4NDE3OTIsOTg5NzU1NzAwLDE1MT
+Q2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcx
+NzgsLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNz
+I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5
+MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMT
+E2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3
+OTA4NF19
 -->

@@ -300,16 +300,15 @@ Perfomant practices should be utilized to ensure that no performance penalties a
 One of the easiest conventions to adopt is regards query writing and execution. Direct queries with parameters must be preferred over searching for content and then looping through the result looking for a specific object
 
 ## Common Design and Coding Practices
-The usage of SonarQube allows for a lot of issues to be picked and corrected but there are important principles that should be part of a developer's toolset. 
 
-### Design principles
+The
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5OTE1Mjk0LC0xNjUzOTY4MjI5LC0xMj
-YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
-MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
-M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
-NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
-g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
-NTczNl19
+eyJoaXN0b3J5IjpbLTE4MDk1MTY1NzAsLTE2NTM5NjgyMjksLT
+EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
+ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
+csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
+MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
+0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
+MzQ1NzM2XX0=
 -->

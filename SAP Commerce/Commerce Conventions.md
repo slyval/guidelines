@@ -268,14 +268,14 @@ To manage this data, there are a couple of places where this data can be placed 
 ### Security and Sample Data
 ####Security Considerations 
 There are a number of security considerations that should be notes for all different sorts of implementations. The following are the conventions:
-- All productive environments must not contain sample users that are created as part of the out of the box solution '
-- 
+- All productive environments must not contain sample users that are created as part of the out of the box solution 
+- Default passwords for users that are kept as part of the solution like admin must be changed
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTEwNjQ3NSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTY2MDMyNzcyNSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

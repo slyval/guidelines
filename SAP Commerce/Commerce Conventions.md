@@ -247,17 +247,17 @@ Dependencies are injected in 2 main ways:
 - **Property/Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
 - **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
 
-
+### Essential Data
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjUxODU2NiwtMTI2MTIzNTc3MSw5OD
-k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
-MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
-MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2
-ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOT
-c3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0
-ODE4XX0=
+eyJoaXN0b3J5IjpbLTYzMDYyOTYzLC0xMjYxMjM1NzcxLDk4OT
+c1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUx
+OSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMz
+I5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4
+OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05Nz
+cwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4
+MThdfQ==
 -->

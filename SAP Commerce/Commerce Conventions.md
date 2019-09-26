@@ -43,8 +43,8 @@ The defacto standard CI tool for our projects is **Jenkins**. For all projects, 
 	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in local environments to help make troubleshooting easier as, in some cases, debugging may not be allowed in the development runtime system.
 
 - Monitoring and Availability
-- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be purchased
-- Availability - Clustering should be considered strongly for the majority of ecommerce solutions. Therefore, a sizing activity for the initial solution should be done and the expectation for this should be set so that 
+	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
+	- Availability - Clustering should be considered strongly for the majority of ecommerce solutions. Therefore, a sizing activity for the initial solution should be done and the expectation for this should be set so that complementary tools or resources can be acquired if necessary
 
 #### Solution Initialization
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
@@ -185,6 +185,8 @@ The benefits of doing this are:
 As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
+
+An important performance 
 		
 #### Data Transfer Object (DTOs)
 Data transfer objects are serializable objects used to exchange data between different objects whether locally, such as  between a controller and a facade,  or remotely, such as between a controller and a remote caller. 
@@ -306,11 +308,11 @@ One of the easiest conventions to adopt is regards query writing and execution. 
 ## Common Design and Coding Practices
 Please refer to the Design and Coding practices guideline for more information on this
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjg5MDE5LC0xNjUzOTY4MjI5LC0xMj
-YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
-MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
-M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
-NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
-g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
-NTczNl19
+eyJoaXN0b3J5IjpbLTkxMzQ1MTAyMSwtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

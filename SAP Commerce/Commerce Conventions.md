@@ -321,14 +321,16 @@ When performing search queries in data access objects, they must be as specific 
 - Transactions
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes or nothing passes. 
 Every transactional action must executed in a transaction. This is implementation through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
+
+the example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of anything that happens in 
 		
 		Transaction.current().execute(new TransactionBody()
 			{
 				@Override
 
-				public ContractWSDTO execute() throws Exception
+				public <T> T execute() throws Exception
 				{
-						
+						//logic 
 				}
 			});
 
@@ -346,11 +348,11 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NTQ0NSwxMzczNDEzOTc5LC0xNjUzOT
-Y4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEw
-LC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNz
-YxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAs
-LTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2Nz
-Y3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYz
-NTldfQ==
+eyJoaXN0b3J5IjpbMTAwNDExMDg2NywxMzczNDEzOTc5LC0xNj
+UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
+NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
+0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5
+MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LD
+E2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1
+ODYzNTldfQ==
 -->

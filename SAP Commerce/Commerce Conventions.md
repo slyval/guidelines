@@ -280,13 +280,14 @@ All sample data must be removed in productive environments. There are 2 ways to 
 The best way to manage data is to actually use both methods above so that when sample data is triggered for import by mistake, the conditional logic will ensure the data is not imported anyway
 
 
-
+### Performance Considerations
+Performance is  a critical part of the majority of ecommerce solutions. The below are some of the suggested things to implement to improve
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODk4MDU3OSwtMTY1Mzk2ODIyOSwtMT
-I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
-NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
-wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
-NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
-E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
-NDU3MzZdfQ==
+eyJoaXN0b3J5IjpbOTY4NzU1ODksLTE2NTM5NjgyMjksLTEyNj
+EyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1NzkzODUy
+NzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyNDcsMz
+Q4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3
+MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xOD
+Y2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1
+NzM2XX0=
 -->

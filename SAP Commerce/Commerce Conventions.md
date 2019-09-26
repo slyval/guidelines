@@ -312,16 +312,16 @@ One of the easiest conventions to adopt is regards query writing and execution. 
 Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
 
 ### Design 
-- Architrectural 
+- Architrectural design
 	- Contollers can user facades and services but should not used data access objects unless there is a very good reason 
 	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
 	- Services can use other services and data access objects but should not utilise facades or contollers
 	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
 
-- Search 
+- Query design 
 When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
 
-- Transactions
+- Transactional Logic
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes or nothing passes. 
 Every transactional action must executed in a transaction. This is implementation through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
@@ -352,11 +352,11 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNjc3OTc2LDEzNzM0MTM5NzksLTE2NT
-M5NjgyMjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2
-MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLT
-E3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkx
-MCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMT
-Y3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4
-NjM1OV19
+eyJoaXN0b3J5IjpbLTEyODE3MzU5NzAsMTM3MzQxMzk3OSwtMT
+Y1Mzk2ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5
+NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OC
+wtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mjcw
+OTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNS
+wxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0
+NTg2MzU5XX0=
 -->

@@ -180,7 +180,7 @@ Data transfer objects are serializable objects used to exchange data between dif
 
 Data transfer object are also commonly referred to as beans or pojos. They contain a subset of attributes from one or more models or items. 
 
-It is imperative that as a convention, all DTOs must be declared in the *-beans.xml file of the relevant extension
+It is imperative that as a convention, all DTOs must be declared in the *-beans.xml file of the relevant extension. It's common to find these defined as part of the service layer. 
 
 The following conventions apply:
 - They must always be defined in the spring-bean.xml and not manually created. This makes maintenance easier.
@@ -268,11 +268,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTU2MzY2OSwxNTM3MjcwOTEwLC0xOD
-MzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5
-MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC
-0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5
-NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MD
-EyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbODUyODAxMTE4LDE1MzcyNzA5MTAsLTE4Mz
+MzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3Njkz
+OCwtMTg2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLT
+MzNDM0NTczNiw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0
+MTc3MTEsMTA2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMT
+IsMTY1MjE2ODkyNCwtMTExNzY3NDY2NCwyMDQwMjk3NjIyXX0=
 
 -->

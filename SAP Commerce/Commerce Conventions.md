@@ -150,8 +150,8 @@ An interface defines a contract with the outside world. It defines all the publi
 Inmplementations are classes that define behavior for a given contract/interface. 
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
 
-The naming conventions for interfaces also apply for implementations. 
-- The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
+- The naming conventions for interfaces also apply for implementations. 
+- The first implementation of an interface must be the interface name prefixed with **Default** or **<customer_name>** or **<project_name>** e.g ***DefaultAddressService*** for an interface named ***AddressService***
 - If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 
 #### Data Access  Objects
@@ -265,7 +265,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE4Mzk2MzEsLTE4MzMzNTI2NzAsLT
+eyJoaXN0b3J5IjpbLTEzMTcxNDA0MjMsLTE4MzMzNTI2NzAsLT
 E0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5
 MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNi
 w4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2

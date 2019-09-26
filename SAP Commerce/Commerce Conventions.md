@@ -340,7 +340,7 @@ The example shows how to implement transactional logic. Any exception that occur
 The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
 
 - Code Documentation 
-Public methods in an interface or a class must be documented with a description for the method and a documentation of the parameters and return types. Classes must also be documented to provide a descr
+Public methods in an interface or a class must be documented with a description for the method and a documentation of the parameters and return types. Interfaces and classes must also be documented to provide a description of the purpose of the c
 
 - Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
@@ -355,7 +355,7 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMzNDg0MzAsMTM3MzQxMzk3OSwtMT
+eyJoaXN0b3J5IjpbLTE4Mjg1Mjk2MTUsMTM3MzQxMzk3OSwtMT
 Y1Mzk2ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5
 NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OC
 wtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mjcw

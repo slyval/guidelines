@@ -296,9 +296,10 @@ Caching is important to allow for improved performance.
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
 - Static content - static web pages can be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
 #### Coding 
-Perfomant practices should be utilized to ensure that no performance penalties are incurred
+Perfomant practices should be utilized to ensure that no performance penalties are incurred. 
+One of the easiest conventions to adopt is regards query writing and execution. Direct queries with parameters must be preferred over searching for content and then looping through the result looking for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODkyODc3MywtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTQxNzY5NTQyNiwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

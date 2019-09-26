@@ -314,9 +314,11 @@ Please refer to the Design and Coding practices guideline for more information. 
 	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
 	- Services can use other services and data access objects but should not utilise facades or contollers
 	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
-	- The above also a
+
+### Coding
+- When performing search
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5OTQwMTExLC0xNjUzOTY4MjI5LC0xMj
+eyJoaXN0b3J5IjpbNjkxNzEzMjM3LC0xNjUzOTY4MjI5LC0xMj
 YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
 MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
 M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2

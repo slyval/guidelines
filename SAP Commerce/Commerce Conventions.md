@@ -210,9 +210,9 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
 
-Dependencies between extensions are declared in the extensioninfo.xml of an extension. 
+Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declaration are either done in the spring-bean.xml files or in the 
+All bean declaration are either done in the ***-spring.xml** files or in the ***-web-spring.xml** file 
 
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
@@ -244,7 +244,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDU5NzQyMywzNDgxNjUyNCwtMzMyOT
+eyJoaXN0b3J5IjpbMTg2MDQ3NDU0OSwzNDgxNjUyNCwtMzMyOT
 QwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgs
 LTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MD
 Q2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4

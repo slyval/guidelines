@@ -207,9 +207,9 @@ Controller are essentially web request handlers. As such they are commonly used 
 As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
 
 #### Converters and Populators
-A converter is an object that is used to convert data from one format to another. As an example, a converter can be used to convert from a model to a data transfer object - CustomerModel to CustomerData for example. 
+A converter is an object that is used to convert data from one format to another. 
 
-Sometime converters and populators are con
+Sometime converters and populators are misunderstood to mean the same thing. However, a populator is a container obj
 
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -243,11 +243,11 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzk1OTIzNyw5ODk3NTU3MDAsMTUxND
-Y5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3
-OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mj
-cwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkz
-NSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
-Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5
-MDg0XX0=
+eyJoaXN0b3J5IjpbLTIwMzg5MDQxNDYsOTg5NzU1NzAwLDE1MT
+Q2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcx
+NzgsLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNz
+I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5
+MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMT
+E2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3
+OTA4NF19
 -->

@@ -187,7 +187,7 @@ As DTOs are classes, the conventions for the same apply. Additionally, the name 
 #### Services 
 A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
 
- As services are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of services interfaces and classes must contain the suffix **Service**
+ As services are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of service interfaces and classes must contain the suffix **Service**
 
 		Example: 	Interface: SaleAreaDeterminationService
 					Implementation: DefaultSalesAreaDeterminationService
@@ -195,19 +195,11 @@ A service is an object that is concerned with the execution of business logic or
 #### Facades
 A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow. Data transfer objects find a greater use here that in services as focus transfer objects are utilized. 
  
+As facades are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
 
-The following conventions should apply when creating a facade: 
-- Packages into which the facade must be relevantly named
-- Always create facades as beans that are declared using annotations or xml configuration 
-- The name must:
-	- contain the suffix **Facade**
-	- contain only alphanumeric characters
-	- be in **Pascal** case
-- All attributes of a service must be in **Camel** case
 
 			Example: 	Interface: CustomerDataCompilationFacade
 						Implementation: DefaultCustomerDataCompilationFacade
-
 
 #### Controllers
 Controller a web request handlers. As such they are commonly used with RESTful web services or web applications. They should always be in thev web part of an extension. They sit above facades, architecturally speaking but there is nothing wrong with a controller calling a service unless there is a facade in place that the controller should utilize
@@ -251,11 +243,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgxNzQyOSwtMzMyOTQwMiwxNTM3Mj
-cwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkz
-NSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
-Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5
-MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNi
-wtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0
-MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTEyOTkxNDYwNzQsLTMzMjk0MDIsMTUzNz
+I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5
+MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMT
+E2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3
+OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1Mj
+YsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIw
+NDAyOTc2MjJdfQ==
 -->

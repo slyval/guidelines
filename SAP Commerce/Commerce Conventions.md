@@ -212,11 +212,9 @@ All controllers, facades, services and data access objects are declared/defined 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annoation** based done in the class definition. Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for definition. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
+All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annoation** based done in the class definition. 
 
-The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
-- xml driven definition 
-- annotation driven definition
+Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformint. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
 It is advisable but not mandatory to use aliases. This makes it easier to override functionality without completely replacing some of the beans, especially where the overriden beans can still be used. 
 
@@ -244,11 +242,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMjgyMzE2LC0xNzYxNjI2MjQ3LDM0OD
-E2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAs
-LTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Nj
-k5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTcz
-Niw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
-A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
-ODkyNF19
+eyJoaXN0b3J5IjpbMTg2Njk5NTc0NiwtMTc2MTYyNjI0NywzND
+gxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcw
+LC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
+Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
+MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
+EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
+Njg5MjRdfQ==
 -->

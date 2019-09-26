@@ -122,6 +122,8 @@ All data models or items must be created in the *-items.xml file in the resource
 
 - Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
 
+- 
+
 #### Item Attributes
 
 - Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
@@ -250,20 +252,21 @@ Dependencies are injected in 2 main ways:
 ### Essential and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
 
-Sample data is also important when creati
+Sample data is also important when creating a test environment
 
-To manage this data, there are a couple of places where this data can be places so that whenever the system is updated or initialialized, this data is imported via IMPEX. The following options should be used:
+To manage this data, there are a couple of places where this data can be placed so that whenever the system is updated or initialialized, this data is imported via IMPEX. The following options should be used:
 
 - If the data is created only once and rarely changes, consider adding it in the **essentialdata-<name>.impex** or **projectdata-<name>.impex** file under the **resources/impex** of the relevant extension. Alternatively, the **resources/<extension_name>/import/common/** folder structure of data extensions such as the  ***initialdata** extensions
 - If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
 - If data is considered as test data, then it should be created under the **resources/<extension_name>/import/coredata** folder structure if the ***initialdata** data extensions
--
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzcyNDg3NCwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTY4Njc1OTU5NCwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

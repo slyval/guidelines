@@ -145,8 +145,9 @@ An interface defines a contract with the outside world. It defines all the publi
 
 #### Implementations
 Inmplementations are classes that define behavior for a given contract/interface. 
-Impentations can directly or indirectly - extending an existing implementation - 
-When creating an implementation the following must be followed:
+Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
+
+When creating an implementation the following must be followed. The same naming conventions
 
 - The name must convey intent
 -  Should use **Pascal** case
@@ -264,9 +265,9 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU5MDUwMDIsMTY3Njc2OTM4LC0xOD
-Y2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1
-NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMS
-wxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUy
-MTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
+Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
+MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
+EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
+Njg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
 -->

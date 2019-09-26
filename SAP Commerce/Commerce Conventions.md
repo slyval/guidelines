@@ -319,13 +319,15 @@ Please refer to the Design and Coding practices guideline for more information. 
 - Search 
 When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
 - Object Sizes
-The number of lines in a class must not exceed 1000 an
+The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
+- Logging 
+Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and shoul
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNTM3MDM2LC0xNjUzOTY4MjI5LC0xMj
-YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
-MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
-M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
-NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
-g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
-NTczNl19
+eyJoaXN0b3J5IjpbMTA3NTQwMjY5NiwtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

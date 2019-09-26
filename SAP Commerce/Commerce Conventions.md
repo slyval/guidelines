@@ -136,13 +136,15 @@ All data models or items must be created in the *-items.xml file in the resource
 An interface defines a contract with the outside world. It defines all the publicly accessible methods that external dependents can interact with. 
 
 - An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not defining new publicly accessible methods
-- For naming conventions, inter should : 
+- For naming conventions, interfaces should : 
 	- convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
 	- be in **Pascal** case
 	- contain only alphanumeric characters
-			
+		
 			Examples: AddressService, AddressDao, AddressFacade
-
+- The method names should:
+	- be in **Camel** case
+	- 
 #### Implementations
 Inmplementations are classes that define behavior for a given contract/interface. 
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
@@ -265,10 +267,10 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MDQzMzMwLC0xNDg4OTE2ODgsLTYxMj
-g0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2
-LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xOD
-MzMTc5MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIx
-MjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2NzQ2Nj
-QsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNj
+EyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05NzcwNDYy
+NjYsLTExNjQ1ODYzNTksLTMzNDM0NTczNiw4NjgzMDQ4MTgsLT
+E4MzMxNzkwODQsLTE5OTk0MTc3MTEsMTA2NTYxNzEyNiwtODQ4
+MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2ODkyNCwtMTExNzY3ND
+Y2NCwyMDQwMjk3NjIyXX0=
 -->

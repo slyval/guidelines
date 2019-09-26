@@ -216,7 +216,7 @@ All bean declarations are either **xml** based definitions done in the ***-sprin
 
 Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformint. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
-It is advisable but not mandatory to use aliases. This makes it easier to override functionality without completely replacing some of the beans, especially where the overriden beans can still be used. 
+It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans without completely replacing some of the beans, especially where the overriden beans can still be used. 
 
 When overriding a bean the following is mandatory: 
 - the overriding bean must define a parent and use the overriden bean or the parent of the overriden bean. 
@@ -242,11 +242,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Njk5NTc0NiwtMTc2MTYyNjI0NywzND
-gxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcw
-LC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
-Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
-MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
-EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
-Njg5MjRdfQ==
+eyJoaXN0b3J5IjpbLTEwNjkwNDA1MDIsLTE3NjE2MjYyNDcsMz
+Q4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3
+MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xOD
+Y2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1
+NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMS
+wxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUy
+MTY4OTI0XX0=
 -->

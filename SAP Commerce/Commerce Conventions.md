@@ -187,10 +187,7 @@ As DTOs are classes, the conventions for the same apply. Additionally, the name 
 #### Services 
 A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
 
-The following conventions should apply:
-- They must be declared as beans either using annotations or xml configuration 
-- The name must:
-	- contain the suffix **Service**
+ As services are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of services interfaces and classes must contain the suffix **Service**
 	- contain only alphanumeric characters
 	- be in **Pascal** case
 - All attributes of a service must be in **Camel** case
@@ -258,11 +255,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Nzg2NjYxNCwxNTM3MjcwOTEwLC0xOD
-MzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5
-MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC
-0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5
-NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MD
-EyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
-
+eyJoaXN0b3J5IjpbLTEyNjc0OTE3NzgsMTUzNzI3MDkxMCwtMT
+gzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2
+OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OS
+wtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5
+OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NT
+AxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJd
+fQ==
 -->

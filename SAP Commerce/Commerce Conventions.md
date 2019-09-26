@@ -208,7 +208,9 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 	
 
 ### Dependency Management
-All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans r
+All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
+
+Dependencies between exten
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
 - annotation driven definition
@@ -239,7 +241,7 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU0Mzk4NDQsMzQ4MTY1MjQsLTMzMj
+eyJoaXN0b3J5IjpbLTEzMjE2OTM2MjksMzQ4MTY1MjQsLTMzMj
 k0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4
 LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3Nz
 A0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgx

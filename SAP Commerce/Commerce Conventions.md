@@ -135,7 +135,7 @@ Localization allows for models and model attributes to be internationalized by p
 
 All models(enums and items) and their attributes must all be localized at least in English. If multiple languages are a requirementm, then the relevant languages must be considered
 
-Localizations are maintained in the  **resources/localization** folder
+Localizations are maintained in the **<extensions_name>-locales_<iso_code>.properties** property files in the  **resources/localization** folder of the relevant extension
 
 ### Classes and Interfaces
 		
@@ -271,7 +271,7 @@ To manage this data, there are a couple of places where this data can be placed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjQ3ODUwNSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTcwMjIwMTkxNiwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

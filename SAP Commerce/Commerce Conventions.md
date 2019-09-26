@@ -219,10 +219,10 @@ The common conventions when doing object are as follows:
 - Converter must be created and then injected into a populator which should populate by calling all injected converters. The populator can then be injected in the object that require the data conversion 
 - It might be necessary in some circumstances to use the converter directly where only one converter is envisioned
 
-
+As converters and populators are classes, all class conventions apply. Additionally all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
 
 ### Dependency Management
-All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
+All controllers, facades, services, converters data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
@@ -253,7 +253,7 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDY4MjQ4MSwtMTI2MTIzNTc3MSw5OD
+eyJoaXN0b3J5IjpbLTk0MjE4MTMwNiwtMTI2MTIzNTc3MSw5OD
 k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
 MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
 MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2

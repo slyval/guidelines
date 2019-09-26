@@ -222,7 +222,7 @@ The common conventions when doing object are as follows:
 As converters and populators are classes, all class conventions apply. Additionally all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
 
 ### Dependency Management
-All controllers, facades, services, converters data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
+All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
@@ -253,7 +253,7 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjE4MTMwNiwtMTI2MTIzNTc3MSw5OD
+eyJoaXN0b3J5IjpbMTY2NjUxODU2NiwtMTI2MTIzNTc3MSw5OD
 k3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1
 MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMz
 MyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2

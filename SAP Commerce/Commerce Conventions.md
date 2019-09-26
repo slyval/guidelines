@@ -152,7 +152,8 @@ Classes can directly or indirectly - extending an existing implementation - impl
 
 - The naming conventions for interfaces also apply for implementations. 
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
-- If inheriting from or overwriting a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
+- If inheriting from or overriding a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
+- The prefixing with Default or Custom can be adapted to use the customer or project name if so desired but only if this is adopted for global use
 
 #### Data Access  Objects
 
@@ -265,10 +266,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMT
-Q4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTky
-NTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LD
-g2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1
-NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OT
-I0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk4NzA1NjMsMTUzNzI3MDkxMCwtMT
+gzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2
+OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OS
+wtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5
+OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NT
+AxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJd
+fQ==
 -->

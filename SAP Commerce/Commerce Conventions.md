@@ -212,7 +212,7 @@ All controllers, facades, services and data access objects are declared/defined 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annoation** based done in the class definition. Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for definition. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definition can impact expected behavior. 
+All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annoation** based done in the class definition. Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for definition. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
@@ -244,11 +244,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMj
-k0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4
-LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3Nz
-A0NjI2NiwtMTE2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgx
-OCwtMTgzMzE3OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC
-04NDgyMTI1MjYsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3
-Njc0NjY0XX0=
+eyJoaXN0b3J5IjpbNTEyMjgyMzE2LC0xNzYxNjI2MjQ3LDM0OD
+E2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAs
+LTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Nj
+k5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0NTcz
+Niw4NjgzMDQ4MTgsLTE4MzMxNzkwODQsLTE5OTk0MTc3MTEsMT
+A2NTYxNzEyNiwtODQ4MjEyNTI2LC04MDk0ODUwMTIsMTY1MjE2
+ODkyNF19
 -->

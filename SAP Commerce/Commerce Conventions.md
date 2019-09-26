@@ -227,13 +227,16 @@ When overriding a bean, there are two approaches to use:
 
 It should be understood that there is a difference between a web-context specific bean and a global-context specific bean
 
-When defining bean properties or inheritance(parenting), be careful that circular dependencies are nmo
+When defining bean properties or inheritance(parenting), be careful that circular dependencies are not introduced
+
+Dependencies are injected in 2 main ways:
+- Property/Constructor based injection - this is when 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjIxMzY0NSwxNTE0Njk0NjEwLC0xNT
+eyJoaXN0b3J5IjpbMTQ4MDAxMzc2MCwxNTE0Njk0NjEwLC0xNT
 c5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2
 MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4Mz
 MzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3Njkz

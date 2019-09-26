@@ -218,7 +218,7 @@ Any definition mechanism can be adopted depending on needs. It is advisable to a
 
 It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
 
-When defining a bean, the following naming conventions should be follwed:
+When defining a bean, the following naming conventions should be followed:
 - **Camel** case must be used to for bean ids, names and aliases as well as properties
 
 When overriding a bean, there are two approaches to use:
@@ -242,11 +242,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzND
-gxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcw
-LC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4Nj
-Y5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3
-MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLD
-EwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIx
-Njg5MjRdfQ==
+eyJoaXN0b3J5IjpbMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3Nj
+E2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwt
+MTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Nj
+c2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1
+OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMT
+k5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4
+NTAxMl19
 -->

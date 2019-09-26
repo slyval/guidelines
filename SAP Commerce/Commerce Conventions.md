@@ -42,6 +42,9 @@ The defacto standard CI tool for our projects is **Jenkins**. For all projects, 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
 	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in local environments to help make troubleshooting easier as, in some cases, debugging may not be allowed in the development runtime system.
 
+- Monitoring and Availability
+It is important to consider monitoring tools for the runtime systems. This should helo
+
 #### Solution Initialization
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
 
@@ -302,11 +305,11 @@ One of the easiest conventions to adopt is regards query writing and execution. 
 ## Common Design and Coding Practices
 Please refer to the Design and Coding practices guideline for more information on this
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDUyMTk5OCwtMTY1Mzk2ODIyOSwtMT
-I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
-NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
-wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
-NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
-E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
-NDU3MzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU4NTU4OTYsLTE2NTM5NjgyMjksLT
+EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
+ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
+csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
+MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
+0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
+MzQ1NzM2XX0=
 -->

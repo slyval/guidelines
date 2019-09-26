@@ -205,11 +205,9 @@ As facades are interfaces and implementing classes, the conventions for the same
 Controller are essentially web request handlers. As such they are commonly used with RESTful web services or web applications. They are created in the web part of an extension. 
 
 As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
-	- contain only aplhanumeric characters 
-	- be in **Pascal** case
-- All attributes of a controller must be in **Camel** case, except for constants
+	
 
-#### Bean Definition
+### Bean Definition
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
 - annotation driven definition
@@ -240,11 +238,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA3MzM5NzcsLTMzMjk0MDIsMTUzNz
-I3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5
-MzUsMTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMT
-E2NDU4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3
-OTA4NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1Mj
-YsLTgwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIw
-NDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MD
+kxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUs
+MTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2ND
+U4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4
+NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLT
+gwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAy
+OTc2MjJdfQ==
 -->

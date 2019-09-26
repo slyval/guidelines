@@ -310,9 +310,11 @@ Please refer to the Design and Coding practices guideline for more information. 
 
 ### Design 
 - Architrectural 
-	- Contollers can user facades and services but should not used data access objects unl
+	- Contollers can user facades and services but should not used data access objects unless there is a very good reason 
+	- Facades can user other facades as well as services and data access objects only where necessary
+	- Services can user other services and data access objects but should not utilise facades 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgyNDMwMzYsLTE2NTM5NjgyMjksLT
+eyJoaXN0b3J5IjpbLTEwNjcyODE1MjQsLTE2NTM5NjgyMjksLT
 EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
 ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
 csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1

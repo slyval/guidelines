@@ -133,7 +133,9 @@ All data models or items must be created in the *-items.xml file in the resource
 #### Localization
 Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides meaningful context that is not provided when technical names are used. 
 
-All models(enums and items) and their attributes must all be localized at least in English unless a multis
+All models(enums and items) and their attributes must all be localized at least in English. If multiple languages are a requirementm, then the relevant languages must be considered
+
+Localizations are maintained in the  **resources/localization** folder
 
 ### Classes and Interfaces
 		
@@ -269,11 +271,11 @@ To manage this data, there are a couple of places where this data can be placed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE1OTc3NjYsLTE2NTM5NjgyMjksLT
-EyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nzkz
-ODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyND
-csMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1
-MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC
-0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMzM0
-MzQ1NzM2XX0=
+eyJoaXN0b3J5IjpbMTE1MjQ3ODUwNSwtMTY1Mzk2ODIyOSwtMT
+I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
+NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
+wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
+NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
+E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
+NDU3MzZdfQ==
 -->

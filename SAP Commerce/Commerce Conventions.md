@@ -294,9 +294,10 @@ Caching is important to allow for improved performance.
 - Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
 - Request caching - this can be defined for RESTful endpoints 
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
-- Static content - static web 
+- Static content - static web pages can be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDM4NjAxNywtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbLTU3NDc1MTgyMSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

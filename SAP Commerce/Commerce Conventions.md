@@ -156,7 +156,8 @@ Classes can directly or indirectly - extending an existing implementation - impl
 - The prefixing with Default or Custom can be adapted to use the customer or project name if so desired but only if this is adopted for global use
 
 ### Common Object Types
-The following are the common object types that form the three common architectural layers
+The following are the common object types that form the three common architectural layers namely; Facades, Services and Data Access layers. Following are the guidelines for these objects.
+
 #### Data Access  Objects
 
 For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
@@ -268,11 +269,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzAzMTA5MSwxNTM3MjcwOTEwLC0xOD
-MzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5
-MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC
-0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5MDg0LC0xOTk5
-NDE3NzExLDEwNjU2MTcxMjYsLTg0ODIxMjUyNiwtODA5NDg1MD
-EyLDE2NTIxNjg5MjQsLTExMTc2NzQ2NjQsMjA0MDI5NzYyMl19
-
+eyJoaXN0b3J5IjpbLTIwNjA4Nzc4NjcsMTUzNzI3MDkxMCwtMT
+gzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2
+OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OS
+wtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5
+OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLTgwOTQ4NT
+AxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAyOTc2MjJd
+fQ==
 -->

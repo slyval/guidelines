@@ -131,7 +131,9 @@ All data models or items must be created in the *-items.xml file in the resource
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 #### Localization
-Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice
+Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides meaningful context that is not provided when technical names are used. 
+
+To localize attributes
 
 ### Classes and Interfaces
 		
@@ -267,11 +269,11 @@ To manage this data, there are a couple of places where this data can be placed 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODE5MzMwOSwtMTY1Mzk2ODIyOSwtMT
-I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
-NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
-wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
-NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
-E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
-NDU3MzZdfQ==
+eyJoaXN0b3J5IjpbOTEzMzIxMDk2LC0xNjUzOTY4MjI5LC0xMj
+YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
+MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
+M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
+NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
+g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
+NTczNl19
 -->

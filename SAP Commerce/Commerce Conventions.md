@@ -271,7 +271,8 @@ There are a number of security considerations that should be notes for all diffe
 - All productive environments must not contain sample users that are created as part of the out of the box solution 
 - Default passwords for users that are kept as part of the solution like admin must be changed
 - Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
-- Usage of 
+- Usage of swagger in productive environments should be avoided
+
 #### Sample Data
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
 
@@ -291,12 +292,13 @@ Clustering enables for load balancing and high availability. For all solutions t
 Caching is important to allow for improved performance. 
 - Platform caching - this can be enabled by defining cache regions
 - Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
+- Request caching - this can be defined for wen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTYwMzM1NCwtMTY1Mzk2ODIyOSwtMT
-I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
-NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
-wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy
-NjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLT
-E4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMTY0NTg2MzU5LC0zMzQz
-NDU3MzZdfQ==
+eyJoaXN0b3J5IjpbNjk0ODQyMjE3LC0xNjUzOTY4MjI5LC0xMj
+YxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1
+MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LD
+M0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2
+NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMT
+g2Njk5MjU3LC05NzcwNDYyNjYsLTExNjQ1ODYzNTksLTMzNDM0
+NTczNl19
 -->

@@ -208,6 +208,7 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 	
 
 ### Bean Definition
+
 The bean definition for services, facades and data access objects is supposed to be done uniformly accross a probject and the decision to choose between these two mechanisms should be made for each project: 
 - xml driven definition 
 - annotation driven definition
@@ -238,11 +239,11 @@ Standalone bean example:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MD
-kxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUs
-MTY3Njc2OTM4LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2ND
-U4NjM1OSwtMzM0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4
-NCwtMTk5OTQxNzcxMSwxMDY1NjE3MTI2LC04NDgyMTI1MjYsLT
-gwOTQ4NTAxMiwxNjUyMTY4OTI0LC0xMTE3Njc0NjY0LDIwNDAy
-OTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjQxMzAyNiwzNDgxNjUyNCwtMzMyOT
+QwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgs
+LTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MD
+Q2MjY2LC0xMTY0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4
+LC0xODMzMTc5MDg0LC0xOTk5NDE3NzExLDEwNjU2MTcxMjYsLT
+g0ODIxMjUyNiwtODA5NDg1MDEyLDE2NTIxNjg5MjQsLTExMTc2
+NzQ2NjRdfQ==
 -->

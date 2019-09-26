@@ -314,13 +314,16 @@ Please refer to the Design and Coding practices guideline for more information. 
 	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
 	- Services can use other services and data access objects but should not utilise facades or contollers
 	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
-- Atomicity 
-The 
-
-### Coding
 
 - Search 
 When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
+
+- Atomicity 
+This cannot be stressed
+
+### Coding
+
+
 
 - Object Sizes
 The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
@@ -332,7 +335,7 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODEyMjc0NywtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTEyNTE0NzAwNSwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

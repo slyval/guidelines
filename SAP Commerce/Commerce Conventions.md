@@ -339,6 +339,8 @@ The example shows how to implement transactional logic. Any exception that occur
 - Object Sizes
 The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
 
+- Documentation 
+
 - Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 The **org.apache.log4j.Logger** logger must be used  universally for uniformity
@@ -350,9 +352,9 @@ All scenarios where an exception is expected, the exception must be explicitly h
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore to use constructs such as lamdas and streams. These must also only be used where necessary
 
 - Libraries 
-Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulne
+Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTQ0NzYyOSwxMzczNDEzOTc5LC0xNj
+eyJoaXN0b3J5IjpbLTMyODEwODA0OCwxMzczNDEzOTc5LC0xNj
 UzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0
 NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC
 0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5

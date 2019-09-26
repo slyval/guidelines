@@ -205,7 +205,9 @@ As facades are interfaces and implementing classes, the conventions for the same
 Controller are essentially web request handlers. As such they are commonly used with RESTful web services or web applications. They are created in the web part of an extension. 
 
 As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
-	
+
+#### Converters and Populators
+A converter is an object that is used to convert
 
 ### Dependency Management
 All controllers, facades, services and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -239,11 +241,11 @@ Dependencies are injected in 2 main ways:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1Nz
-kzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYy
-NDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMz
-M1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4
-LC0xODY2OTkyNTcsLTk3NzA0NjI2NiwtMTE2NDU4NjM1OSwtMz
-M0MzQ1NzM2LDg2ODMwNDgxOCwtMTgzMzE3OTA4NCwtMTk5OTQx
-NzcxMV19
+eyJoaXN0b3J5IjpbMTU5NDgzODM1MCw5ODk3NTU3MDAsMTUxND
+Y5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3
+OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3Mj
+cwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkz
+NSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3MDQ2MjY2LC0xMT
+Y0NTg2MzU5LC0zMzQzNDU3MzYsODY4MzA0ODE4LC0xODMzMTc5
+MDg0XX0=
 -->

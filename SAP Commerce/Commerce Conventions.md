@@ -314,6 +314,8 @@ Please refer to the Design and Coding practices guideline for more information. 
 	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
 	- Services can use other services and data access objects but should not utilise facades or contollers
 	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
+- Atomicity 
+The 
 
 ### Coding
 - Search 
@@ -321,11 +323,11 @@ When performing search queries in data access objects, they must be as specific 
 - Object Sizes
 The number of lines in a class must not exceed 1000 and those in a method must not exceed 100
 - Logging 
-Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used
+Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 - Exception Handling
-All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must no
+All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTM4MjM2NSwtMTY1Mzk2ODIyOSwtMT
+eyJoaXN0b3J5IjpbMTgwNDIyMTI4MiwtMTY1Mzk2ODIyOSwtMT
 I2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4
 NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0Ny
 wzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUy

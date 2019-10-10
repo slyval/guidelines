@@ -345,7 +345,9 @@ Logging should be performed at the correct logging level. Logging at the INFO le
 The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 
 - Exception Handling
-All scenarios where an exception is expected, the exception must be explicitly handled. This means that the error should be logged and necessary actions must be taken. Empty catch statements must not be encountered in any repository. 
+All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
+	 - the error should be logged and necessary actions must be taken
+	 - empty catch statements must not be encountered in any repository. 
 
 - Declarative Programming 
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore to use constructs such as lamdas and streams. These must also only be used where necessary
@@ -361,13 +363,13 @@ As common conventions for commerce, the following are expected as mimimums:
 - For a full repository, a minimum of 80% test coverage is expected
 - When writing tests, take note that the Junit tenant will be utilized to execute the tests
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
-- Without being prescriptive, Test Driven 
+- Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTAxNzE5MywtNjUwMDU3NjYyLC0xMj
-gxNzM1OTcwLDEzNzM0MTM5NzksLTE2NTM5NjgyMjksLTEyNjEy
-MzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1NzkzODUyNz
-MsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyNDcsMzQ4
-MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MC
-wtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2
-OTkyNTddfQ==
+eyJoaXN0b3J5IjpbMTMxNjg4MjksLTY1MDA1NzY2MiwtMTI4MT
+czNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4MjI5LC0xMjYxMjM1
+NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLD
+M4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2
+NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLT
+E0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5
+MjU3XX0=
 -->

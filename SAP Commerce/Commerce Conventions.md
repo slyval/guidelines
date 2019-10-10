@@ -356,15 +356,17 @@ Libraries must be used with care and a review should be performed with team or t
 ### Testing
 Please refer to the guide on testing for more information. 
 Testing is a critical part of any non-trivial solution. Commerce solutions are by no means trivial. 
-As common conventions, the following are expected:
+As common conventions for commerce, the following are expected as mimimums:
 - All services, facades, data access object and converters/populators must have unit tests against them
 - For a full repository, a minimum of 80% test coverage is expected
+- When writing tests, take note that the Junit tenant will be utilized to execute the tests
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgzMjEyNDksLTY1MDA1NzY2MiwtMT
-I4MTczNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4MjI5LC0xMjYx
-MjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1Mj
-czLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0
-ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2Nz
-AsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2
-Njk5MjU3XX0=
+eyJoaXN0b3J5IjpbNzU5NjcyMjYwLC02NTAwNTc2NjIsLTEyOD
+E3MzU5NzAsMTM3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMTI2MTIz
+NTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3My
+wzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgx
+NjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC
+0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5
+OTI1N119
 -->

@@ -347,10 +347,11 @@ The **org.apache.log4j.Logger** logger must be used  universally for uniformity
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
 	 - the error should be logged and necessary actions must be taken
-	 - empty catch statements must not be encountered in any repository. 
+	 - empty catch statements must not be encountered in any repository
+	 - where necessary, custom exception classes must be utilized
 
 - Declarative Programming 
-Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore to use constructs such as lamdas and streams. These must also only be used where necessary
+Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. These must also only be used where necessary
 
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
@@ -365,11 +366,11 @@ As common conventions for commerce, the following are expected as mimimums:
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjg4MjksLTY1MDA1NzY2MiwtMTI4MT
-czNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4MjI5LC0xMjYxMjM1
-NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLD
-M4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2
-NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLT
-E0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5
-MjU3XX0=
+eyJoaXN0b3J5IjpbNDM4Njg1NzIzLC02NTAwNTc2NjIsLTEyOD
+E3MzU5NzAsMTM3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMTI2MTIz
+NTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3My
+wzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgx
+NjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC
+0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5
+OTI1N119
 -->

@@ -368,13 +368,13 @@ As common conventions for commerce, the following are expected as mimimums:
 
 ## Commerce Cloud (CCv2)
 Commerce cloud implementations are hosted on the public cloud (currently Azure but SAP will be expanding AWS and other providers). All conventions and considerations listed above are applicable but the following points are important:
-- Instead of using the localextensions
+- Instead of using the local.extensions file, there is also 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTcwODU5NCw0Mzg2ODU3MjMsLTY1MD
-A1NzY2MiwtMTI4MTczNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4
-MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC
-0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYx
-NjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLDE1MzcyNzA5MTAsLT
-E4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEyODQ0OTM1LDE2NzY3
-NjkzOF19
+eyJoaXN0b3J5IjpbLTEwOTUyMzk1OTEsNDM4Njg1NzIzLC02NT
+AwNTc2NjIsLTEyODE3MzU5NzAsMTM3MzQxMzk3OSwtMTY1Mzk2
+ODIyOSwtMTI2MTIzNTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMC
+wtMTU3OTM4NTI3MywzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2
+MTYyNjI0NywzNDgxNjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC
+0xODMzMzUyNjcwLC0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2
+NzY5MzhdfQ==
 -->

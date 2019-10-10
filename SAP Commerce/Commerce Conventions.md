@@ -355,9 +355,11 @@ Libraries must be used with care and a review should be performed with team or t
 
 ### Testing
 Please refer to the guide on testing for more information. 
-
+Testing is a critical part of any non-trivial solution. Commerce solutions are by no means trivial. 
+As common conventions, the following are expected:
+- Testing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA5ODc4MTYsLTY1MDA1NzY2MiwtMT
+eyJoaXN0b3J5IjpbLTE0NzQ1MjI5MjIsLTY1MDA1NzY2MiwtMT
 I4MTczNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4MjI5LC0xMjYx
 MjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1Mj
 czLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0

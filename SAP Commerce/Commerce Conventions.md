@@ -1,9 +1,9 @@
 # SAP Commerce Guidelines
 
 ## Purpose
-The purpose of this document is to provide guidance in relation to the implementation of SAP Commerce Cloud. The benefit of these guidlines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
+The purpose of this document is to provide guidance in relation to the implementation of SAP Commerce. The benefit of these guidlines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
 
-This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce Cloud projects.  This document applies to both on-premise and cloud implementations. 
+This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
 
 ## Solution
 	
@@ -365,12 +365,14 @@ As common conventions for commerce, the following are expected as mimimums:
 - When writing tests, take note that the Junit tenant will be utilized to execute the tests
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
+
+## Commerce Cloud (CCv2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4Njg1NzIzLC02NTAwNTc2NjIsLTEyOD
-E3MzU5NzAsMTM3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMTI2MTIz
-NTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3My
-wzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgx
-NjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC
-0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5
-OTI1N119
+eyJoaXN0b3J5IjpbMjQ2OTg5MTQ0LDQzODY4NTcyMywtNjUwMD
+U3NjYyLC0xMjgxNzM1OTcwLDEzNzM0MTM5NzksLTE2NTM5Njgy
+MjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLT
+E1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2
+MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMT
+gzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2
+OTM4XX0=
 -->

@@ -281,7 +281,7 @@ There are a number of security considerations that should be notes for all diffe
 - Default passwords for users that are kept as part of the solution like admin must be changed
 - Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
 - Usage of swagger in productive environments should be avoided
-- All sensitive data, such as usernames and passwords, must not be added to project.properties files as that means they will be added as part of the repository
+- All sensitive data, such as usernames and passwords, must not be added to project.properties files as that means they will be added as part of the repository. Instead the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment or must be added to a static file when using SAP Commerce Cloud. 
 
 #### Sample Data
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
@@ -353,11 +353,11 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzYxNTg4OSwtMTI4MTczNTk3MCwxMz
-czNDEzOTc5LC0xNjUzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1
-NTcwMCwxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOS
-wxNjI5NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5
-NDAyLDE1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OC
-wtNjEyODQ0OTM1LDE2NzY3NjkzOCwtMTg2Njk5MjU3LC05Nzcw
-NDYyNjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjM4NzU1NDMsLTEyODE3MzU5NzAsMT
+M3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMTI2MTIzNTc3MSw5ODk3
+NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3MywzODQ2OTU1MT
+ksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgxNjUyNCwtMzMy
+OTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC0xNDg4OTE2OD
+gsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5OTI1NywtOTc3
+MDQ2MjY2XX0=
 -->

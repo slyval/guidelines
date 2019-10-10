@@ -370,9 +370,10 @@ As common conventions for commerce, the following are expected as mimimums:
 Commerce cloud implementations are hosted on the public cloud (currently Azure but SAP will be expanding AWS and other providers). All conventions and considerations listed above are applicable but the following points are important:
 - Instead of using the local.extensions and local.properties files, a manifest.json file is used
 - Caching can be enabled for static pages from the platform itself 
-- 
+- Maintenance mode for productive environments can be switched on allowing for maitenance work to be carried whilst customers are redirected to a maintenance page
+- Static files can be used to define sensitive properties that should not be part of the git based repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc5NDgwLC0xMDk1MjM5NTkxLDQzOD
+eyJoaXN0b3J5IjpbMTY4NDM4MjkxLC0xMDk1MjM5NTkxLDQzOD
 Y4NTcyMywtNjUwMDU3NjYyLC0xMjgxNzM1OTcwLDEzNzM0MTM5
 NzksLTE2NTM5NjgyMjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLD
 E1MTQ2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0

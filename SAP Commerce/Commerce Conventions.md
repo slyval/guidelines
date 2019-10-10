@@ -367,9 +367,10 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 ## Commerce Cloud (CCv2)
-Commerce cloud implementations are hosted on the public cloud (currently Azure but SAP will be expanding AWS and other providers). All conventions and considerations listed above are applicable but the following is impi
+Commerce cloud implementations are hosted on the public cloud (currently Azure but SAP will be expanding AWS and other providers). All conventions and considerations listed above are applicable but the following points are important:
+- Instead of using the localextensions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjI3NjQ2Miw0Mzg2ODU3MjMsLTY1MD
+eyJoaXN0b3J5IjpbMjEwMTcwODU5NCw0Mzg2ODU3MjMsLTY1MD
 A1NzY2MiwtMTI4MTczNTk3MCwxMzczNDEzOTc5LC0xNjUzOTY4
 MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMCwxNTE0Njk0NjEwLC
 0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5NDE3MTc4LC0xNzYx

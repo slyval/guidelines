@@ -353,20 +353,21 @@ Declarive programming is essential to avoid introducing bugs that can be avoided
 - Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
 
-### Testing
+### Automated Testing
 Please refer to the guide on testing for more information. 
 Testing is a critical part of any non-trivial solution. Commerce solutions are by no means trivial. 
 As common conventions for commerce, the following are expected as mimimums:
 - All services, facades, data access object and converters/populators must have unit tests against them
 - For a full repository, a minimum of 80% test coverage is expected
 - When writing tests, take note that the Junit tenant will be utilized to execute the tests
-- 
+- Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
+- Without being prescriptive, Test Driven 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NjcyMjYwLC02NTAwNTc2NjIsLTEyOD
-E3MzU5NzAsMTM3MzQxMzk3OSwtMTY1Mzk2ODIyOSwtMTI2MTIz
-NTc3MSw5ODk3NTU3MDAsMTUxNDY5NDYxMCwtMTU3OTM4NTI3My
-wzODQ2OTU1MTksMTYyOTQxNzE3OCwtMTc2MTYyNjI0NywzNDgx
-NjUyNCwtMzMyOTQwMiwxNTM3MjcwOTEwLC0xODMzMzUyNjcwLC
-0xNDg4OTE2ODgsLTYxMjg0NDkzNSwxNjc2NzY5MzgsLTE4NjY5
-OTI1N119
+eyJoaXN0b3J5IjpbLTYwOTAxNzE5MywtNjUwMDU3NjYyLC0xMj
+gxNzM1OTcwLDEzNzM0MTM5NzksLTE2NTM5NjgyMjksLTEyNjEy
+MzU3NzEsOTg5NzU1NzAwLDE1MTQ2OTQ2MTAsLTE1NzkzODUyNz
+MsMzg0Njk1NTE5LDE2Mjk0MTcxNzgsLTE3NjE2MjYyNDcsMzQ4
+MTY1MjQsLTMzMjk0MDIsMTUzNzI3MDkxMCwtMTgzMzM1MjY3MC
+wtMTQ4ODkxNjg4LC02MTI4NDQ5MzUsMTY3Njc2OTM4LC0xODY2
+OTkyNTddfQ==
 -->

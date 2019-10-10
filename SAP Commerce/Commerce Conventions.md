@@ -366,21 +366,12 @@ As common conventions for commerce, the following are expected as mimimums:
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
-## Commerce Cloud (CCv2)
-Commerce cloud implementations are hosted on the public cloud (currently Azure but SAP will be expanding AWS and other providers). All conventions and considerations listed above are applicable but the following points are important:
-- Only git based repositories can be used to integrate to the cloud platform
-- Instead of using the local.extensions and local.properties files, a manifest.json file is used
-- Caching can be enabled for static pages from the platform itself 
-- Maintenance mode for productive environments can be switched on allowing for maitenance work to be carried whilst customers are redirected to a maintenance page
-- Static files can be used to define sensitive properties that should not be part of the git based repository
-- Builds and deployments are automated. Builds create docker images that can be deployed anywhere
-- Logg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjY0MDMzNiwtMTA5NTIzOTU5MSw0Mz
-g2ODU3MjMsLTY1MDA1NzY2MiwtMTI4MTczNTk3MCwxMzczNDEz
-OTc5LC0xNjUzOTY4MjI5LC0xMjYxMjM1NzcxLDk4OTc1NTcwMC
-wxNTE0Njk0NjEwLC0xNTc5Mzg1MjczLDM4NDY5NTUxOSwxNjI5
-NDE3MTc4LC0xNzYxNjI2MjQ3LDM0ODE2NTI0LC0zMzI5NDAyLD
-E1MzcyNzA5MTAsLTE4MzMzNTI2NzAsLTE0ODg5MTY4OCwtNjEy
-ODQ0OTM1XX0=
+eyJoaXN0b3J5IjpbODA5Mjc5NTE5LC0xMDk1MjM5NTkxLDQzOD
+Y4NTcyMywtNjUwMDU3NjYyLC0xMjgxNzM1OTcwLDEzNzM0MTM5
+NzksLTE2NTM5NjgyMjksLTEyNjEyMzU3NzEsOTg5NzU1NzAwLD
+E1MTQ2OTQ2MTAsLTE1NzkzODUyNzMsMzg0Njk1NTE5LDE2Mjk0
+MTcxNzgsLTE3NjE2MjYyNDcsMzQ4MTY1MjQsLTMzMjk0MDIsMT
+UzNzI3MDkxMCwtMTgzMzM1MjY3MCwtMTQ4ODkxNjg4LC02MTI4
+NDQ5MzVdfQ==
 -->

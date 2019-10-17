@@ -24,7 +24,7 @@ RESTful API design notes
 	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would fail
 
 ##### response 
-- the response must communicate the success or failure of the request
+- the response must communicate the success or failure of the request. 
 - 
  
 
@@ -33,6 +33,6 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzAxODcwMywtMTI3OTQ5NzIwOSwtNj
+eyJoaXN0b3J5IjpbMTE4NTQ4MjIxMSwtMTI3OTQ5NzIwOSwtNj
 E5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

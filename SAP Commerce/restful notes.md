@@ -15,7 +15,8 @@ endpoints:
  - where a resource has children,  extend the endpoint to show the relationship  e.g orders/1/entries or classes/1/students/20
  
  methods(actions)
- - these are the verbs that define the actions to be performed against an o
+ - these are the verbs that define the actions to be performed against an object
+ - 
  
 
 
@@ -23,6 +24,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUzNTU4NTIsLTYxOTM5NjIxLDIxND
+eyJoaXN0b3J5IjpbLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxND
 E1NjEzNThdfQ==
 -->

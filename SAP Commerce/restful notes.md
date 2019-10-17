@@ -17,9 +17,9 @@ endpoints:
  methods(actions)
  - these are the verbs that define the actions to be performed against an object
  - 4 of these must be used to perform the CRUD  actions. These are:
-	 - GET - for retrieval or reading of a resource or a collection. No side effects must occur, if any use t
-	 - POST - for creation of a resource. This results in side effects, if none use get. 
-	 - PUT - for updating of a resource or creation when resource does not exist (insert or update)
+	 - GET - for retrieval or reading of a resource or a collection. No side effects must occur, if any use the other verbs. 
+	 - POST - for creation of a resource. This results in side effects, if none use GET. The same request performed multiple times might result in different results( as duplicates might be rejected)
+	 - PUT - for updating of a resource or creation when resource does not exist (insert or update). Multiple requests should return the same result (
 	 - DELETE - for the removal or deletion of a resource or collection 
 
  
@@ -29,6 +29,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MzczNTAwLC0xMjc5NDk3MjA5LC02MT
-kzOTYyMSwyMTQxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbLTExNDQ4Nzg4MjMsLTEyNzk0OTcyMDksLT
+YxOTM5NjIxLDIxNDE1NjEzNThdfQ==
 -->

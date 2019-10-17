@@ -16,7 +16,9 @@ endpoints:
  
  methods(actions)
  - these are the verbs that define the actions to be performed against an object
- - 
+ - 4 of these must be used to perform the CRUD or CRD actions. These are:
+	 - GET - for retrieval or reading of a resource or a collection
+	 - 
  
 
 
@@ -24,6 +26,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxND
-E1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbNzY3NDE3OTYsLTEyNzk0OTcyMDksLTYxOT
+M5NjIxLDIxNDE1NjEzNThdfQ==
 -->

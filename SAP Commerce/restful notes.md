@@ -11,13 +11,14 @@ endpoints:
  - no verbs or actions must make part of an endpoint URL
  - verbs come from the HTTP methods(GET, POST, PUT, DELETE)
  - the resource noun must always be plural e.g orders, entries, products
- - when acting on one object, the identifier e.g order number or pk or guid , is used in conjunction with the plural for resources e.g orders/{o}
+ - when acting on one object, the identifier e.g order number or pk or guid , is used in conjunction with the plural for resources e.g orders/{order number}
+ - 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODM1NDMzNiwtNjE5Mzk2MjEsMjE0MT
-U2MTM1OF19
+eyJoaXN0b3J5IjpbNDQzMzA0NDcsLTYxOTM5NjIxLDIxNDE1Nj
+EzNThdfQ==
 -->

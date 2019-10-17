@@ -8,12 +8,13 @@ key elements:
 
 endpoints:
  - endpoint URLs must only contain nouns(named resources or collections) and/or indentifiers
- - no verbs or actions must be 
+ - no verbs or actions must make part of an endpoint URL
+ - 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0Njg0NzU4LDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTYxOTM5NjIxLDIxNDE1NjEzNThdfQ==
 -->

@@ -18,7 +18,9 @@ endpoints:
  - these are the verbs that define the actions to be performed against an object
  - 4 of these must be used to perform the CRUD or CRD actions. These are:
 	 - GET - for retrieval or reading of a resource or a collection
-	 - 
+	 - POST - for creation or updating of a resource or a collection 
+	 - PUT - for updating of a resource or a collection 
+	 - DELETE
  
 
 
@@ -26,6 +28,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3NDE3OTYsLTEyNzk0OTcyMDksLTYxOT
-M5NjIxLDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbNjUxOTgzODQ2LC0xMjc5NDk3MjA5LC02MT
+kzOTYyMSwyMTQxNTYxMzU4XX0=
 -->

@@ -1,6 +1,6 @@
 RESTful API design notes 
 
-key elements:
+##### key elements:
 - resource - object or asset 
 - collections - a set of resources 
 - url(uri) - an identifying or locating path to a resouce or collection. This is different from an endpoint 
@@ -13,8 +13,8 @@ key elements:
  - the resource noun must always be plural e.g orders, entries, products
  - when acting on one object, the identifier e.g order number or pk or guid , is used in conjunction with the plural for resources e.g orders/{order number}
  - where a resource has children,  extend the endpoint to show the relationship  e.g orders/1/entries or classes/1/students/20
- 
- ###methods(actions)
+
+##### methods(actions)
  
  - these are the verbs that define the actions to be performed against an object
  - 4 of these must be used to perform the CRUD  actions. These are:
@@ -24,7 +24,8 @@ key elements:
 	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would fail
 
 ##### response 
-
+- the response must communicate the success or failure of the request
+- 
  
 
 
@@ -32,6 +33,6 @@ key elements:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ0NzczNzIsLTEyNzk0OTcyMDksLT
-YxOTM5NjIxLDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTM2NzAxODcwMywtMTI3OTQ5NzIwOSwtNj
+E5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

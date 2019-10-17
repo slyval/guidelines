@@ -7,17 +7,17 @@ key elements:
 - endpoint - an interface to performing actions against resources and collections
 
 endpoints:
- - endpoint URLs must only contain nouns(named resources or collections) and/or indentifiers
+ - endpoint URLs must only contain nouns(resources or collections) and/or indentifiers
  - no verbs or actions must make part of an endpoint URL
  - verbs come from the HTTP methods(GET, POST, PUT, DELETE)
  - the resource noun must always be plural e.g orders, entries, products
- - when acting on one object, the identifier e.g order number or pk or guid , is used to 
+ - when acting on one object, the identifier e.g order number or pk or guid , is used in conjunction with the plural for resources e.g orders/{o}
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MzUxNDY5LC02MTkzOTYyMSwyMTQxNT
-YxMzU4XX0=
+eyJoaXN0b3J5IjpbLTc1ODM1NDMzNiwtNjE5Mzk2MjEsMjE0MT
+U2MTM1OF19
 -->

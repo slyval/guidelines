@@ -20,7 +20,8 @@ endpoints:
 	 - GET - for retrieval or reading of a resource or a collection
 	 - POST - for creation or updating of a resource or a collection 
 	 - PUT - for updating of a resource or a collection 
-	 - DELETE
+	 - DELETE - for the removal or deletion of a resource or collection 
+
  
 
 
@@ -28,6 +29,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxOTgzODQ2LC0xMjc5NDk3MjA5LC02MT
+eyJoaXN0b3J5IjpbNzI2MDU0MjM3LC0xMjc5NDk3MjA5LC02MT
 kzOTYyMSwyMTQxNTYxMzU4XX0=
 -->

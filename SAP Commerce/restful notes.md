@@ -10,13 +10,14 @@ endpoints:
  - endpoint URLs must only contain nouns(named resources or collections) and/or indentifiers
  - no verbs or actions must make part of an endpoint URL
  - verbs come from the HTTP methods(GET, POST, PUT, DELETE)
- - the resource noun must always be plural e.g orders, entries, 
+ - the resource noun must always be plural e.g orders, entries, products
+ - when acting on one object, the identifier e.g order number or pk or guid , is used to 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTgzNDYzOSwtNjE5Mzk2MjEsMjE0MT
-U2MTM1OF19
+eyJoaXN0b3J5IjpbNzY1MzUxNDY5LC02MTkzOTYyMSwyMTQxNT
+YxMzU4XX0=
 -->

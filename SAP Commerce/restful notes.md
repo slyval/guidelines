@@ -19,8 +19,8 @@ endpoints:
  - 4 of these must be used to perform the CRUD  actions. These are:
 	 - GET - for retrieval or reading of a resource or a collection. No side effects must occur, if any use the other verbs. 
 	 - POST - for creation of a resource. This results in side effects, if none use GET. The same request performed multiple times might result in different results( as duplicates might be rejected)
-	 - PUT - for updating of a resource or creation when resource does not exist (insert or update). Multiple requests should return the same result (
-	 - DELETE - for the removal or deletion of a resource or collection 
+	 - PUT - for updating of a resource or creation when resource does not exist (insert or update). Side effects are expected. Multiple requests should return the same result due to insert/update nature
+	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would
 
  
 
@@ -29,6 +29,6 @@ endpoints:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ4Nzg4MjMsLTEyNzk0OTcyMDksLT
+eyJoaXN0b3J5IjpbLTIwMzI4MjQ2OTAsLTEyNzk0OTcyMDksLT
 YxOTM5NjIxLDIxNDE1NjEzNThdfQ==
 -->

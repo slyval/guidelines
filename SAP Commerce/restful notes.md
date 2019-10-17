@@ -26,7 +26,7 @@ RESTful API design notes
 ##### response 
 - the response must communicate the success or failure of the request.
 - failure can result from a wrong request or a malformed request or a state of the system
-- 
+- HTTP status codes should be used to communicate this
  
 
 
@@ -34,6 +34,6 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTk4MDYyNCwtMTI3OTQ5NzIwOSwtNj
+eyJoaXN0b3J5IjpbMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNj
 E5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

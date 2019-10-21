@@ -24,9 +24,13 @@ RESTful API design notes
 	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would fail
 
 ##### response and response codes
-- the response must communicate the success or failure of the request.
+- the response codes must communicate the success or failure of the request.
 - failure can result from a wrong request or a malformed request or a state of the system
-- HTTP status codes should be used to communicate this
+- HTTP status codes as response codes
+
+###### status codes 
+200 - should be used for GET, DELETE and PUT requests
+
  
 
 
@@ -34,6 +38,6 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDkzNTQzNywxNjcwNTE2Mjg1LC0xMj
-c5NDk3MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbLTE5MTQ3OTk3NDksMTY3MDUxNjI4NSwtMT
+I3OTQ5NzIwOSwtNjE5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

@@ -29,7 +29,7 @@ RESTful API design notes
 - HTTP status codes as response codes
 
 ###### status codes 
-200 - should be used for GET and PUT requests
+200 - - should be used for GET and PUT requests
 201 - should be used with POST requests that create
 204 - should be used with DELETE requests
 
@@ -40,6 +40,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDcyMjA3NywxNjcwNTE2Mjg1LC0xMj
-c5NDk3MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbMTA2NTQxNzgzNCwxNzA0NzIyMDc3LDE2Nz
+A1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEz
+NThdfQ==
 -->

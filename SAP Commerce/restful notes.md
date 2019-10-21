@@ -23,7 +23,7 @@ RESTful API design notes
 	 - PUT - for updating of a resource or creation when resource does not exist (insert or update). Side effects are expected. Multiple requests should return the same result due to insert/update nature
 	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would fail
 
-##### response 
+##### response and response codes
 - the response must communicate the success or failure of the request.
 - failure can result from a wrong request or a malformed request or a state of the system
 - HTTP status codes should be used to communicate this
@@ -34,6 +34,6 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNj
-E5Mzk2MjEsMjE0MTU2MTM1OF19
+eyJoaXN0b3J5IjpbMTk3NDkzNTQzNywxNjcwNTE2Mjg1LC0xMj
+c5NDk3MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX0=
 -->

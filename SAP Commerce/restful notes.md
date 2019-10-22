@@ -58,13 +58,15 @@ Like filtering, the actual attributes in the resource being searched should be u
 ###### Paging
 Paging should be used to limit the package size of the collection returned so as to provide performant implementations. The format should be ?page=\<page number> & size=\<page size>
 
+##### Versioning 
+In order to accomodate future changes without breaking existing clients, it is important to consider versioning where external 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUwNDYxODksLTQ5MjIzNzA5LC05Nj
-c5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIy
-MDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLD
-IxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbNTc5NjM3NDE3LC00OTIyMzcwOSwtOTY3OT
+MwNDU5LC0xMTE0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3
+NywxNjcwNTE2Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMT
+QxNTYxMzU4XX0=
 -->

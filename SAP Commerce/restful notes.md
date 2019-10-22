@@ -54,13 +54,13 @@ A parameter can be provided that provides the search query - e.g ?search=xxxxxxx
 ###### Filtering
 This should use actual attributes in the resource being searched to return a specific collection or resource
 ###### Sorting
-Like filtering, the a
+Like filtering, the actual attributes in the resource being searched should be used to sort. The format should be in the format ?sort=<attribute> & order=ASC/DESC
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzE3OTgzMywtNDkyMjM3MDksLTk2Nz
+eyJoaXN0b3J5IjpbMTY3OTI2NjI3MCwtNDkyMjM3MDksLTk2Nz
 kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
 NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
 E0MTU2MTM1OF19

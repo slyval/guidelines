@@ -56,14 +56,14 @@ This should use actual attributes in the resource being searched to return a spe
 ###### Sorting
 Like filtering, the actual attributes in the resource being searched should be used to sort. The format should be in the format ?sort=\<attribute> & order=ASC/DESC
 ###### Paging
-
+Paging should be used to limit the package size of the collection returned so as to provide performant implementations. The format should be ?page=\<page ni
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc0MTAwMjksLTQ5MjIzNzA5LC05Nj
-c5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIy
-MDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLD
-IxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTIwNjkwNTI4NSwtNDkyMjM3MDksLTk2Nz
+kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
+NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
+E0MTU2MTM1OF19
 -->

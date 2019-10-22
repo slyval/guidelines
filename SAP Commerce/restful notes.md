@@ -55,13 +55,15 @@ A parameter can be provided that provides the search query - e.g ?search=xxxxxxx
 This should use actual attributes in the resource being searched to return a specific collection or resource and should be in the format ?\<attribute>=\<value> 
 ###### Sorting
 Like filtering, the actual attributes in the resource being searched should be used to sort. The format should be in the format ?sort=\<attribute> & order=ASC/DESC
+###### Paging
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MzAzODczLC00OTIyMzcwOSwtOTY3OT
-MwNDU5LC0xMTE0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3
-NywxNjcwNTE2Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMT
-QxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbLTEzMDc0MTAwMjksLTQ5MjIzNzA5LC05Nj
+c5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIy
+MDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLD
+IxNDE1NjEzNThdfQ==
 -->

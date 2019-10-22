@@ -47,14 +47,16 @@ RESTful API design notes
 502 - 
 503 - service unavailable - represents that the system is not able to process the request at the moment
  
-##### Sea
+##### Searching, Filtering, Sorting, Pagination
+###### Searching 
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQzNTYzNzMsLTQ5MjIzNzA5LC05Nj
-c5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIy
-MDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLD
-IxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbMTg1ODI3Mzg1OCwtNDkyMjM3MDksLTk2Nz
+kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
+NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
+E0MTU2MTM1OF19
 -->

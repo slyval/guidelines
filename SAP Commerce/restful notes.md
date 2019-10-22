@@ -35,7 +35,10 @@ RESTful API design notes
 204 - No Content- should be used with DELETE requests
 
 400 Codes represent client error
-401 means the client c
+400 - bade request means that the request sent through is malformed
+401 means the client could not be authenticated 
+403 means the client could not be authorized
+404 means what the client requested is not available 
 
  
 
@@ -44,7 +47,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDMwMzU1MTAsLTExMTQzMTcxNzEsMT
-QyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0
-OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbMTQ2NDY5Mzc0NSwtMTExNDMxNzE3MSwxND
+IxODIxNDU5LDE3MDQ3MjIwNzcsMTY3MDUxNjI4NSwtMTI3OTQ5
+NzIwOSwtNjE5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

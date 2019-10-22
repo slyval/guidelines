@@ -48,16 +48,19 @@ RESTful API design notes
 503 - service unavailable - represents that the system is not able to process the request at the moment
  
 ##### Searching, Filtering, Sorting, Pagination
+This should only be used with GET methods that also 
 ###### Searching 
 A parameter can be provided that provides the search query - e.g ?search=xxxxxxxx
 ###### Filtering
-This should use actual parameters in the resources to include on
+This should use actual attributes in the resource being searched to return a specific collection or resource
+###### Sorting
+Like filtering, the a
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA2MDU0NCwtNDkyMjM3MDksLTk2Nz
+eyJoaXN0b3J5IjpbMTg2MzE3OTgzMywtNDkyMjM3MDksLTk2Nz
 kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
 NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
 E0MTU2MTM1OF19

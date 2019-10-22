@@ -39,6 +39,7 @@ RESTful API design notes
 401 - unauthroized - means the client could not be authenticated 
 403 - forbidden - means the client could not be authorized
 404 - not found - means what the client requested is not available 
+
 410 - gone - implies that the resource the client is looking for is no longer available
 
 5XX Code represent server errors
@@ -52,7 +53,8 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzkzMDQ1OSwtMTExNDMxNzE3MSwxND
-IxODIxNDU5LDE3MDQ3MjIwNzcsMTY3MDUxNjI4NSwtMTI3OTQ5
-NzIwOSwtNjE5Mzk2MjEsMjE0MTU2MTM1OF19
+eyJoaXN0b3J5IjpbLTg5NDQyMjE1MywtOTY3OTMwNDU5LC0xMT
+E0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3NywxNjcwNTE2
+Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX
+0=
 -->

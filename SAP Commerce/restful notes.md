@@ -33,7 +33,8 @@ RESTful API design notes
 200 - OK  - should be used for GET and PUT requests
 201 - Created - should be used with POST requests that create
 204 - No Content- should be used with DELETE requests
-	
+
+
 
  
 
@@ -42,7 +43,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2Nz
-A1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEz
-NThdfQ==
+eyJoaXN0b3J5IjpbLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNz
+A0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5
+NjIxLDIxNDE1NjEzNThdfQ==
 -->

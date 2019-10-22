@@ -44,7 +44,7 @@ RESTful API design notes
 5XX Code represent server errors
 500 - internal server error - represents an exceptional issue encountered by the systemm
 502 - 
-503 - service unavailable - represents
+503 - service unavailable - represents that the system is not able to process the request at the moment
  
 
 
@@ -52,7 +52,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTMzMzMxLC0xMTE0MzE3MTcxLDE0Mj
-E4MjE0NTksMTcwNDcyMjA3NywxNjcwNTE2Mjg1LC0xMjc5NDk3
-MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbLTk2NzkzMDQ1OSwtMTExNDMxNzE3MSwxND
+IxODIxNDU5LDE3MDQ3MjIwNzcsMTY3MDUxNjI4NSwtMTI3OTQ5
+NzIwOSwtNjE5Mzk2MjEsMjE0MTU2MTM1OF19
 -->

@@ -29,18 +29,22 @@ RESTful API design notes
 - HTTP status codes as response codes
 
 ###### status codes 
-200 Codes represent Success
+2XX Codes represent Success
 200 - OK  - should be used for GET and PUT requests
 201 - Created - should be used with POST requests that create
 204 - No Content- should be used with DELETE requests
 
-400 Codes represent client error
+4XX Codes represent client error
 400 - bad request - means that the request sent through is malformed
 401 - unauthroized - means the client could not be authenticated 
 403 - forbidden - means the client could not be authorized
 404 - not found - means what the client requested is not available 
 410 - gone - implies that the resource the client is looking for is no longer available
 
+5XX Code represent server errors
+500 - internal server error - represents an exceptional issue encountered by the systemm
+502 - 
+503 - service unavailable - represents
  
 
 
@@ -48,7 +52,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk1ODczODEsLTExMTQzMTcxNzEsMT
-QyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0
-OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTk0NTMzMzMxLC0xMTE0MzE3MTcxLDE0Mj
+E4MjE0NTksMTcwNDcyMjA3NywxNjcwNTE2Mjg1LC0xMjc5NDk3
+MjA5LC02MTkzOTYyMSwyMTQxNTYxMzU4XX0=
 -->

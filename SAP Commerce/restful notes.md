@@ -52,16 +52,16 @@ This should only be used with GET methods that also
 ###### Searching 
 A parameter can be provided that provides the search query - e.g ?search=xxxxxxxx
 ###### Filtering
-This should use actual attributes in the resource being searched to return a specific collection or resource
+This should use actual attributes in the resource being searched to return a specific collection or resource and should be in the format ?\<attribute>=\<value> 
 ###### Sorting
-Like filtering, the actual attributes in the resource being searched should be used to sort. The format should be in the format ?sort=<attribute> & order=ASC/DESC
+Like filtering, the actual attributes in the resource being searched should be used to sort. The format should be in the format ?sort=\<attribute> & order=ASC/DESC
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTI2NjI3MCwtNDkyMjM3MDksLTk2Nz
-kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
-NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
-E0MTU2MTM1OF19
+eyJoaXN0b3J5IjpbNTE3MzAzODczLC00OTIyMzcwOSwtOTY3OT
+MwNDU5LC0xMTE0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3
+NywxNjcwNTE2Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMT
+QxNTYxMzU4XX0=
 -->

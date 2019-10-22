@@ -47,7 +47,7 @@ RESTful API design notes
 502 - 
 503 - service unavailable - represents that the system is not able to process the request at the moment
 ##### Error handling
-An error payload must be us
+An error payload must be used in conjunction status codes where errors have occured in order to provide context and detail
 ##### Searching, Filtering, Sorting, Pagination
 This should only be used with GET methods that also 
 ###### Searching 
@@ -65,7 +65,7 @@ In order to accomodate future changes without breaking existing clients, it is i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMTc5NDg0LDExODI1NzIyNzMsLTQ5Mj
+eyJoaXN0b3J5IjpbOTYyODYwNDUzLDExODI1NzIyNzMsLTQ5Mj
 IzNzA5LC05Njc5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1
 OSwxNzA0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLT
 YxOTM5NjIxLDIxNDE1NjEzNThdfQ==

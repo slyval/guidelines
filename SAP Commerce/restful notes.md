@@ -26,7 +26,7 @@ RESTful API design notes
 ##### headers
 HTTP headers should be used for the following among others:
  - Authorization 
- - 
+ - Serialization
 
 ##### response and response codes
 - the response codes must communicate the success or failure of the request.
@@ -79,9 +79,9 @@ In order to accomodate future changes without breaking existing clients, it is i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTIyNzgwMyw4MjAyODU1OTEsOTYyOD
-YwNDUzLDExODI1NzIyNzMsLTQ5MjIzNzA5LC05Njc5MzA0NTks
-LTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2Nz
-A1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEz
-NThdfQ==
+eyJoaXN0b3J5IjpbNzc3OTUxMDkxLDgyMDI4NTU5MSw5NjI4Nj
+A0NTMsMTE4MjU3MjI3MywtNDkyMjM3MDksLTk2NzkzMDQ1OSwt
+MTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIwNzcsMTY3MD
+UxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMjE0MTU2MTM1
+OF19
 -->

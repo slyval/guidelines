@@ -23,6 +23,11 @@ RESTful API design notes
 	 - PUT - for updating of a resource or creation when resource does not exist (insert or update). Side effects are expected. Multiple requests should return the same result due to insert/update nature
 	 - DELETE - for the removal or deletion of a resource or collection. Side effects are expected and multiple requests will not have the same result as the deletion of an inexistent object would fail
 
+##### headers
+HTTP headers should be used for the following among others:
+ - Authorization 
+ - 
+
 ##### response and response codes
 - the response codes must communicate the success or failure of the request.
 - failure can result from a wrong request or a malformed request or a state of the system
@@ -48,12 +53,15 @@ RESTful API design notes
 503 - service unavailable - represents that the system is not able to process the request at the moment
 ##### Error handling
 An error payload must be used in conjunction status codes where errors have occured in order to provide context and detail. The structure should be as follows and additional attributes can be added:
-			{
-				"errors":[
-					"code":"000"
-				   "message": "the message"
-				]
-			}
+			
+
+			    {
+    				"errors":[
+    					"code":"000"
+    				   "message": "the message"
+    				]
+    			}
+
 ##### Searching, Filtering, Sorting, Pagination
 This should only be used with GET methods that also 
 ###### Searching 
@@ -71,9 +79,9 @@ In order to accomodate future changes without breaking existing clients, it is i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc1ODE5OTIsODIwMjg1NTkxLDk2Mj
-g2MDQ1MywxMTgyNTcyMjczLC00OTIyMzcwOSwtOTY3OTMwNDU5
-LC0xMTE0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3NywxNj
-cwNTE2Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMTQxNTYx
-MzU4XX0=
+eyJoaXN0b3J5IjpbMTUwNTIyNzgwMyw4MjAyODU1OTEsOTYyOD
+YwNDUzLDExODI1NzIyNzMsLTQ5MjIzNzA5LC05Njc5MzA0NTks
+LTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2Nz
+A1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEz
+NThdfQ==
 -->

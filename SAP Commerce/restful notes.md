@@ -34,7 +34,8 @@ RESTful API design notes
 201 - Created - should be used with POST requests that create
 204 - No Content- should be used with DELETE requests
 
-
+400 Codes represent client error
+401 means the client c
 
  
 
@@ -43,7 +44,7 @@ RESTful API design notes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQzMTcxNzEsMTQyMTgyMTQ1OSwxNz
-A0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLTYxOTM5
-NjIxLDIxNDE1NjEzNThdfQ==
+eyJoaXN0b3J5IjpbLTEzNDMwMzU1MTAsLTExMTQzMTcxNzEsMT
+QyMTgyMTQ1OSwxNzA0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0
+OTcyMDksLTYxOTM5NjIxLDIxNDE1NjEzNThdfQ==
 -->

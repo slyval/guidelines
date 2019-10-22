@@ -59,14 +59,13 @@ Like filtering, the actual attributes in the resource being searched should be u
 Paging should be used to limit the package size of the collection returned so as to provide performant implementations. The format should be ?page=\<page number> & size=\<page size>
 
 ##### Versioning 
-In order to accomodate future changes without breaking existing clients, it is important to consider versioning where external 
-
+In order to accomodate future changes without breaking existing clients, it is important to consider versioning where external clients are expected. To specify a version, a versioning id must prefix the api endpoints .eg v1/orders/1
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NjM3NDE3LC00OTIyMzcwOSwtOTY3OT
-MwNDU5LC0xMTE0MzE3MTcxLDE0MjE4MjE0NTksMTcwNDcyMjA3
-NywxNjcwNTE2Mjg1LC0xMjc5NDk3MjA5LC02MTkzOTYyMSwyMT
-QxNTYxMzU4XX0=
+eyJoaXN0b3J5IjpbMTE4MjU3MjI3MywtNDkyMjM3MDksLTk2Nz
+kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
+NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
+E0MTU2MTM1OF19
 -->

@@ -46,7 +46,8 @@ RESTful API design notes
 500 - internal server error - represents an exceptional issue encountered by the systemm
 502 - 
 503 - service unavailable - represents that the system is not able to process the request at the moment
- 
+##### Error handling
+An error payload must be us
 ##### Searching, Filtering, Sorting, Pagination
 This should only be used with GET methods that also 
 ###### Searching 
@@ -64,8 +65,8 @@ In order to accomodate future changes without breaking existing clients, it is i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjU3MjI3MywtNDkyMjM3MDksLTk2Nz
-kzMDQ1OSwtMTExNDMxNzE3MSwxNDIxODIxNDU5LDE3MDQ3MjIw
-NzcsMTY3MDUxNjI4NSwtMTI3OTQ5NzIwOSwtNjE5Mzk2MjEsMj
-E0MTU2MTM1OF19
+eyJoaXN0b3J5IjpbNDkyMTc5NDg0LDExODI1NzIyNzMsLTQ5Mj
+IzNzA5LC05Njc5MzA0NTksLTExMTQzMTcxNzEsMTQyMTgyMTQ1
+OSwxNzA0NzIyMDc3LDE2NzA1MTYyODUsLTEyNzk0OTcyMDksLT
+YxOTM5NjIxLDIxNDE1NjEzNThdfQ==
 -->

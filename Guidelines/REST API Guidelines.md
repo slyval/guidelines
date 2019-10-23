@@ -81,7 +81,7 @@ Two elements are involved in a response.  These are the response status, communi
 #### Status Codes
 HTTP status codes should be used in the response to indicate the status of the processing of the request. 
 The following is a list of some of the codes and when they should be used. 
-
+##### 2xx - Success
 
 
 #### Payload
@@ -94,7 +94,7 @@ When a request has been successful, a payload is normally expected for most of t
  4. DELETE - a response payload is not expected
 
 ##### Error Handling
-When a failure has a occured, a response body must include an error payload. The structure of the error payload should be as follows. :
+When an error has a occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
     					"code":"000"
@@ -103,7 +103,7 @@ When a failure has a occured, a response body must include an error payload. The
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTQ2NTg5MiwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbLTg5MjA0NzczMiwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

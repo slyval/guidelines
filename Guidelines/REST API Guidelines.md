@@ -110,8 +110,11 @@ The above status codes are mainly meant to provide guidelines when impementing t
 
 #### Payload
 The response payload either contains resources or collections or errors. 
+
 As a guideline for naming conventions, the attribute names should be in camelCase. 
-JSON should be the preferred serialization format 
+
+JSON should be the used as the serialization format of choice and XML should be provided as a fallback. 
+
 ##### Successful Responses
 When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
 
@@ -133,9 +136,10 @@ Additional attributes for the error may be added as is necessary. Some might lik
 ### Searching, Filtering, Sorting and Paging
 Searching, filtering, sorting and paging are additional requirements that all non-trivial APIs should cater for. These enable ease of finding resources and also seek to meet performance and navigation requirements. 
 
-To achieve these requirements, usage of HTTP parameters is essential as is shown below. 
+To achieve these requirements, usage of HTTP parameters is essential as is discussed below. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MjIzMDY4LC0yOTM0NDE1MjAsMTU4Mj
-U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
-NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE0MDg3ODY2NDcsLTI5MzQ0MTUyMCwxNT
+gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
+MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -117,6 +117,8 @@ When a request has been successful, a payload is normally expected for most of t
  3. PUT - a response is optional. If provided, it should ideally contains the updated resource
  4. DELETE - a response payload is not expected
 
+##### Payload Formating 
+
 ##### Error Handling
 When an error has a occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
 
@@ -130,9 +132,9 @@ Additional attributes for the error may be added as is necessary. Some might lik
 ### Searching, Filtering, Sorting and Paging
 Searching, filtering, sorting and paging are additional requirements that all non-trivial APIs should cater for. These enable ease of finding resources and also seek to meet performance and navigation requirements. 
 
-To achieve these requirements, usage of HTTP 
+To achieve these requirements, usage of HTTP parameters is essential as is shown below. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU1NTM3MDgsLTI5MzQ0MTUyMCwxNT
-gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
-MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTkyNjU2OTY1MCwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

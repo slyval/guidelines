@@ -106,8 +106,7 @@ The following is a list of some of the codes and when they should be used.
  3. 503 - Service Unavailable - this should be used to indicate that the server could not process the requested action at the time of request. This could be provided as a response when server's capacity to handle additional request is not available
  4. 504 - Gateway Timeout - this can be used to indicate that a timeout occured when communicating to an upstream service
 
-
- 
+The above status codes are mainly meant to provide guidelines when impementing the server side. It should be noted that other status codes may be raised by the hosting syts
 
  
 
@@ -130,7 +129,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgzNzE1MTcsLTI5MzQ0MTUyMCwxNT
-gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
-MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTkxMzY4MTcyMiwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

@@ -163,9 +163,9 @@ The above implies that all "new" orders placed by "test" will be retrieved.
 #### Sorting 
 Sorting is essential when the order of results is important. 
 
-To handle sorting, predetermied parameters whose names either equate to or are mapped to resource attribute names should be used in  comobination with a the format **?\<attribute_name>=<attribute_value>**
+To handle sorting, predetermied parameters whose names either equate to or are mapped to resource attribute names should be used in  comobination with a the format **?\sort=<attribute_name>** or **?\sort=<attribute_name>&order=<ASC**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODMzMTkxMiwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTczOTcxODk4NywtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

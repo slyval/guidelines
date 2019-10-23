@@ -76,7 +76,7 @@ Other headers may be used where necessary.
 ### Response
 When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the success or failure of a request. 
 
-Two elements are involved in a response.  These are the response status, communicated using status codes, and the response payload. A wide array of status codes should be used rather than just 200 (success), 400 (failure) and 500 (error) as is often the case with poorly designed APIs. 
+Two elements are involved in a response.  These are the response status, communicated using status codes, and the response payload. A wide array of HTTP status codes should be used rather than just 200 (success), 400 (failure) and 500 (error) as is often the case with poorly designed APIs. 
 
 #### Status Codes
 HTTP status codes should be used in the response to indicate the status of the processing of the request. 
@@ -126,8 +126,10 @@ When an error has a occured, resulting in request failure indicated by the statu
     				    "type": "TheErrorType"
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMjk0MDE2LC0yOTM0NDE1MjAsMTU4Mj
-U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
-NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMTA2NzY3MjE1MiwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

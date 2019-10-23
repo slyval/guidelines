@@ -138,8 +138,11 @@ Searching, filtering, sorting and paging are additional requirements that all no
 
 To achieve these requirements, usage of HTTP parameters is essential as is discussed below. 
 
+#### Searching 
+Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. 
+In order to handle searching, a parameter called 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg3ODY2NDcsLTI5MzQ0MTUyMCwxNT
-gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
-MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTY2OTQ4OTUwNSwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

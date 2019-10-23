@@ -73,17 +73,19 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
 
 Other headers may be used where necessary.
 
-### Status Codes and Error Handling
+### Response
 When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the success or failure of a request. 
 
 Two elements are involved in a response.  These are the response status, communicated using status codes, and the response payload. 
 
 #### Status Codes
 HTTP status codes should be used in the response to indicate the status of the processing of the request. 
-The following isa
+The following is a list of some of the codes and when they should be used. 
 
 
-#### Error Handling
+
+#### Payload
+When the request is successful, th
 When a failure has a occured, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
@@ -93,7 +95,7 @@ When a failure has a occured, a response body must include an error payload. The
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjAyMjg2NCwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbMTg2ODgwNDQzMSwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

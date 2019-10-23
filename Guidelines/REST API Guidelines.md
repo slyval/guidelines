@@ -13,8 +13,10 @@ When designing web APIs, it is advisable to first consider using REST and only r
 ## Principles
 Outlined below are different principles that should be considered and followed when designing REST APIs
 
-### 
+### Understanding Key Elements
+There are a few elements whose meaning is important and should be understood well in order to successfully design REST APIs. They are:
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjg5NjIyMCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTEwODgxNTA3MywxMTU3MzUxNTAyXX0=
 -->

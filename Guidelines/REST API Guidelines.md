@@ -65,10 +65,12 @@ As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELE
  4. DELETE - The delete method should be utilized when removing a resource. Side effects are expected and the different results should be expected when the same request is sent multiple times as the first request would have deleted the resource
 
 ### Headers 
-As REST used HTTP for data transfer, the request headers
+As REST used HTTP for data transfer, request headers should be utilized for at least the following purposes:
+
+ 1. Authentication and Authorization - whether using basic or oAuth authentication, the  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzE5NjI4MSwtMTgxMDk3OTYwOSwtMT
+eyJoaXN0b3J5IjpbMTYzOTA2MzQ5MCwtMTgxMDk3OTYwOSwtMT
 EyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTcz
 NTE1MDJdfQ==
 -->

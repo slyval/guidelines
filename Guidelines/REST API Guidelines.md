@@ -57,8 +57,10 @@ Though the above reads intuitive, it does not follow best practice and leads to 
 
 With the above said, it is still necessary to represent an action or verb that represents the desired interaction. As REST APIs use HTTP for data transfer, the verbs are already taken care of as a rfesult of the utilization of HTTP methods. Those methods communicate the intent. 
 
-As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELETE methods should suffice for all required
+As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELETE methods should suffice for all required interactions. 
+
+Below is a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNDQwNTIxLDE5NjA3MjcwMDQsMTE1Nz
-M1MTUwMl19
+eyJoaXN0b3J5IjpbLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

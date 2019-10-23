@@ -13,16 +13,17 @@ When designing web APIs, it is advisable to first consider using REST and only r
 ## Principles
 Outlined below are different principles that should be considered and followed when designing REST APIs
 
-To foster better understanding, an ordering system that deals with orders and order entries will be used in the examp
+To foster better understanding, an ordering system that deals with orders and order entries will be used in the examples that will be provided
 
 ### Understanding Key Elements
 There are a few elements whose meaning is important and should be understood well in order to successfully design REST APIs. They are:
 
 #### Resource
-A resource is a key concept in REST. It represent the entities or objects that will be interacted
+A resource is a key concept in REST. It represent the entities or objects that users interact with. 
 
-> Written with [StackEdit](https://stackedit.io/).
+    As an example
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjg2ODU1NCwxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDYxOTc4ODQsMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

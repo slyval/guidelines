@@ -36,9 +36,10 @@ An endpoint refers to the an interface through which users interact with the API
 When designing REST API endpoints, it is important to note the following:
 
  - Endpoint must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
- - The nouns pertaining to the resources 
+ - The nouns pertaining to the resources must be in **plural** form. As an example when dealing with the Order resource, the noun must be *Orders*
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTI2NTUxNywxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjcyNjY1MjksMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

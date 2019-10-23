@@ -27,8 +27,11 @@ A resource is a key concept in REST. It represent the entities or objects that u
 A collection is a set of resources. As an example, a set of order resources is referred to as a collection of orders
 
 #### URL (Uniform Resource  Locator) or URI (Uniform Resource Identifier)
-These are often used interchangeably to indicate the path that when followed 
+These are often used interchangeably to indicate the path that when followed leads to the location of a resource or collection. URLs are often used in defining links in the response body 
+
+#### Endpoint 
+An end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODM3MDk5MCwxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE5MTgyMjIxODgsMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

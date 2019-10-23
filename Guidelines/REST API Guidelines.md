@@ -21,9 +21,11 @@ There are a few elements whose meaning is important and should be understood wel
 #### Resource
 A resource is a key concept in REST. It represent the entities or objects that users interact with. 
 
-    As an example
+    Examples of resources are: Order, Entry
 
+#### Collections 
+A collection is a set of resources. As an example, a set of order 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYxOTc4ODQsMTk2MDcyNzAwNCwxMT
+eyJoaXN0b3J5IjpbLTEyNjQzNzUxNDIsMTk2MDcyNzAwNCwxMT
 U3MzUxNTAyXX0=
 -->

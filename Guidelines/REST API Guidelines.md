@@ -141,7 +141,7 @@ To achieve these requirements, usage of HTTP parameters is essential as is discu
 #### Searching 
 Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. Also, searching should not be confused with filtering which is covered in the next section. 
 
-In order to handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. The parameter should be in the form ?q=\<seach string>
+In order to handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. The parameter should be in the form **?q=\<seach string>**
 
 An example of a searching endpointis shown below.
 
@@ -152,10 +152,10 @@ An example of a searching endpointis shown below.
 #### Filtering 
 Filtering is also essential when clients want a specific set of results that belong to a particular facet or have a particular attribute or attributes. 
 
-To handle filtering, parameters whose names similar to the attributes of a resource should be used
+To handle filtering, parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble ?<attribute_name>=<desired
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTU2MTk1NCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTc3MTEyMDMwMiwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

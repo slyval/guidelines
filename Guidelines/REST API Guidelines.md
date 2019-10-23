@@ -180,10 +180,13 @@ To achieve paging, two parameters shoud be used and these should be named **limi
 
 The **limit** parameter is used to reflect the number of records in the expected collection. The parameter **offset** represents the starting index. 
 
-As 
+An example would be:
 
+    /orders?limit=50&offset=0
+ 
+ The above example returns a collection of 50 orders 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDQ3MTMyMCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTM3ODQ5NTMwNiwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

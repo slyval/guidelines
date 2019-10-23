@@ -97,7 +97,13 @@ The following is a list of some of the codes and when they should be used.
  3. 403 - Forbidden - this is ised to indicate that the client has is not authorized to perform the requested action for the given resource
  4. 404 - Not Found - this should be utilized to indicate that the resource under consideration cannot be found 
  5. 405 - Method Not Allowed - this should be utilized to indicate that the requested action against a resource is not supported for the endpoint
- 6. 
+ 6. 410 - Gone - this can be used to indicate that though the resource used to exust, it's no longer available
+
+##### 5xx - Server Error 
+
+ - 500 - Serv
+
+ 
 
 #### Payload
 ##### Successful Responses
@@ -118,7 +124,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzU3NDUwOCwxNTgyNTg0NDU0LC0xOD
-EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
-MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbNzY1NDQ5NzI3LDE1ODI1ODQ0NTQsLTE4MT
+A5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcy
+NzAwNCwxMTU3MzUxNTAyXX0=
 -->

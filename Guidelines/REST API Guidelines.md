@@ -86,7 +86,11 @@ The following is a list of some of the codes and when they should be used.
 
 #### Payload
 ##### Successful Responses
-When a request has been successful, a payload is normally expected for most of the methods. Th
+When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
+
+ 1. GET - a response payload is expected to contain the retrieved resources or collection. 
+ 2. POST - a response is optional. If provided, it should be the created reso
+
 ##### Error Handling
 When a failure has a occured, a response body must include an error payload. The structure of the error payload should be as follows. :
 
@@ -97,7 +101,7 @@ When a failure has a occured, a response body must include an error payload. The
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTA4Nzk4NSwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbLTc0ODM5MTc1NSwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

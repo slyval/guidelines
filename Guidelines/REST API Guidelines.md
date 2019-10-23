@@ -62,9 +62,12 @@ As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELE
  1. GET - The method should be used for retrieval of a resource or a collection. When using a GET, no side effects on the server side must occur as this is simply pulling information. If a side effect is desired, a different method such as POST should be used. Unless the state of the system has changed, the same request should have the same result.
  2. POST - This method is used when creating a resource e.g when creating an order. This results in side effects as the state of the system is changed with the addition of a resource. The same request sent multiple times might result in different results as creation of duplicates might be forbidden.
  3. PUT - This method should be used for updating a resource and results in side effects. The same request sent multiple times should essentially have the same result.
- 4. DELETE - The delete method should be utilized when removing a resource. Side effects are expected and the different results should be expected when the same request is sent multiple times 
+ 4. DELETE - The delete method should be utilized when removing a resource. Side effects are expected and the different results should be expected when the same request is sent multiple times as the first request would have deleted the resource
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLT
-EzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMjEwNDQ5NDA5NiwtMTgxMDk3OTYwOSwtMT
+EyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTcz
+NTE1MDJdfQ==
 -->

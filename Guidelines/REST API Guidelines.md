@@ -88,7 +88,7 @@ The following is a list of some of the codes and when they should be used.
  3. 204 - No Content - this should be used with the DELETE method to indicate that the deletion has been successful and no content exists anymore
 
 ##### 3xx - Redirection
-1. 304 - Not  Modified - this should be used 
+1. 304 - Not  Modified - this should be used with a GET method to indicate that the resource has been cached by the client and that the resource has not changed since the last time it was requested
 
 ##### 4xx - Client Error 
 
@@ -129,7 +129,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjQ0MDc5NywxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbMTA0NjY2NjE1NCwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

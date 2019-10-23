@@ -73,10 +73,11 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
 
 Other headers may be used where necessary.
 
-### 
+### Response 
+When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the succes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM1MTAxMCwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbMTEzMTk0MjE4NywxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

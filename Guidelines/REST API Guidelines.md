@@ -184,9 +184,9 @@ An example would be:
 
     /orders?limit=50&offset=0
  
- The above example returns a collection of 50 orders 
+ The above example returns a collection of 50 orders starting from index 0. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODQ5NTMwNiwtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTE3NzAwNzE0MTIsLTI5MzQ0MTUyMCwxNT
+gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
+MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

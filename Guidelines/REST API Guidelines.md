@@ -152,7 +152,7 @@ An example of a searching endpointis shown below.
 #### Filtering 
 Filtering is also essential when clients want a specific set of results that have a particular attribute or set of attributes. 
 
-To handle filtering, predetermined parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble **?\<attribute_name>=<desired_value>**
+To handle filtering, predetermined parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble **?\<attribute_name>=<attribute_value>**
 
 An example is as follows
 
@@ -163,9 +163,9 @@ The above implies that all "new" orders placed by "test" will be retrieved.
 #### Sorting 
 Sorting is essential when the order of results is important. 
 
-To handle sorting, predetermied parameters whose names either equate or are mapped to  resource attribute names 
+To handle sorting, predetermied parameters whose names either equate to or are mapped to resource attribute names should be used in  comobination with a the format **?\<attribute_name>=<attribute_value>**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTMxMzE0NCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTY2ODMzMTkxMiwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

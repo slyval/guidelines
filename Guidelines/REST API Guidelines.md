@@ -163,7 +163,7 @@ The above implies that all "new" orders placed by "test" will be retrieved.
 #### Sorting 
 Sorting is essential when the order of results is important. 
 
-To handle sorting, predetermied parameter values whose names either equate to or are mapped to resource attribute names should be used in  comobination with a the format **?\sort=<attribute_name>** or **?\sort=<attribute_name>&order=<ASC/DESC>**
+To handle sorting, predetermied parameter values whose names either equate to or are mapped to resource attribute names should be used in  comobination with a the format **?sort=\<attribute_name>** or **?sort=\<attribute_name>&order=<ASC/DESC>**
 With the first option,  the optional paramter *order* is not specified because a default value of either ASCending or DESCending can be assumed. 
 
 An example is as follows
@@ -176,10 +176,10 @@ The first example returns all orders sorted by code in ascending order as ASC is
 #### Paging
 There are instances when the results are needed in a paged manner. This is usually the case where performance, payload size or client characteristics dictate the need to limit collection sizes. 
 
-To achieve paging, two parameters shoud be used and these should be named **limit** and **offset**.  The format is **?li**
+To achieve paging, two parameters shoud be used and these should be named **limit** and **offset**.  The format is **?limit=\<value>&offset=\<value>**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODkzNTA1MSwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTc4OTk3NTQ3OCwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

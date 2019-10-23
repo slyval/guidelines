@@ -85,7 +85,9 @@ The following is a list of some of the codes and when they should be used.
 
 
 #### Payload
-When the request is successful, th
+##### Successful Responses
+When a request has been successful, a payload is normally expected for most of the methods. Th
+##### Error Handling
 When a failure has a occured, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
@@ -95,7 +97,7 @@ When a failure has a occured, a response body must include an error payload. The
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODgwNDQzMSwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbLTkyOTA4Nzk4NSwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

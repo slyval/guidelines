@@ -127,9 +127,9 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 
-
+### Searching, Filtering, Sorting and Paging
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzY3MjE1MiwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTgxMTE3NzExNCwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

@@ -67,10 +67,10 @@ As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELE
 ### Headers 
 As REST used HTTP for data transfer, request headers should be utilized for at least the following purposes:
 
- 1. Authentication and Authorization - whether using basic or oAuth authentication, the  
+ 1. Authentication and Authorization -  Authorization header  - should be used whether using basic or oAuth authentication, the header should be used  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTA2MzQ5MCwtMTgxMDk3OTYwOSwtMT
+eyJoaXN0b3J5IjpbLTkyNDg2MDQyNiwtMTgxMDk3OTYwOSwtMT
 EyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTcz
 NTE1MDJdfQ==
 -->

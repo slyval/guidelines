@@ -45,9 +45,12 @@ Below are examples to illustrate the above :
     /orders
     /orders/1000
     /orders/1000/entries
-    /orde
+    /orders/1000/entries/1
 
+
+### Methods
+As explained in the "endpoints" section, only nouns must be used when creating an endpoint. One of the main mistakes thatr 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTMxNjM4MiwxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE0ODgwMTE2NDgsMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

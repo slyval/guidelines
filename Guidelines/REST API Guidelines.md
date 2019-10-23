@@ -40,7 +40,14 @@ When designing REST API endpoints, it is important to note the following:
  - An endpoint for a specific instance of a resource must include a uniquely identifying attribute for the resource. An example can be the order number or primary key. It is usually better to use a human-readable identifier
  - Where relationships between resources exist, these must be reflected in the endpoint by first identifying the parent and then the child
 
+Below are examples to illustrate the above :
+
+    /orders
+    /orders/1000
+    /orders/1000/entries
+    /orde
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzExNDAyNCwxOTYwNzI3MDA0LDExNT
+eyJoaXN0b3J5IjpbMTIxOTMxNjM4MiwxOTYwNzI3MDA0LDExNT
 czNTE1MDJdfQ==
 -->

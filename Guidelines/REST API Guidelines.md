@@ -128,8 +128,9 @@ When an error has a occured, resulting in request failure indicated by the statu
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 
 ### Searching, Filtering, Sorting and Paging
+Searching, filtering, sorting and paging are additional requirements that all non-trivial APIs should 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTE3NzExNCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTg3NzM0NDA0MywtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

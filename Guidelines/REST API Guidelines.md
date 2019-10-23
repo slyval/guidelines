@@ -73,15 +73,15 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
 
 Other headers may be used where necessary.
 
-### Error Handling
+### Status Codes and Error Handling
 When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the success or failure of a request. 
 
 HTTP status codes should be used in the response to indicate the status of the processing of the request. Several status codes exist and, like methods, there is no need to invent own codes.
 
-It is not sufficient to 
+It is not sufficient to just use status codes as there is a need, in cases of failure, to provide detail of what went wrong. In this case, a response body must include the an error pa
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExODI0ODY1LDE1ODI1ODQ0NTQsLTE4MT
-A5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcy
-NzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMTY5MTM5MDUyNSwxNTgyNTg0NDU0LC0xOD
+EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
+MjcwMDQsMTE1NzM1MTUwMl19
 -->

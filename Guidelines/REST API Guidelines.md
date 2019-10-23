@@ -107,7 +107,7 @@ The following is a list of some of the codes and when they should be used.
  4. 504 - Gateway Timeout - this can be used to indicate that a timeout occured when communicating to an upstream service
 
 
- - 
+ 
 
  
 
@@ -130,7 +130,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xOD
-EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
-MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTE0MjgzNzE1MTcsLTI5MzQ0MTUyMCwxNT
+gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
+MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -55,8 +55,10 @@ As explained in the "endpoints" section, only nouns must be used when creating a
     /getOrder/1000
 Though the above reads intuitive, it does not follow best practice and leads to the creation of redundant APIs and is difficult to maintain. 
 
-With the above said, it is still necessary to represent an action or verb that represents the desired interaction. As REST APIs use HTTP for data transfer, the verbs are already taken care of as
+With the above said, it is still necessary to represent an action or verb that represents the desired interaction. As REST APIs use HTTP for data transfer, the verbs are already taken care of as a rfesult of the utilization of HTTP methods. Those methods communicate the intent. 
+
+As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELETE methods should suffice for all required
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTg0NzM1LDE5NjA3MjcwMDQsMTE1Nz
+eyJoaXN0b3J5IjpbNTAzNDQwNTIxLDE5NjA3MjcwMDQsMTE1Nz
 M1MTUwMl19
 -->

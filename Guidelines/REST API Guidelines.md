@@ -156,10 +156,14 @@ To handle filtering, predetermined parameters whose names similar to the attribu
 
 An example is as follows
 
-    /orders?code=1000&status=new
+    /orders?customer=test&status=new
+
+The above implies that all "new" orders placed by "test" will be retrieved. 
+
+#### Sorting 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkyNTM2NTEsLTI5MzQ0MTUyMCwxNT
-gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
-MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbMTE5MTU5MDk3MCwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

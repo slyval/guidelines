@@ -30,8 +30,10 @@ A collection is a set of resources. As an example, a set of order resources is r
 These are often used interchangeably to indicate the path that when followed leads to the location of a resource or collection. URLs are often used in defining links in the response body 
 
 #### Endpoint 
-An end
+An endpoint refers to the an interface through which users interact with the API. An API is composed of all the different endpoints.
+
+### En
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgyMjIxODgsMTk2MDcyNzAwNCwxMT
-U3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTQyMDQ1MzI4NywxOTYwNzI3MDA0LDExNT
+czNTE1MDJdfQ==
 -->

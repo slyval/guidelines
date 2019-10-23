@@ -85,9 +85,9 @@ It is not sufficient to just use status codes as there is a need, in cases of fa
     				    "message": "the error message"
     				    "type": "TheErrorType"
 	    				}
-Additional attributes for the error may be added as is necessary
+Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3Nzk1NTcyLDE1ODI1ODQ0NTQsLTE4MT
-A5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcy
-NzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTIwNjg3NDgyNDksMTU4MjU4NDQ1NCwtMT
+gxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYw
+NzI3MDA0LDExNTczNTE1MDJdfQ==
 -->

@@ -37,9 +37,9 @@ When designing REST API endpoints, it is important to note the following:
 
  - Endpoint must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
  - The nouns pertaining to the resources must be in **plural** form. As an example when dealing with the Order resource, the noun must be *Orders*
- - An endpoint for a spcific instance of a resource must be in the endpoint to identify a resource. An example can be the order number
+ - An endpoint for a specific instance of a resource must include a uniquely identifying attribute for the resource. An example can be the order number or primary key. It is usually better to use a human-readable identifier
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzAzNjY4MiwxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTE0NTc0MjQsMTk2MDcyNzAwNCwxMT
+U3MzUxNTAyXX0=
 -->

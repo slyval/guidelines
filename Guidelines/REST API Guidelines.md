@@ -184,9 +184,10 @@ An example would be:
 
     /orders?limit=50&offset=0
  
- The above example returns a collection of 50 orders starting from index 0. 
+ The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAwNzE0MTIsLTI5MzQ0MTUyMCwxNT
+eyJoaXN0b3J5IjpbLTE4OTA0NDUxNzksLTI5MzQ0MTUyMCwxNT
 gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
 MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -74,10 +74,12 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
 Other headers may be used where necessary.
 
 ### Response 
-When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the succes
+When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the success or failure of a request. 
+
+HTTP status codes should be used in the response to indicate the status of the processing of the request. Several status codes exist and, like methods, there is no need to invent own codes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTk0MjE4NywxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbLTYxODQ1Njg2MCwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -69,9 +69,10 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
 
  1. Authentication and Authorization -  Authorization header  - should be used whether using basic or oAuth authentication, the header should be used. Passing of username and password parameters as part of the endpoint URL should be avoided. 
  2. Serialization Format - Accept and Content-Type headers - should be used to specify the desired data format to be returned to the client or the data format used in the request body. Common formats are JSON and XML. 
+ 3. Caching - Cache-Control and ETag headers - should be used in the response to communiciate caching instructions to the client 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Nzk1NTI0NCwtMTgxMDk3OTYwOSwtMT
+eyJoaXN0b3J5IjpbMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMT
 EyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTcz
 NTE1MDJdfQ==
 -->

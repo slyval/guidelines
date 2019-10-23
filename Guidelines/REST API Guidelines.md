@@ -24,8 +24,11 @@ A resource is a key concept in REST. It represent the entities or objects that u
     Examples of resources are: Order, Entry
 
 #### Collections 
-A collection is a set of resources. As an example, a set of order 
+A collection is a set of resources. As an example, a set of order resources is referred to as a collection of orders
+
+#### URL (Uniform Resource  Locator) or URI (Uniform Resource Identifier)
+These are often used interchangeably to indicate the path that when followed 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQzNzUxNDIsMTk2MDcyNzAwNCwxMT
-U3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMTMzODM3MDk5MCwxOTYwNzI3MDA0LDExNT
+czNTE1MDJdfQ==
 -->

@@ -71,10 +71,12 @@ As REST used HTTP for data transfer, request headers should be utilized for at l
  2. Serialization Format - Accept and Content-Type headers - should be used to specify the desired data format to be returned to the client or the data format used in the request body. Common formats are JSON and XML. 
  3. Caching - Cache-Control and ETag headers - should be used in the response to communiciate caching instructions to the client 
 
-Other headers can be use
+Other headers may be used where necessary.
+
+### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjkwMTU5OCwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbLTEzMzM1MTAxMCwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -161,9 +161,11 @@ An example is as follows
 The above implies that all "new" orders placed by "test" will be retrieved. 
 
 #### Sorting 
+Sorting is essential when the order of results is important. 
 
+To handle sorting, predetermied parameters whose names either equate or are mapped to  resource attribute names 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTU5MDk3MCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTgyNTMxMzE0NCwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

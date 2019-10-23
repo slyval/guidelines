@@ -96,7 +96,7 @@ The following is a list of some of the codes and when they should be used.
  2. 401 - Unauthorized - this should be used to indicate that the client has not been successfully authenticated. This results when either no credentials have been provided or the provided credentials are incorrect
  3. 403 - Forbidden - this is ised to indicate that the client has is not authorized to perform the requested action for the given resource
  4. 404 - Not Found - this should be utilized to indicate that the resource under consideration cannot be found 
- 5. 405 - Method Not Allowed - this should be utilized to indicate that a wrong action for the endpoint is being used
+ 5. 405 - Method Not Allowed - this should be utilized to indicate that the requested action against a resource is not supported for the endpoint
  6. 
 
 #### Payload
@@ -118,7 +118,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzc2MzA4NiwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbMjEyNzU3NDUwOCwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

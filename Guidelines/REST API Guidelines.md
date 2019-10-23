@@ -11,7 +11,10 @@ REST is simply an architectural style for designing web based APIs that relies o
 When designing web APIs, it is advisable to first consider using REST and only resort to using SOAP when necessary. 
 
 ## Principles
+Outlined below are different principles that should be considered and followed when designing REST APIs
+
+### 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg1MDc5NjksMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbMTkzNjg5NjIyMCwxMTU3MzUxNTAyXX0=
 -->

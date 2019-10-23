@@ -150,10 +150,12 @@ An example of a searching endpointis shown below.
  This implies that the string "123" will be searched for accross the attrbutes of the Order resource and matching results will be returned. 
 
 #### Filtering 
-Filr
+Filtering is also essential when clients want a specific set of results that belong to a particular facet or have a particular attribute or attributes. 
+
+To handle fil
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5MDg4NDQzLC0yOTM0NDE1MjAsMTU4Mj
-U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
-NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMjAzNzMzNDM3NCwtMjkzNDQxNTIwLDE1OD
+I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
+NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

@@ -171,10 +171,10 @@ An example is as follows
     /orders?sort=code
     /orders?sort=code&order=DESC
 
-The 
+The first example returns all orders sorted by code in ascending order as ASC is assumed while the second example returns the same 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjAxNjYzMSwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTI1MDU1MTA2NywtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

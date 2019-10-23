@@ -32,8 +32,12 @@ These are often used interchangeably to indicate the path that when followed lea
 #### Endpoint 
 An endpoint refers to the an interface through which users interact with the API. An API is composed of all the different endpoints.
 
-### En
+### Endpoints 
+When designing REST API endpoints, it is important to note the following:
+
+ - Enspoint must only use 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDQ1MzI4NywxOTYwNzI3MDA0LDExNT
+eyJoaXN0b3J5IjpbMjAzOTAwNDE3NywxOTYwNzI3MDA0LDExNT
 czNTE1MDJdfQ==
 -->

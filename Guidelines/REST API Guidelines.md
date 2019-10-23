@@ -59,8 +59,9 @@ With the above said, it is still necessary to represent an action or verb that r
 
 As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELETE methods should suffice for all required interactions. 
 
-Below is a 
+ 1. GET - The get method should be used for retrieval of a resource or a collection. When 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMT
-U3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMTcyMTMzODM4LC0xMzU3MzU2NjQ2LDE5Nj
+A3MjcwMDQsMTE1NzM1MTUwMl19
 -->

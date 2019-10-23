@@ -87,6 +87,13 @@ The following is a list of some of the codes and when they should be used.
  2. 201 - Created - this should be used with the POST method to indicate that the requested resource has been created 
  3. 204 - No Content - this should be used with the DELETE method to indicate that the deletion has been successful and no content exists anymore
 
+##### 3xx - Moved
+1. 304 - 
+
+##### 4xx - Client Error 
+
+ 1. 400 - Bad Request - this should be used to indicate that the re
+
 #### Payload
 ##### Successful Responses
 When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
@@ -106,7 +113,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTkwNDgzMiwxNTgyNTg0NDU0LC0xOD
+eyJoaXN0b3J5IjpbMTgxODI2MTU4NSwxNTgyNTg0NDU0LC0xOD
 EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
 MjcwMDQsMTE1NzM1MTUwMl19
 -->

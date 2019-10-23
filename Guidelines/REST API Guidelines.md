@@ -150,14 +150,16 @@ An example of a searching endpointis shown below.
  This implies that the string "123" will be searched for accross the attrbutes of the Order resource and matching results will be returned. 
 
 #### Filtering 
-Filtering is also essential when clients want a specific set of results that belong to a particular facet or have a particular attribute or attributes. 
+Filtering is also essential when clients want a specific set of results that have a particular attribute or set of attributes. 
 
-To handle filtering, parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble **?\<attribute_name>=<desired_value>**
+To handle filtering, predetermined parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble **?\<attribute_name>=<desired_value>**
 
 An example is as follows
 
+    /orders?code=1000&status=new
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTYyODY4OSwtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTIwNDkyNTM2NTEsLTI5MzQ0MTUyMCwxNT
+gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
+MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

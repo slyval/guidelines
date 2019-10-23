@@ -49,8 +49,12 @@ Below are examples to illustrate the above :
 
 
 ### Methods
-As explained in the "endpoints" section, only nouns must be used when creating an endpoint. One of the main mistakes thatr 
+As explained in the "endpoints" section, only nouns must be used when creating an endpoint. One of the main mistakes that are made when designing REST APIs is to used a verb to indicate an action to be performed against a resource. The following are wrong examples of endpoints:
+
+    /getOrders
+    /getOrders
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODgwMTE2NDgsMTk2MDcyNzAwNCwxMT
-U3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMjAwMDU3NDc4NCwxOTYwNzI3MDA0LDExNT
+czNTE1MDJdfQ==
 -->

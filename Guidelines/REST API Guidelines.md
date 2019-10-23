@@ -174,10 +174,12 @@ An example is as follows
 The first example returns all orders sorted by code in ascending order as ASC is assumed while the second example returns the same collection but in descending order.
 
 #### Paging
-There are instances when the results are needed in a paged manner. This is usually the case where performance, payload size or client 
+There are instances when the results are needed in a paged manner. This is usually the case where performance, payload size or client characteristics dictate the need to limit collection sizes. 
+
+To achieve paging, two parameters shoud be used and these should be named **limit** and 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDIzMDc0NSwtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMjY2MTc3MjMyLC0yOTM0NDE1MjAsMTU4Mj
+U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
+NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->

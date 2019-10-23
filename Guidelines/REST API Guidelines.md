@@ -109,6 +109,8 @@ The following is a list of some of the codes and when they should be used.
 The above status codes are mainly meant to provide guidelines when impementing the server side. It should be noted that other status codes may be raised by the hosting systems and must be handled accordingly when developing a client. 
 
 #### Payload
+The response payload either contains resources or collections or errors. 
+
 ##### Successful Responses
 When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
 
@@ -116,8 +118,6 @@ When a request has been successful, a payload is normally expected for most of t
  2. POST - a response is optional. If provided, it should ideally contain the created resource
  3. PUT - a response is optional. If provided, it should ideally contains the updated resource
  4. DELETE - a response payload is not expected
-
-##### Payload Formating 
 
 ##### Error Handling
 When an error has a occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
@@ -134,7 +134,7 @@ Searching, filtering, sorting and paging are additional requirements that all no
 
 To achieve these requirements, usage of HTTP parameters is essential as is shown below. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjU2OTY1MCwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTI3NDU1NDY2MSwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

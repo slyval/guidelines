@@ -139,16 +139,21 @@ Searching, filtering, sorting and paging are additional requirements that all no
 To achieve these requirements, usage of HTTP parameters is essential as is discussed below. 
 
 #### Searching 
-Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. 
+Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. Also, searching should not be confused with filtering which is covered in the next section. 
+
 In order to handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. 
+
 An example of a searching endpointis shown below.
 
     /orders?q=123
  
- This implies that the string "123" will be searched fo
+ This implies that the string "123" will be searched for accross the attrbutes of the Order resource and matching results will be returned. 
+
+#### Filtering 
+Filr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTAzOTQzNywtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbNTE5MDg4NDQzLC0yOTM0NDE1MjAsMTU4Mj
+U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
+NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->

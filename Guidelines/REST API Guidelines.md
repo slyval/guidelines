@@ -23,7 +23,7 @@ A resource is a key concept in REST. It represent the entities or objects that u
 
     Examples of resources are: Order, Entry
 
-#### Collections 
+#### Collection
 A collection is a set of resources. As an example, a set of order resources is referred to as a collection of orders
 
 #### URL (Uniform Resource  Locator) or URI (Uniform Resource Identifier)
@@ -64,10 +64,11 @@ As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELE
  3. PUT - This method should be used for updating a resource and results in side effects. The same request sent multiple times should essentially have the same result.
  4. DELETE - The delete method should be utilized when removing a resource. Side effects are expected and the different results should be expected when the same request is sent multiple times as the first request would have deleted the resource
 
-
+### Headers 
+As REST used HTTP for data transfer, the request headers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDQ5NDA5NiwtMTgxMDk3OTYwOSwtMT
+eyJoaXN0b3J5IjpbMTMzMzE5NjI4MSwtMTgxMDk3OTYwOSwtMT
 EyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTcz
 NTE1MDJdfQ==
 -->

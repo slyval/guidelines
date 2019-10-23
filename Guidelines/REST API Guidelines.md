@@ -51,10 +51,11 @@ Below are examples to illustrate the above :
 ### Methods
 As explained in the "endpoints" section, only nouns must be used when creating an endpoint. One of the main mistakes that are made when designing REST APIs is to used a verb to indicate an action to be performed against a resource. The following are wrong examples of endpoints:
 
-    /getOrders
-    /getOrders
+    /getAllOrders
+    /getOrder/1000
+Though the above reads intuitive, it does not follow best practice and leads to the creation of redundant APIs and is difficult to maintain. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDU3NDc4NCwxOTYwNzI3MDA0LDExNT
-czNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbOTIyODY5NzU5LDE5NjA3MjcwMDQsMTE1Nz
+M1MTUwMl19
 -->

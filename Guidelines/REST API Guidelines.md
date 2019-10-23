@@ -78,17 +78,16 @@ When a request is sent to an API endpoint, a response is expected. A response is
 
 HTTP status codes should be used in the response to indicate the status of the processing of the request. Several status codes exist and, like methods, there is no need to invent own codes.
 
-It is not sufficient to just use status codes as there is a need, in cases of failure, to provide detail of what went wrong. In this case, a response body must include the an error payload. The structure of the error payload should be as follows:
+It is not sufficient to just use status codes as there is a need, in cases of failure, to provide detail of what went wrong. In this case, a response body must include the an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
     					"code":"000"
-    				    "message": "the message"
-    				    "type" 
+    				    "message": "the error message"
+    				    "type": "TheErrorType"
 	    				}
-	    				
-
+Additional attributes for the error may be added as is necessary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk3ODY4MjYsMTU4MjU4NDQ1NCwtMT
-gxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0NiwxOTYw
-NzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbODM3Nzk1NTcyLDE1ODI1ODQ0NTQsLTE4MT
+A5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcy
+NzAwNCwxMTU3MzUxNTAyXX0=
 -->

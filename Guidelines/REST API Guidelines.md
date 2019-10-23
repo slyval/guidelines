@@ -35,9 +35,10 @@ An endpoint refers to the an interface through which users interact with the API
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
 
- - Enspoint must only use 
+ - Endpoint must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
+ - The nouns pertaining to the resources 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTAwNDE3NywxOTYwNzI3MDA0LDExNT
+eyJoaXN0b3J5IjpbMTEyOTI2NTUxNywxOTYwNzI3MDA0LDExNT
 czNTE1MDJdfQ==
 -->

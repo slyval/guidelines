@@ -76,7 +76,7 @@ Other headers may be used where necessary.
 ### Response
 When a request is sent to an API endpoint, a response is expected. A response is expected to communicate the success or failure of a request. 
 
-Two elements are involved in a response.  These are the response status, communicated using status codes, and the response payload. 
+Two elements are involved in a response.  These are the response status, communicated using status codes, and the response payload. A wide array of status codes should be used rather than just 200, 
 
 #### Status Codes
 HTTP status codes should be used in the response to indicate the status of the processing of the request. 
@@ -106,9 +106,7 @@ The following is a list of some of the codes and when they should be used.
  3. 503 - Service Unavailable - this should be used to indicate that the server could not process the requested action at the time of request. This could be provided as a response when server's capacity to handle additional request is not available
  4. 504 - Gateway Timeout - this can be used to indicate that a timeout occured when communicating to an upstream service
 
-The above status codes are mainly meant to provide guidelines when impementing the server side. It should be noted that other status codes may be raised by the hosting syts
-
- 
+The above status codes are mainly meant to provide guidelines when impementing the server side. It should be noted that other status codes may be raised by the hosting systems and must be handled accordingly when developing a client. 
 
 #### Payload
 ##### Successful Responses
@@ -129,7 +127,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzY4MTcyMiwtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTE5ODg1MTc0LC0yOTM0NDE1MjAsMTU4Mj
+U4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1
+NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->

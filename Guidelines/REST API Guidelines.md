@@ -140,9 +140,13 @@ To achieve these requirements, usage of HTTP parameters is essential as is discu
 
 #### Searching 
 Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. 
-In order to handle searching, a parameter called **query** should be used. A different name, such as *search* or *q
+In order to handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. 
+An example of a searching endpoint is:
+
+    /orders?q
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxNjIwNiwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTc5MDkxMzUyNywtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

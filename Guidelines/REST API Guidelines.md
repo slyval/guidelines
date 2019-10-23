@@ -101,7 +101,11 @@ The following is a list of some of the codes and when they should be used.
 
 ##### 5xx - Server Error 
 
- - 500 - Serv
+ 1. 500 - Server Error - this should be used to indicate that an unexpected error has occured while performing the requested action 
+ 2. 503 - Service Unavailable - this should be used to indicate that the server could not h
+
+
+ - 
 
  
 
@@ -124,7 +128,7 @@ When an error has a occured, resulting in request failure indicated by the statu
 	    				}
 Additional attributes for the error may be added as is necessary. Some might like to include an internal error message that is technical and additional contextual information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDQ5NzI3LDE1ODI1ODQ0NTQsLTE4MT
-A5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcy
-NzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMTc1NTc2ODcxNSwxNTgyNTg0NDU0LC0xOD
+EwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3
+MjcwMDQsMTE1NzM1MTUwMl19
 -->

@@ -152,10 +152,12 @@ An example of a searching endpointis shown below.
 #### Filtering 
 Filtering is also essential when clients want a specific set of results that belong to a particular facet or have a particular attribute or attributes. 
 
-To handle filtering, parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble ?<attribute_name>=<desired
+To handle filtering, parameters whose names similar to the attributes of a resource should be used. The formatting of the parameters should resemble **?\<attribute_name>=<desired_value>**
+
+An example is as follows
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTEyMDMwMiwtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbMTIxMTYyODY4OSwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

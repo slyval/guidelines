@@ -138,7 +138,7 @@ Searching, filtering, sorting and paging are additional requirements that all no
 
 To achieve these requirements, usage of HTTP parameters is essential as is discussed below. 
 
-It is possible to combine searching, filtering , sort
+It is possible to combine searching, filtering , sorting and paging parameters as desired. When handling these in a controller, it is advisable to use optional parameters.
 
 #### Searching 
 Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. Also, searching should not be confused with filtering which is covered in the next section. 
@@ -189,7 +189,7 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTEyNzk2OSwtMjkzNDQxNTIwLDE1OD
-I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
-NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTE2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNT
+gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
+MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->

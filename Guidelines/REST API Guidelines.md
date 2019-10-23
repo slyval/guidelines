@@ -171,10 +171,13 @@ An example is as follows
     /orders?sort=code
     /orders?sort=code&order=DESC
 
-The first example returns all orders sorted by code in ascending order as ASC is assumed while the second example returns the same 
+The first example returns all orders sorted by code in ascending order as ASC is assumed while the second example returns the same collection but in descending order.
+
+#### Paging
+There are instances when the results are needed in a paged manner. This is usually the case where performance, payload size or client 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDU1MTA2NywtMjkzNDQxNTIwLDE1OD
+eyJoaXN0b3J5IjpbLTU2MDIzMDc0NSwtMjkzNDQxNTIwLDE1OD
 I1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTcz
 NTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->

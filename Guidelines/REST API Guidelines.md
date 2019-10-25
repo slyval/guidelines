@@ -7,7 +7,7 @@ The purpose of this document is to provide guidelines that are helpful when desi
 ## What?
 REST stands for  REpresentational State Transfer. It is an archtectural style to developing web based API. Other alternative mechanisms include the SOAP based RPC and GraphQL. 
 
-There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Principles** section. The basic characteristics are that REST APIs are:
+There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Design Guidelines** section. The basic characteristics are that REST APIs are:
 
  1. resource based rather than action based
  2. stateless rather than stateful
@@ -37,7 +37,7 @@ A collection is a set of resources. As an example, a set of order resources is r
 A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
-An endpoint refers to the an interface through which users interact with the API. An endpoint is formed out of the actio resources, identifiers and parameters.  An full API is composed of all the different endpoints.
+An endpoint refers to the an interface through which users interact with the API. An endpoint is formed out of the resources, identifiers and parameters.  An full API is composed of all the different endpoints.
 
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
@@ -219,10 +219,11 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
     /ourapi/v1/orders
 
  
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODQwNzA4OCwtNTA1MDQ2NDI2LDE0NT
-c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
-MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
-kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbMzMyOTY3Mzk4LC01MDUwNDY0MjYsMTQ1Nz
+kzNTQ5NCwtMTUzNjI2MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQx
+NTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OT
+EsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 
 -->

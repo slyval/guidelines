@@ -197,6 +197,9 @@ An example would be:
  
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
+### Caching
+One of the key characteristics of a RESTful API is that resources should be cacheable
+
 ### State - Statelessness
 REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. 
 
@@ -213,8 +216,8 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzkzNTQ5NCwtMTUzNjI2MTgxNCwtMT
-Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
-Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
-AwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNT
+M2MjYxODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4
+NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1Nj
+Y0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->

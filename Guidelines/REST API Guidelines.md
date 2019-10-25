@@ -194,10 +194,10 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 ### State
-REST APIs should be state
+REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. This indicates that a request must have all the information that it needs to carry out the required server side processing and successfully terminating
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTU5ODM0LC0xNjk5NzU1Mzg0LC0yOT
-M0NDE1MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2
-NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MD
-JdfQ==
+eyJoaXN0b3J5IjpbLTE1MzUyNDgzMjQsLTE2OTk3NTUzODQsLT
+I5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIw
+NjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MT
+UwMl19
 -->

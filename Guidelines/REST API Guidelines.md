@@ -234,11 +234,11 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 	 - expected error messages
 
 ### Tooling Support
-In order to make the documentation easier,  the Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
+The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjI4MDI5MSwtNTA1MDQ2NDI2LDE0NT
-c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
-MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
-kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
-
+eyJoaXN0b3J5IjpbLTEzMjA3NDk1NjMsMTA0NjI4MDI5MSwtNT
+A1MDQ2NDI2LDE0NTc5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3
+NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5Nj
+A5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQs
+MTE1NzM1MTUwMl19
 -->

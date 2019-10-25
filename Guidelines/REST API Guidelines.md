@@ -13,10 +13,10 @@ There are several characteristics that help to describe REST based APIs. Some of
  2. stateless rather than stateful
  3. based on the client-server design approach 
  4. cacheable 
- 5. based on the transfer of resource representations ( complete state of resources) over HTTP
+ 5. based on the transfer of resource representations ( complete state of resources) over HTTP. These representations can be serialized in different formats - more commonly JSON. 
 
 ## Principles
-Outlined below are different principles that should be considered and followed when designing REST APIs
+When designing  different principles that should be considered and followed when designing REST APIs
 
 To foster better understanding, an ordering system that deals with orders and order entries will be used in the examples that will be provided
 
@@ -194,7 +194,7 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTU2NDM4NSwtMTY5OTc1NTM4NCwtMj
+eyJoaXN0b3J5IjpbMTQwMTc4MTA0OCwtMTY5OTc1NTM4NCwtMj
 kzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2
 Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNT
 AyXX0=

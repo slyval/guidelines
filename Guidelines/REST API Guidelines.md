@@ -7,12 +7,13 @@ The purpose of this document is to provide guidelines that are helpful when desi
 ## What
 REST stands for  REpresentational State Transfer. It is an archtectural style to developing web based API. Other alternative mechanisms include the SOAP based RPC and GraphQL. 
 
-There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Principles** section. The basic characteristics are:
+There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Principles** section. The basic characteristics are that REST APIs are:
 
- 1. REST APIs are resource based rather than action based
- 2. REST APIs are stateless 
- 3. REST APIs are based on the client-server design approach 
- 4. REST APIs are e
+ 1. resource based rather than action based
+ 2. stateless rather than stateful
+ 3. based on the client-server design approach 
+ 4. cacheable 
+ 5. based on the transfer of res
 
 ## Principles
 Outlined below are different principles that should be considered and followed when designing REST APIs
@@ -193,7 +194,7 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc2MjA4MjYsLTE2OTk3NTUzODQsLT
+eyJoaXN0b3J5IjpbLTE5Mzc5ODAyMDYsLTE2OTk3NTUzODQsLT
 I5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIw
 NjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MT
 UwMl19

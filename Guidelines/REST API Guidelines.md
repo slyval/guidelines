@@ -37,7 +37,7 @@ A collection is a set of resources. As an example, a set of order resources is r
 A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
-An endpoint refers to the an interface through which users interact with the API. An endpoint is formed out of the resource, identifiers and parameters.  An full API is composed of all the different endpoints.
+An endpoint refers to the an interface through which users interact with the API. An endpoint is formed out of the actio resources, identifiers and parameters.  An full API is composed of all the different endpoints.
 
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
@@ -220,9 +220,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjA2NDEsLTUwNTA0NjQyNiwxNDU3OT
-M1NDk0LC0xNTM2MjYxODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1
-MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MS
-wtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMTA4ODQwNzA4OCwtNTA1MDQ2NDI2LDE0NT
+c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
+MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
+kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 
 -->

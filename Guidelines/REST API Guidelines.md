@@ -225,12 +225,12 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
  
 
  1. The API and it's purpose
- 2. 
+ 2. All the endpoints 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA5MDAyOTcsLTUwNTA0NjQyNiwxND
-U3OTM1NDk0LC0xNTM2MjYxODE0LC0xNjk5NzU1Mzg0LC0yOTM0
-NDE1MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2Nz
-Q5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJd
-fQ==
+eyJoaXN0b3J5IjpbLTk2MTY0NzI5LC01MDUwNDY0MjYsMTQ1Nz
+kzNTQ5NCwtMTUzNjI2MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQx
+NTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OT
+EsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+
 -->

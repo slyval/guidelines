@@ -203,10 +203,10 @@ This means that a request must have all the information that it needs to carry o
 The session for a request being when the request is issues and ends when the response is returned. 
 
 ### Versioning 
-When external clients are allowed to access an API, it is important that a versioning system is put in place. The be
+When external clients are allowed to access an API, it is important that a versioning system is put in place. The benefit of versioning is that backwards compatibility can be adherred to when necessarry. The old version will allow clients to keep using older APIs until they are ready to upgrade to the latest newer vers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDc5MzIzOCwtMTUzNjI2MTgxNCwtMT
-Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
-Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
-AwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTEwMzkzODQ5OTgsLTE1MzYyNjE4MTQsLT
+E2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEw
+OTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3Mj
+cwMDQsMTE1NzM1MTUwMl19
 -->

@@ -202,9 +202,7 @@ One of the key characteristics of a RESTful API is that responses should be cach
 
 Explicit caching should be exercised where the server denotes to the client how long the response or resource should be cached for (max-age) after which the client can make another request and get a possibly updated response. 
 
-Implicit Caching can be exercised on the server side in order for multiple requests from different clients to be served with the same response without expensing resources on processing. 
-
-ImCaching by the client should not form 
+Caching can be exercised on the server side in order for multiple requests from different clients to be served with the same response without expensing resources on processing. 
 
 ### State - Statelessness
 REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. 
@@ -222,9 +220,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDY2OTU2NiwtNTA1MDQ2NDI2LDE0NT
-c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
-MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
-kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbMTk3MjA2NDEsLTUwNTA0NjQyNiwxNDU3OT
+M1NDk0LC0xNTM2MjYxODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1
+MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MS
+wtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 
 -->

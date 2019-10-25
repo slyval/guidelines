@@ -114,9 +114,9 @@ The following is a list of some of the codes and when they should be used.
 The above status codes are mainly meant to provide guidelines when impementing the server side. It should be noted that other status codes may be raised by the hosting systems and must be handled accordingly when developing a client. 
 
 #### Payload
-As REST is a a state tranfer mechanism, the response payload is used for that purpose and contains either resources/collections or errors. 
-
-As a guideline for naming conventions, the attribute names should be in camelCase. 
+As REST is a a state tranfer mechanism, the response payload is used for that purpose and contains either resources/collections or error messages.
+ 
+The representations can be serialized in multiple formats that include JSON and XML. Usually the conversion is achieved by converting an object repre
 
 JSON should be the used as the serialization format of choice and XML should be provided as a fallback. 
 
@@ -202,7 +202,7 @@ The session for a request being when the request is issues and ends when the res
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzE0Mjk4MSwtMTUzNjI2MTgxNCwtMT
+eyJoaXN0b3J5IjpbMTc3Njg2NTMxNSwtMTUzNjI2MTgxNCwtMT
 Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
 Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
 AwNCwxMTU3MzUxNTAyXX0=

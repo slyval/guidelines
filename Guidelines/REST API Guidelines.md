@@ -5,7 +5,7 @@
 The purpose of this document is to provide guidelines that are helpful when designing REST based APIs or web services. 
 
 ## What
-REST stands for  Representational State Transa
+REST stands for  REpresentational State Transfer. It is an archtectural style to developing web based API. Other alternative mechanisms include the SOAP based RPC, GraphQL 
 
 ## Principles
 Outlined below are different principles that should be considered and followed when designing REST APIs
@@ -186,8 +186,8 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjMxNzA4MCwtMTY5OTc1NTM4NCwtMj
-kzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2
-Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNT
-AyXX0=
+eyJoaXN0b3J5IjpbNTM0ODc1MTA4LC0xNjk5NzU1Mzg0LC0yOT
+M0NDE1MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2
+NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MD
+JdfQ==
 -->

@@ -122,7 +122,7 @@ When designing the resources or response objects for error messages, it is advis
 
 Additionally, JSON should be prefereed over XML, which should be provided as a fallback. 
 
-##### Successful Requests ( Success Responses
+##### Successful Requests ( Success Responses )
 When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
 
  1. GET - a response payload is expected to contain the retrieved resources or collection. 
@@ -130,7 +130,7 @@ When a request has been successful, a payload is normally expected for most of t
  3. PUT - a response is optional. If provided, it should ideally contains the updated resource
  4. DELETE - a response payload is not expected
 
-##### Error Handling
+##### Error Messages
 When an error has a occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
@@ -202,9 +202,10 @@ This means that a request must have all the information that it needs to carry o
 
 The session for a request being when the request is issues and ends when the response is returned. 
 
-### 
+### Versioning 
+When external clients are allowed to access an API, it is important that a versioning system is put in place. The be
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTAyNzgwMCwtMTUzNjI2MTgxNCwtMT
+eyJoaXN0b3J5IjpbMTEwMDc5MzIzOCwtMTUzNjI2MTgxNCwtMT
 Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
 Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
 AwNCwxMTU3MzUxNTAyXX0=

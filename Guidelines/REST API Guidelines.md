@@ -220,11 +220,16 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
     /ourapi/v1/orders
 
  
- ## Documentatioo
+ ## Documentation 
+ There are no good APIs that do not have good documentation. It is imperative that APIs are documented with the following elements clear:
+ 
+
+ 1. The API and what it's purpose
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2NDk4MjIyLC01MDUwNDY0MjYsMTQ1Nz
-kzNTQ5NCwtMTUzNjI2MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQx
-NTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OT
-EsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMTA2OTA2MDMxNywtNTA1MDQ2NDI2LDE0NT
+c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
+MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
+kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 
 -->

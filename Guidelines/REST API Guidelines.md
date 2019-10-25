@@ -4,7 +4,7 @@
 ## Purpose
 The purpose of this document is to provide guidelines that are helpful when designing REST based APIs or web services. 
 
-## What
+## What?
 REST stands for  REpresentational State Transfer. It is an archtectural style to developing web based API. Other alternative mechanisms include the SOAP based RPC and GraphQL. 
 
 There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Principles** section. The basic characteristics are that REST APIs are:
@@ -22,6 +22,7 @@ When designing  REST APIs or web services, there are multiple principles and des
 To foster better understanding, an ordering system that deals with orders and order entries will be used in the examples that will be provided
 
 ### Core Elements
+
 There are a few elements whose meaning is important and should be understood well in order to successfully design REST APIs. They are:
 
 #### Resource
@@ -212,7 +213,7 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTUwNjE0NywtMTUzNjI2MTgxNCwtMT
+eyJoaXN0b3J5IjpbMTQ1NzkzNTQ5NCwtMTUzNjI2MTgxNCwtMT
 Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
 Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
 AwNCwxMTU3MzUxNTAyXX0=

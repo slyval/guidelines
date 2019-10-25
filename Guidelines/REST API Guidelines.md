@@ -225,12 +225,15 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
  
 
  1. The API and it's purpose
- 2. All the endpoints 
+ 2. All the endpoints including:
+	 - parameters
+	 - request body payload, if any 
+	 - response bod
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTY0NzI5LC01MDUwNDY0MjYsMTQ1Nz
-kzNTQ5NCwtMTUzNjI2MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQx
-NTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OT
-EsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbMjE0MDM4NzUxNywtNTA1MDQ2NDI2LDE0NT
+c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
+MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
+kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 
 -->

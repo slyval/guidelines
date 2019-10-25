@@ -32,7 +32,7 @@ A resource is a key concept in REST. It represents the entities or objects (**th
 A collection is a set of resources. As an example, a set of order resources is referred to as a collection of orders
 
 ####  URI (Uniform Resource Identifier)
-A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body 
+A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
 An endpoint refers to the an interface through which users interact with the API. An API is composed of all the different endpoints.
@@ -193,9 +193,11 @@ An example would be:
  
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
+### State
+REST APIs should be state
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzkzNzAyMCwtMTY5OTc1NTM4NCwtMj
-kzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2
-Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNT
-AyXX0=
+eyJoaXN0b3J5IjpbMTI1NTU5ODM0LC0xNjk5NzU1Mzg0LC0yOT
+M0NDE1MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2
+NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MD
+JdfQ==
 -->

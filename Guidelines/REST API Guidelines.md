@@ -35,7 +35,7 @@ A collection is a set of resources. As an example, a set of order resources is r
 A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
-An endpoint refers to the an interface through which users interact with the API. An API is composed of all the different endpoints.
+An endpoint refers to the an interface through which users interact with the API. An endpoint is formed ot of the action, resource An API is composed of all the different endpoints.
 
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
@@ -53,7 +53,7 @@ Below are examples to illustrate the above :
     /orders/1000/entries/1
 
 
-### Methods
+### Methods or Actions
 As explained in the "endpoints" section, only nouns must be used when creating an endpoint. One of the main mistakes that are made when designing REST APIs is to used a verb to indicate an action to be performed against a resource. The following are wrong examples of endpoints:
 
     /getAllOrders
@@ -193,7 +193,7 @@ An example would be:
  
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
-### State
+### State - Statelessness
 REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. 
 
 This means that a request must have all the information that it needs to carry out the required server side processing and successfully terminating. 
@@ -202,8 +202,8 @@ The session for a request being when the request is issues and ends when the res
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE4NjA0MzAsLTE1MzYyNjE4MTQsLT
-E2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEw
-OTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3Mj
-cwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTczOTk3NjQ3NCwtMTUzNjI2MTgxNCwtMT
+Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
+Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
+AwNCwxMTU3MzUxNTAyXX0=
 -->

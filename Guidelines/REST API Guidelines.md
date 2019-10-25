@@ -200,9 +200,11 @@ An example would be:
 ### Caching
 One of the key characteristics of a RESTful API is that responses should be cacheable. 
 
-Explicit caching should be exercised where the server denotes to the client how long the response or resource should be cached for (ma-age
+Explicit caching should be exercised where the server denotes to the client how long the response or resource should be cached for (max-age) after which the client can make another request and get a possibly updated response. 
 
-Caching can be exercised on the server side in order for multiple requests from different clients to be served with the same response without expensing resources on processing. This form is advisable
+Implicit Caching can be exercised on the server side in order for multiple requests from different clients to be served with the same response without expensing resources on processing. 
+
+ImCaching by the client should not form 
 
 ### State - Statelessness
 REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. 
@@ -220,7 +222,7 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTcyNjE4MywtNTA1MDQ2NDI2LDE0NT
+eyJoaXN0b3J5IjpbLTM3NDY2OTU2NiwtNTA1MDQ2NDI2LDE0NT
 c5MzU0OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0
 MTUyMCwxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3ND
 kxLC0xMzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19

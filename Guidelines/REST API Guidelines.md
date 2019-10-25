@@ -37,7 +37,7 @@ A collection is a set of resources. As an example, a set of order resources is r
 A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
-An endpoint refers to the an interface through which users interact with the API. An endpoint is formed out of the resources, identifiers and parameters.  An full API is composed of all the different endpoints.
+An endpoint refers to the an interface through which users interact with the API. An full API is composed of all the different endpoints.
 
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
@@ -56,10 +56,11 @@ Below are examples to illustrate the above :
 
 
 ### Actions or Methods
-As explained in the **endpoints** section, only nouns must be used when creating an endpoint. One of the main mistakes that are made when designing REST APIs is to used a verb to indicate an action to be performed against a resource. The following are wrong examples of endpoints:
+As explained in the **endpoints** section, only nouns must be used when creating an endpoint. One of the main mistakes that are made when designing REST APIs is to use a verb to indicate an action to be performed against a resource. The following are wrong examples of endpoints:
 
     /getAllOrders
     /getOrder/1000
+    
 Though the above reads intuitive, it does not follow best practice and leads to the creation of redundant APIs and is difficult to maintain. 
 
 With the above said, it is still necessary to represent an action or verb that represents the desired interaction. As REST APIs use HTTP for data transfer, the verbs are already taken care of as a rfesult of the utilization of HTTP methods. Those methods communicate the intent. 
@@ -221,7 +222,7 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyOTY3Mzk4LC01MDUwNDY0MjYsMTQ1Nz
+eyJoaXN0b3J5IjpbNTcyNzAzMjczLC01MDUwNDY0MjYsMTQ1Nz
 kzNTQ5NCwtMTUzNjI2MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQx
 NTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2Njc0OT
 EsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=

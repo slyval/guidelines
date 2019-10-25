@@ -116,7 +116,9 @@ The above status codes are mainly meant to provide guidelines when impementing t
 #### Payload
 As REST is a a state tranfer mechanism, the response payload is used for that purpose and contains either resources/collections or error messages.
  
-The representations can be serialized in multiple formats that include JSON and XML. Usually the conversion is achieved by converting an object repre
+The representations can be serialized in multiple formats that include JSON and XML. Usually the conversion is achieved by converting an object representation in a particular language to these formats. 
+
+When designing the resources or response objects for error messages, it is advisable to follow a naming convention that ensures that all atrributes are camelCased. 
 
 JSON should be the used as the serialization format of choice and XML should be provided as a fallback. 
 
@@ -202,8 +204,8 @@ The session for a request being when the request is issues and ends when the res
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njg2NTMxNSwtMTUzNjI2MTgxNCwtMT
-Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
-Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
-AwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTIwNzc5NTY3ODUsLTE1MzYyNjE4MTQsLT
+E2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEw
+OTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3Mj
+cwMDQsMTE1NzM1MTUwMl19
 -->

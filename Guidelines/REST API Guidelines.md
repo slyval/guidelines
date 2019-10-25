@@ -15,7 +15,8 @@ There are several characteristics that help to describe REST based APIs. Some of
  4. cacheable 
  5. based on the transfer of resource representations ( complete state of resources) over HTTP. These representations can be serialized in different formats - more commonly JSON. 
 
-## Design Considerations
+## Design Guidelines
+
 When designing  REST APIs or web services, there are multiple principles and design considerations that need to be followed and understood. The sections below these considerations as well as some important information that needs to be understood. 
 
 To foster better understanding, an ordering system that deals with orders and order entries will be used in the examples that will be provided
@@ -207,12 +208,12 @@ When external clients are allowed to access an API, it is important that a versi
 
 A good practice would be to use the version id e.g **v1, v2, v3** before the endpoint. A good example is ads follows:
 
-    enter code here
+    /ourapi/v1/orders
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk3NzA2MzEsLTE1MzYyNjE4MTQsLT
-E2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0NDU0LC0xODEw
-OTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2LDE5NjA3Mj
-cwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbMTE0MTUwNjE0NywtMTUzNjI2MTgxNCwtMT
+Y5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5
+Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNz
+AwNCwxMTU3MzUxNTAyXX0=
 -->

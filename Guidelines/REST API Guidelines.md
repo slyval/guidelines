@@ -16,11 +16,11 @@ There are several characteristics that help to describe REST based APIs. Some of
  5. based on the transfer of resource representations ( complete state of resources) over HTTP. These representations can be serialized in different formats - more commonly JSON. 
 
 ## Design Considerations
-When designing  REST APIs or web services, there are multiple principles and design considerations that need to be followes and understood. 
+When designing  REST APIs or web services, there are multiple principles and design considerations that need to be followed and understood. The sections below these considerations as well as some important information that needs to be understood. 
 
 To foster better understanding, an ordering system that deals with orders and order entries will be used in the examples that will be provided
 
-### Understanding Key Elements
+### Core Elements
 There are a few elements whose meaning is important and should be understood well in order to successfully design REST APIs. They are:
 
 #### Resource
@@ -194,8 +194,8 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTg0NTU3OCwtMTY5OTc1NTM4NCwtMj
-kzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2
-Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNT
-AyXX0=
+eyJoaXN0b3J5IjpbMjM4MTU5NTU2LC0xNjk5NzU1Mzg0LC0yOT
+M0NDE1MjAsMTU4MjU4NDQ1NCwtMTgxMDk3OTYwOSwtMTEyMDY2
+NzQ5MSwtMTM1NzM1NjY0NiwxOTYwNzI3MDA0LDExNTczNTE1MD
+JdfQ==
 -->

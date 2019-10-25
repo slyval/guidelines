@@ -4,11 +4,8 @@
 ## Purpose
 The purpose of this document is to provide guidelines that are helpful when designing REST based APIs or web services. 
 
-## Why
-There are, broadly, two styles for designing web based APIs - SOAP and REST. 
-SOAP is not only a style, but also a protocol. It uses various protocols, including HTTP, for the transfer of data. 
-REST is simply an architectural style for designing web based APIs that relies on the HTTP protocol for the transfer of data. It stands for Representational State Transfer.REST is more flexible, architecturally sound, scalable and web friendly than SOAP.  
-When designing web APIs, it is advisable to first consider using REST and only resort to using SOAP when necessary. 
+## What
+REST stands for  Representational State Transa
 
 ## Principles
 Outlined below are different principles that should be considered and followed when designing REST APIs
@@ -189,7 +186,8 @@ An example would be:
  The above example returns a collection of the first possible 50 orders from a possible collection of all orders. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNT
-gyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3
-MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTMwNjMxNzA4MCwtMTY5OTc1NTM4NCwtMj
+kzNDQxNTIwLDE1ODI1ODQ0NTQsLTE4MTA5Nzk2MDksLTExMjA2
+Njc0OTEsLTEzNTczNTY2NDYsMTk2MDcyNzAwNCwxMTU3MzUxNT
+AyXX0=
 -->

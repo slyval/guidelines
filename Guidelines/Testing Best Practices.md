@@ -1,9 +1,8 @@
-
 # Automated Testing Guidelines and Best Practices
 
 ## Purpose
 
-The purpose of this document is to provide guidance in relation to the automated testing  The benefit of these guidelines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices.
+The purpose of this document is to provide guidance in relation to the automated testing.  The benefit of these guidelines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices.
 
 ## Introduction
 
@@ -274,3 +273,6 @@ The more code you write without testing, the more paths you have to check for er
    still fit for purpose.
  -   Use mocking tools where appropriate(only for unit tests). Tools such as Mockito and jMock are powerful tools that can make hard-to-test code easier to write tests for. However, it shouldn’t be a crutch for poor design. If your code base requires a lot of mocking to test, it might be time for a refactor.
  -   When fixing bugs, make sure the test suite is updated to cover the new failing conditions, so you can ensure it does not recur.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM3NjI5NjA3Ml19
+-->

@@ -69,7 +69,7 @@ Avoid randomized data as it can lead to toggling tests which can be hard to debu
    constructor injection, using Clocks and separating business logic   
    from asynchronous execution.
    
-   In the following sections these will be explained more in detail.
+   In the following sections these will be explained in more detail.
    
 #### Write Small and Specific Tests
 
@@ -240,6 +240,12 @@ e.g. `UserControllerIntegrationTest.java`.
 
 This kind of naming allows an easy identification of unit and integration tests.
 
+## Packaging convention
+The package naming convention should always be directly the same to the one of the package of your implementation. This will make it more maintainable as it generally forms a pattern for developers once they need to update an existing test case.
+
+## Test code is separated from Production / release code
+
+This is self-explanatory. You should always separate test code and production code. 
 
 ## Use a Good Mixture of Unit and Integration Tests
 
@@ -266,6 +272,35 @@ Ensure there is a good mixture of unit and integration tests given they complime
 
 The more code you write without testing, the more paths you have to check for errors. Thus, it is vital that testing is not treated an an afterthought.
 
+## Make use of  `@Before`,  `@After`  – Never construct the test case class
+
+Annotations again!  `[@Before]` and  `[@After]`  are annotations that can be use to tag a method if you want it to be called upon initialization and destruction of test object respectively.
+
+    @Before
+    public void setData(){
+        this.totalNumberOfApplicants = 9;
+        listOfValidStrings.add("object_1");
+        listOfValidStrings.add("object_2");
+        listOfValidStrings.add("object_3");
+    }
+    
+    @After // tearDown()
+    public void after() throws Exception {
+        dummyAccount = null;
+        assertNull(dummyAccount);
+    }
+## Don’t just pass the test just for the sake of passing it!
+Of course, everyone can just write ‘assert(true)’ just for the sake of passing a test case, but then what’s the point of doing it in the first place?
+
+    @Test
+    public void testGenerateAccount() {
+        assert(true); // wow. don't do this. just don't
+    }
+    
+## The 80% test coverage rule
+
+Rule of thumb says, test coverage must be at least 80%! Projects need to hit this targets as much as possible!
+
 ## General guidelines/tips
 
  - Review tests over time. Like code, unit tests rot as a code base
@@ -274,5 +309,5 @@ The more code you write without testing, the more paths you have to check for er
  -   Use mocking tools where appropriate(only for unit tests). Tools such as Mockito and jMock are powerful tools that can make hard-to-test code easier to write tests for. However, it shouldn’t be a crutch for poor design. If your code base requires a lot of mocking to test, it might be time for a refactor.
  -   When fixing bugs, make sure the test suite is updated to cover the new failing conditions, so you can ensure it does not recur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjI5NjA3Ml19
+eyJoaXN0b3J5IjpbMTQ1MzI4MTU0MF19
 -->
